@@ -5,6 +5,11 @@ TagManager:
   serializedVersion: 2
   tags:
   - Floor
+  - FxTemporaire
+  - Gun
+  - GunPoint
+  - Bullet
+  - Muzzle
   layers:
   - Default
   - TransparentFX

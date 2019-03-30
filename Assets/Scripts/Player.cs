@@ -24,11 +24,20 @@ namespace Assets.Scripts
         public float magn = 1000, rough = 500, fadeIn = 1f, fadeOut = 2f;
         public GameObject dashEffect;
         public bool jumped = false;
+        public float distance = 1000;
+        public Gun playerGun;
+        public Vector3 currentFoward;
+        Vector3 originalPos;
         private void Start()
         {
+            originalPos = transform.position;
             shaker = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<CameraShaker>();
             defaultRot = transform.rotation;
             rb = GetComponent<Rigidbody>();
+        }
+        private void Update()
+        {
+          faceMouse();
         }
         public void FixedUpdate()
         {
@@ -56,12 +65,37 @@ namespace Assets.Scripts
             {
                   Slam();
                   Debug.Log("Called Slam");
-            } 
-            if(!grounded && Input.GetKeyDown(KeyCode.Mouse2)){
+            }
+            if (Input.GetMouseButtonDown(0) && grounded)
+            {
+                  playerGun.Shoot();
+            }
+            if (!grounded && Input.GetKeyDown(KeyCode.Mouse2)){
                 deSlam();
                 jumped = true;
             }
+            if (transform.position.y < 0)
+            {
+                ResetPlayer();
+            }
+            currentFoward = transform.forward;
         }
+
+        private void faceMouse()
+        {
+            RaycastHit hit;
+            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+
+            if (Physics.Raycast(ray, out hit, distance))
+            {
+                transform.LookAt(new Vector3(hit.point.x, transform.position.y, hit.point.z),Vector3.up);
+            }
+
+                //Vector3 direction = Camera.main.WorldToViewportPoint(Input.mousePosition) - transform.position;
+                //var angle = Mathf.Atan2(direction.x, direction.y) * Mathf.Rad2Deg;
+                //Quaternion rotation = Quaternion.AngleAxis(-angle, Vector3.up);
+                //transform.rotation = Quaternion.Slerp(transform.rotation, rotation, rotateSpeed);
+            }
 
         public void deSlam()
         {
@@ -90,6 +124,10 @@ namespace Assets.Scripts
                 }
                 transform.rotation = defaultRot;
             }
+        }
+        public void ResetPlayer()
+        {
+            transform.position = originalPos;
         }
     }
 }

@@ -1,0 +1,1098 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 995438498, guid: 68c7e4565cde54155bb78d8e935f1ddb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cacheType: 6
+  lastUpdatedAtString: 2019-03-31T00:42:45.448+02:00
+  initializedAtString: 2019-03-30T22:32:04.899+02:00
+  entries:
+  - path: Assembly-CSharp.csproj
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assembly-CSharp.csproj
+    projectPath: Assembly-CSharp.csproj
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets\Prefabs\Bullet.prefab
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\Prefabs\Bullet.prefab
+    projectPath: Assets\Prefabs\Bullet.prefab
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Prefabs\Bullet.prefab.meta
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\Prefabs\Bullet.prefab.meta
+    projectPath: Assets\Prefabs\Bullet.prefab.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Prefabs\muzzle.prefab
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\Prefabs\muzzle.prefab
+    projectPath: Assets\Prefabs\muzzle.prefab
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Prefabs\muzzle.prefab.meta
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\Prefabs\muzzle.prefab.meta
+    projectPath: Assets\Prefabs\muzzle.prefab.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Scenes\Test Scene.unity
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\Scenes\Test Scene.unity
+    projectPath: Assets\Scenes\Test Scene.unity
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets\Scripts\Bullet.cs
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\Scripts\Bullet.cs
+    projectPath: Assets\Scripts\Bullet.cs
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Scripts\Bullet.cs.meta
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\Scripts\Bullet.cs.meta
+    projectPath: Assets\Scripts\Bullet.cs.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Scripts\Gun.cs
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\Scripts\Gun.cs
+    projectPath: Assets\Scripts\Gun.cs
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Scripts\Gun.cs.meta
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\Scripts\Gun.cs.meta
+    projectPath: Assets\Scripts\Gun.cs.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Scripts\Interfaces\IBullet.cs
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\Scripts\Interfaces\IBullet.cs
+    projectPath: Assets\Scripts\Interfaces\IBullet.cs
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Scripts\Interfaces\IBullet.cs.meta
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\Scripts\Interfaces\IBullet.cs.meta
+    projectPath: Assets\Scripts\Interfaces\IBullet.cs.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Scripts\Interfaces\IGun.cs
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\Scripts\Interfaces\IGun.cs
+    projectPath: Assets\Scripts\Interfaces\IGun.cs
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Scripts\Interfaces\IGun.cs.meta
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\Scripts\Interfaces\IGun.cs.meta
+    projectPath: Assets\Scripts\Interfaces\IGun.cs.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Scripts\Player.cs
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\Scripts\Player.cs
+    projectPath: Assets\Scripts\Player.cs
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Crypto Wars.sln
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Crypto Wars.sln
+    projectPath: Crypto Wars.sln
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\assetDatabase3
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\assetDatabase3
+    projectPath: Library\assetDatabase3
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\EditorInstance.json
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\EditorInstance.json
+    projectPath: Library\EditorInstance.json
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\gfu\cache\gitlocks.yaml
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\gfu\cache\gitlocks.yaml
+    projectPath: Library\gfu\cache\gitlocks.yaml
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\gfu\cache\gitstatusentries.yaml
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\gfu\cache\gitstatusentries.yaml
+    projectPath: Library\gfu\cache\gitstatusentries.yaml
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\gfu\cache\gittrackingstatus.yaml
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\gfu\cache\gittrackingstatus.yaml
+    projectPath: Library\gfu\cache\gittrackingstatus.yaml
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\gfu\cache\repoinfo.yaml
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\gfu\cache\repoinfo.yaml
+    projectPath: Library\gfu\cache\repoinfo.yaml
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\InspectorExpandedItems.asset
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\InspectorExpandedItems.asset
+    projectPath: Library\InspectorExpandedItems.asset
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\03\03f452990082395449e5c3e66dd1fb96
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\03\03f452990082395449e5c3e66dd1fb96
+    projectPath: Library\metadata\03\03f452990082395449e5c3e66dd1fb96
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\03\03f452990082395449e5c3e66dd1fb96.info
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\03\03f452990082395449e5c3e66dd1fb96.info
+    projectPath: Library\metadata\03\03f452990082395449e5c3e66dd1fb96.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\12\123a765019e5b344dbbae959cc8ea427
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\12\123a765019e5b344dbbae959cc8ea427
+    projectPath: Library\metadata\12\123a765019e5b344dbbae959cc8ea427
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\12\123a765019e5b344dbbae959cc8ea427.info
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\12\123a765019e5b344dbbae959cc8ea427.info
+    projectPath: Library\metadata\12\123a765019e5b344dbbae959cc8ea427.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\20\20f1d0e13795ee4418d7e00d550d70b9
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\20\20f1d0e13795ee4418d7e00d550d70b9
+    projectPath: Library\metadata\20\20f1d0e13795ee4418d7e00d550d70b9
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\20\20f1d0e13795ee4418d7e00d550d70b9.info
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\20\20f1d0e13795ee4418d7e00d550d70b9.info
+    projectPath: Library\metadata\20\20f1d0e13795ee4418d7e00d550d70b9.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\69\696ca8f93dfdfb44dbbe2f639c392ea5
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\69\696ca8f93dfdfb44dbbe2f639c392ea5
+    projectPath: Library\metadata\69\696ca8f93dfdfb44dbbe2f639c392ea5
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\82\821ffece4c7947c4ea25cb06e7912b34
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\82\821ffece4c7947c4ea25cb06e7912b34
+    projectPath: Library\metadata\82\821ffece4c7947c4ea25cb06e7912b34
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\82\821ffece4c7947c4ea25cb06e7912b34.info
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\82\821ffece4c7947c4ea25cb06e7912b34.info
+    projectPath: Library\metadata\82\821ffece4c7947c4ea25cb06e7912b34.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\d1\d1710d6094ecbd24e9bb14e40783e15b
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\d1\d1710d6094ecbd24e9bb14e40783e15b
+    projectPath: Library\metadata\d1\d1710d6094ecbd24e9bb14e40783e15b
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\d1\d1710d6094ecbd24e9bb14e40783e15b.info
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\d1\d1710d6094ecbd24e9bb14e40783e15b.info
+    projectPath: Library\metadata\d1\d1710d6094ecbd24e9bb14e40783e15b.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\fa\fa0874419533bef428fab55bed8f6f41
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\fa\fa0874419533bef428fab55bed8f6f41
+    projectPath: Library\metadata\fa\fa0874419533bef428fab55bed8f6f41
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\fa\fa0874419533bef428fab55bed8f6f41.info
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\fa\fa0874419533bef428fab55bed8f6f41.info
+    projectPath: Library\metadata\fa\fa0874419533bef428fab55bed8f6f41.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\ScriptAssemblies\Assembly-CSharp.dll
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\ScriptAssemblies\Assembly-CSharp.dll
+    projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\ScriptAssemblies\Assembly-CSharp.pdb
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\ScriptAssemblies\Assembly-CSharp.pdb
+    projectPath: Library\ScriptAssemblies\Assembly-CSharp.pdb
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\ScriptAssemblies\Assembly-CSharp-Editor.dll
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\ScriptAssemblies\Assembly-CSharp-Editor.dll
+    projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor.dll
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+    projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
+    projectPath: Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\ScriptAssemblies\Unity.TextMeshPro.dll
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.dll
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\ShaderCache\1\127e3015d99c4f6e821a034702f2a5b4.bin
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\ShaderCache\1\127e3015d99c4f6e821a034702f2a5b4.bin
+    projectPath: Library\ShaderCache\1\127e3015d99c4f6e821a034702f2a5b4.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\ShaderCache\2\2a23b1a0ce7cf48ffe177c35c5f56ec4.bin
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\ShaderCache\2\2a23b1a0ce7cf48ffe177c35c5f56ec4.bin
+    projectPath: Library\ShaderCache\2\2a23b1a0ce7cf48ffe177c35c5f56ec4.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\ShaderCache\3\3ee4d3c11ee39ac7fee02a295112bd35.bin
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\ShaderCache\3\3ee4d3c11ee39ac7fee02a295112bd35.bin
+    projectPath: Library\ShaderCache\3\3ee4d3c11ee39ac7fee02a295112bd35.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\ShaderCache\7\7b83292b86484b76816c822437c58fba.bin
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\ShaderCache\7\7b83292b86484b76816c822437c58fba.bin
+    projectPath: Library\ShaderCache\7\7b83292b86484b76816c822437c58fba.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\ShaderCache\9\9b6abc99f9d04567ae65a99f89e3dfd2.bin
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\ShaderCache\9\9b6abc99f9d04567ae65a99f89e3dfd2.bin
+    projectPath: Library\ShaderCache\9\9b6abc99f9d04567ae65a99f89e3dfd2.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\ShaderCache\f\f8a091b919b05ad07dd0889404ba3d11.bin
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\ShaderCache\f\f8a091b919b05ad07dd0889404ba3d11.bin
+    projectPath: Library\ShaderCache\f\f8a091b919b05ad07dd0889404ba3d11.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\shadercompiler-UnityShaderCompiler.exe0.log
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\shadercompiler-UnityShaderCompiler.exe0.log
+    projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\StateCache\Hierarchy\7b4aab-20f1d0e13795ee4418.json
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\StateCache\Hierarchy\7b4aab-20f1d0e13795ee4418.json
+    projectPath: Library\StateCache\Hierarchy\7b4aab-20f1d0e13795ee4418.json
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\StateCache\Hierarchy\7b4aab-mainStage.json
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\StateCache\Hierarchy\7b4aab-mainStage.json
+    projectPath: Library\StateCache\Hierarchy\7b4aab-mainStage.json
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\StateCache\SceneView\c86f21-20f1d0e13795ee4418.json
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\StateCache\SceneView\c86f21-20f1d0e13795ee4418.json
+    projectPath: Library\StateCache\SceneView\c86f21-20f1d0e13795ee4418.json
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\StateCache\SceneView\c86f21-mainStage.json
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\StateCache\SceneView\c86f21-mainStage.json
+    projectPath: Library\StateCache\SceneView\c86f21-mainStage.json
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+    projectPath: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+    projectPath: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: obj\Debug\Assembly-CSharp-Editor.csprojAssemblyReference.cache
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\obj\Debug\Assembly-CSharp-Editor.csprojAssemblyReference.cache
+    projectPath: obj\Debug\Assembly-CSharp-Editor.csprojAssemblyReference.cache
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
+    projectPath: obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: obj\Debug\build.force
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\obj\Debug\build.force
+    projectPath: obj\Debug\build.force
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: ProjectSettings\TagManager.asset
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\ProjectSettings\TagManager.asset
+    projectPath: ProjectSettings\TagManager.asset
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Temp\__Backupscenes\0.backup
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Temp\__Backupscenes\0.backup
+    projectPath: Temp\__Backupscenes\0.backup
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\ProcessJobs\1f068db059d5cf0261a3b566803bc6c6.bakert
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Temp\ProcessJobs\1f068db059d5cf0261a3b566803bc6c6.bakert
+    projectPath: Temp\ProcessJobs\1f068db059d5cf0261a3b566803bc6c6.bakert
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityLockfile
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Temp\UnityLockfile
+    projectPath: Temp\UnityLockfile
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-002dda7f64d5ac2469d27116cbc9669a
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Temp\UnityTempFile-002dda7f64d5ac2469d27116cbc9669a
+    projectPath: Temp\UnityTempFile-002dda7f64d5ac2469d27116cbc9669a
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-03bc5c324eca6ef4fba6b490bdf60b35
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Temp\UnityTempFile-03bc5c324eca6ef4fba6b490bdf60b35
+    projectPath: Temp\UnityTempFile-03bc5c324eca6ef4fba6b490bdf60b35
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-088ef17500c78d8409a3132363410da5
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Temp\UnityTempFile-088ef17500c78d8409a3132363410da5
+    projectPath: Temp\UnityTempFile-088ef17500c78d8409a3132363410da5
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-0a5b36ac3314ee94b95c6411bd2631b4
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Temp\UnityTempFile-0a5b36ac3314ee94b95c6411bd2631b4
+    projectPath: Temp\UnityTempFile-0a5b36ac3314ee94b95c6411bd2631b4
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-0a917cf5cdc25e0498869a9d326d9c90
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Temp\UnityTempFile-0a917cf5cdc25e0498869a9d326d9c90
+    projectPath: Temp\UnityTempFile-0a917cf5cdc25e0498869a9d326d9c90
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-0ba412c22727db345821990d82386692
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Temp\UnityTempFile-0ba412c22727db345821990d82386692
+    projectPath: Temp\UnityTempFile-0ba412c22727db345821990d82386692
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-0c61479f4595ec342b715857cf62e492
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Temp\UnityTempFile-0c61479f4595ec342b715857cf62e492
+    projectPath: Temp\UnityTempFile-0c61479f4595ec342b715857cf62e492
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-0e1926802c24519459114374a901b109
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Temp\UnityTempFile-0e1926802c24519459114374a901b109
+    projectPath: Temp\UnityTempFile-0e1926802c24519459114374a901b109
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-0f7d1474b8cbad044a5933c51d66e805
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Temp\UnityTempFile-0f7d1474b8cbad044a5933c51d66e805
+    projectPath: Temp\UnityTempFile-0f7d1474b8cbad044a5933c51d66e805
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-0f86c4557df607c4393c297e103299f5
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Temp\UnityTempFile-0f86c4557df607c4393c297e103299f5
+    projectPath: Temp\UnityTempFile-0f86c4557df607c4393c297e103299f5
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-0fe8dca3a01d44343975807f30153ef3
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Temp\UnityTempFile-0fe8dca3a01d44343975807f30153ef3
+    projectPath: Temp\UnityTempFile-0fe8dca3a01d44343975807f30153ef3
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-1047e0dabafa73a439e48b2626e3da38
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Temp\UnityTempFile-1047e0dabafa73a439e48b2626e3da38
+    projectPath: Temp\UnityTempFile-1047e0dabafa73a439e48b2626e3da38
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-1189260a1e131e34e919754efa8c26ba
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Temp\UnityTempFile-1189260a1e131e34e919754efa8c26ba
+    projectPath: Temp\UnityTempFile-1189260a1e131e34e919754efa8c26ba
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-18345e560b1d8c242bde6190303f4332
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Temp\UnityTempFile-18345e560b1d8c242bde6190303f4332
+    projectPath: Temp\UnityTempFile-18345e560b1d8c242bde6190303f4332
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-19dbf8a0a7293ff47940093159526ec9
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Temp\UnityTempFile-19dbf8a0a7293ff47940093159526ec9
+    projectPath: Temp\UnityTempFile-19dbf8a0a7293ff47940093159526ec9
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-1b27d340bb39fb64a8fec673ab27bf06
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Temp\UnityTempFile-1b27d340bb39fb64a8fec673ab27bf06
+    projectPath: Temp\UnityTempFile-1b27d340bb39fb64a8fec673ab27bf06
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-1c927738bf0e483439c8d2acd5eee801
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Temp\UnityTempFile-1c927738bf0e483439c8d2acd5eee801
+    projectPath: Temp\UnityTempFile-1c927738bf0e483439c8d2acd5eee801
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-2161e78288ff3774283075f51b0cc27b
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Temp\UnityTempFile-2161e78288ff3774283075f51b0cc27b
+    projectPath: Temp\UnityTempFile-2161e78288ff3774283075f51b0cc27b
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-23d476e84c4a99d429bbd2041c3d5cc0
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Temp\UnityTempFile-23d476e84c4a99d429bbd2041c3d5cc0
+    projectPath: Temp\UnityTempFile-23d476e84c4a99d429bbd2041c3d5cc0
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-2b67427b4c6df0e478b034f77cdffd43
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Temp\UnityTempFile-2b67427b4c6df0e478b034f77cdffd43
+    projectPath: Temp\UnityTempFile-2b67427b4c6df0e478b034f77cdffd43
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-3139fd1e059fd08439632c0c516158ba
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Temp\UnityTempFile-3139fd1e059fd08439632c0c516158ba
+    projectPath: Temp\UnityTempFile-3139fd1e059fd08439632c0c516158ba
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-322b24bc202a13b4a9e36348bb080cfa
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Temp\UnityTempFile-322b24bc202a13b4a9e36348bb080cfa
+    projectPath: Temp\UnityTempFile-322b24bc202a13b4a9e36348bb080cfa
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-3617212f3ff21694ea2a9a812f79904d
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Temp\UnityTempFile-3617212f3ff21694ea2a9a812f79904d
+    projectPath: Temp\UnityTempFile-3617212f3ff21694ea2a9a812f79904d
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-38283cdb905c47a49a21a2b7b95abc65
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Temp\UnityTempFile-38283cdb905c47a49a21a2b7b95abc65
+    projectPath: Temp\UnityTempFile-38283cdb905c47a49a21a2b7b95abc65
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-3c2f017e95c95884495f61e4ad970eda
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Temp\UnityTempFile-3c2f017e95c95884495f61e4ad970eda
+    projectPath: Temp\UnityTempFile-3c2f017e95c95884495f61e4ad970eda
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-3de0df8faa666774dbe45bbe3c3074e2
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Temp\UnityTempFile-3de0df8faa666774dbe45bbe3c3074e2
+    projectPath: Temp\UnityTempFile-3de0df8faa666774dbe45bbe3c3074e2
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-4202a000f0697a346ae809698cdca5b6
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Temp\UnityTempFile-4202a000f0697a346ae809698cdca5b6
+    projectPath: Temp\UnityTempFile-4202a000f0697a346ae809698cdca5b6
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-42c688f97f62515488dba692b5f9e657
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Temp\UnityTempFile-42c688f97f62515488dba692b5f9e657
+    projectPath: Temp\UnityTempFile-42c688f97f62515488dba692b5f9e657
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-459e23b7b473990498dfdbb754e392d1
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Temp\UnityTempFile-459e23b7b473990498dfdbb754e392d1
+    projectPath: Temp\UnityTempFile-459e23b7b473990498dfdbb754e392d1
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-478b03a82ef5f1f40a3a7cd37d2e67d6
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Temp\UnityTempFile-478b03a82ef5f1f40a3a7cd37d2e67d6
+    projectPath: Temp\UnityTempFile-478b03a82ef5f1f40a3a7cd37d2e67d6
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-4bf82980eb4786c4382e4674c8a36a17
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Temp\UnityTempFile-4bf82980eb4786c4382e4674c8a36a17
+    projectPath: Temp\UnityTempFile-4bf82980eb4786c4382e4674c8a36a17
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-4ec60f64d505f12438f349abd2e59da1
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Temp\UnityTempFile-4ec60f64d505f12438f349abd2e59da1
+    projectPath: Temp\UnityTempFile-4ec60f64d505f12438f349abd2e59da1
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-51213939f5dcee547887c275c98adf59
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Temp\UnityTempFile-51213939f5dcee547887c275c98adf59
+    projectPath: Temp\UnityTempFile-51213939f5dcee547887c275c98adf59
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-54bea5896ef2e4e4895288ca2607954c
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Temp\UnityTempFile-54bea5896ef2e4e4895288ca2607954c
+    projectPath: Temp\UnityTempFile-54bea5896ef2e4e4895288ca2607954c
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-5567800573cbfc848af889833699310f
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Temp\UnityTempFile-5567800573cbfc848af889833699310f
+    projectPath: Temp\UnityTempFile-5567800573cbfc848af889833699310f
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-583c2e97d76431044aeec88749aa01c4
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Temp\UnityTempFile-583c2e97d76431044aeec88749aa01c4
+    projectPath: Temp\UnityTempFile-583c2e97d76431044aeec88749aa01c4
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-58a95d045b7290e48a4120f68fa958c1
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Temp\UnityTempFile-58a95d045b7290e48a4120f68fa958c1
+    projectPath: Temp\UnityTempFile-58a95d045b7290e48a4120f68fa958c1
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-5c35ed59030e78e478733c3d67e81153
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Temp\UnityTempFile-5c35ed59030e78e478733c3d67e81153
+    projectPath: Temp\UnityTempFile-5c35ed59030e78e478733c3d67e81153
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-5c638875fab26544ba2938487a87e749
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Temp\UnityTempFile-5c638875fab26544ba2938487a87e749
+    projectPath: Temp\UnityTempFile-5c638875fab26544ba2938487a87e749
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-60278f5bcf354b74a800f5cb728a1a1d
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Temp\UnityTempFile-60278f5bcf354b74a800f5cb728a1a1d
+    projectPath: Temp\UnityTempFile-60278f5bcf354b74a800f5cb728a1a1d
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-62a66f92ca3aae447b92296ac6bb392b
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Temp\UnityTempFile-62a66f92ca3aae447b92296ac6bb392b
+    projectPath: Temp\UnityTempFile-62a66f92ca3aae447b92296ac6bb392b
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-640357eb4ac96514bb6e8894833f5add
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Temp\UnityTempFile-640357eb4ac96514bb6e8894833f5add
+    projectPath: Temp\UnityTempFile-640357eb4ac96514bb6e8894833f5add
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-64b26de0b0e702f4ea0c5cfd0ce8f46b
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Temp\UnityTempFile-64b26de0b0e702f4ea0c5cfd0ce8f46b
+    projectPath: Temp\UnityTempFile-64b26de0b0e702f4ea0c5cfd0ce8f46b
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-693a1b4af9d73984fa2a953ea7896c05
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Temp\UnityTempFile-693a1b4af9d73984fa2a953ea7896c05
+    projectPath: Temp\UnityTempFile-693a1b4af9d73984fa2a953ea7896c05
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-6c647cf2422cf96409c052c2dbd90550
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Temp\UnityTempFile-6c647cf2422cf96409c052c2dbd90550
+    projectPath: Temp\UnityTempFile-6c647cf2422cf96409c052c2dbd90550
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-6e619e85c5187ec4ab4cfb91b311ddd0
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Temp\UnityTempFile-6e619e85c5187ec4ab4cfb91b311ddd0
+    projectPath: Temp\UnityTempFile-6e619e85c5187ec4ab4cfb91b311ddd0
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-709ae65c189a51e468c17a193496e313
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Temp\UnityTempFile-709ae65c189a51e468c17a193496e313
+    projectPath: Temp\UnityTempFile-709ae65c189a51e468c17a193496e313
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-75828fe9c20f51e4587e265f98d2b8ef
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Temp\UnityTempFile-75828fe9c20f51e4587e265f98d2b8ef
+    projectPath: Temp\UnityTempFile-75828fe9c20f51e4587e265f98d2b8ef
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-759f451490df3064e8de4bec2b67339b
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Temp\UnityTempFile-759f451490df3064e8de4bec2b67339b
+    projectPath: Temp\UnityTempFile-759f451490df3064e8de4bec2b67339b
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-75b6b72453dc2564899d88d0be0e1619
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Temp\UnityTempFile-75b6b72453dc2564899d88d0be0e1619
+    projectPath: Temp\UnityTempFile-75b6b72453dc2564899d88d0be0e1619
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-78517fc2f79f3824cb8da948d5a8d0bf
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Temp\UnityTempFile-78517fc2f79f3824cb8da948d5a8d0bf
+    projectPath: Temp\UnityTempFile-78517fc2f79f3824cb8da948d5a8d0bf
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-7bcc50734735a6f45afdf01e69bf71ab
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Temp\UnityTempFile-7bcc50734735a6f45afdf01e69bf71ab
+    projectPath: Temp\UnityTempFile-7bcc50734735a6f45afdf01e69bf71ab
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-7de78c07e7be7a14db48bf9bad982019
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Temp\UnityTempFile-7de78c07e7be7a14db48bf9bad982019
+    projectPath: Temp\UnityTempFile-7de78c07e7be7a14db48bf9bad982019
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-7f3162d980a58a544b4ce51596a4826e
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Temp\UnityTempFile-7f3162d980a58a544b4ce51596a4826e
+    projectPath: Temp\UnityTempFile-7f3162d980a58a544b4ce51596a4826e
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-81742be76c16d2a4dba2236b9a28b7a8
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Temp\UnityTempFile-81742be76c16d2a4dba2236b9a28b7a8
+    projectPath: Temp\UnityTempFile-81742be76c16d2a4dba2236b9a28b7a8
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-817d143307f9af84fbdd41b82b6827f3
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Temp\UnityTempFile-817d143307f9af84fbdd41b82b6827f3
+    projectPath: Temp\UnityTempFile-817d143307f9af84fbdd41b82b6827f3
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-8240707d5ac81f94bab381c76ced10c3
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Temp\UnityTempFile-8240707d5ac81f94bab381c76ced10c3
+    projectPath: Temp\UnityTempFile-8240707d5ac81f94bab381c76ced10c3
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-86bd35ebc70706147ad1f5a5b4842fdf
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Temp\UnityTempFile-86bd35ebc70706147ad1f5a5b4842fdf
+    projectPath: Temp\UnityTempFile-86bd35ebc70706147ad1f5a5b4842fdf
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-88eafaa6432cc1146a14c641de2437a7
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Temp\UnityTempFile-88eafaa6432cc1146a14c641de2437a7
+    projectPath: Temp\UnityTempFile-88eafaa6432cc1146a14c641de2437a7
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-8a91e12ae6b046a448999bdeb5d52e59
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Temp\UnityTempFile-8a91e12ae6b046a448999bdeb5d52e59
+    projectPath: Temp\UnityTempFile-8a91e12ae6b046a448999bdeb5d52e59
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-8b316952e1f5cf24cae77e7a8c4d435f
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Temp\UnityTempFile-8b316952e1f5cf24cae77e7a8c4d435f
+    projectPath: Temp\UnityTempFile-8b316952e1f5cf24cae77e7a8c4d435f
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-91301139456f58c429693a1d8e2fc00a
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Temp\UnityTempFile-91301139456f58c429693a1d8e2fc00a
+    projectPath: Temp\UnityTempFile-91301139456f58c429693a1d8e2fc00a
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-94ab0cf099f173e42b85974fb489dc14
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Temp\UnityTempFile-94ab0cf099f173e42b85974fb489dc14
+    projectPath: Temp\UnityTempFile-94ab0cf099f173e42b85974fb489dc14
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-9542a51afd11b0348b5ccbe0534fdbca
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Temp\UnityTempFile-9542a51afd11b0348b5ccbe0534fdbca
+    projectPath: Temp\UnityTempFile-9542a51afd11b0348b5ccbe0534fdbca
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-96c506d9b58fc3343a24dea1ebb15248
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Temp\UnityTempFile-96c506d9b58fc3343a24dea1ebb15248
+    projectPath: Temp\UnityTempFile-96c506d9b58fc3343a24dea1ebb15248
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-9aaae6163cea4db4f981beb65ad5e890
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Temp\UnityTempFile-9aaae6163cea4db4f981beb65ad5e890
+    projectPath: Temp\UnityTempFile-9aaae6163cea4db4f981beb65ad5e890
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-9b1b1dc2c193da144b93cfffacb67e32
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Temp\UnityTempFile-9b1b1dc2c193da144b93cfffacb67e32
+    projectPath: Temp\UnityTempFile-9b1b1dc2c193da144b93cfffacb67e32
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-9b9a1508fc80ccd4093f86c87f10f550
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Temp\UnityTempFile-9b9a1508fc80ccd4093f86c87f10f550
+    projectPath: Temp\UnityTempFile-9b9a1508fc80ccd4093f86c87f10f550
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-9c104cda18bb1b94f90c6a9c77b6b209
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Temp\UnityTempFile-9c104cda18bb1b94f90c6a9c77b6b209
+    projectPath: Temp\UnityTempFile-9c104cda18bb1b94f90c6a9c77b6b209
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-9cccd28ec61342847b9880d89f603b17
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Temp\UnityTempFile-9cccd28ec61342847b9880d89f603b17
+    projectPath: Temp\UnityTempFile-9cccd28ec61342847b9880d89f603b17
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-9d2b18681b939fa44a9abbcfd976a363
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Temp\UnityTempFile-9d2b18681b939fa44a9abbcfd976a363
+    projectPath: Temp\UnityTempFile-9d2b18681b939fa44a9abbcfd976a363
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-9d6330d03844bc14884b5efec2bdfd87
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Temp\UnityTempFile-9d6330d03844bc14884b5efec2bdfd87
+    projectPath: Temp\UnityTempFile-9d6330d03844bc14884b5efec2bdfd87
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-9dbc9533414d7454981a75356c21f330
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Temp\UnityTempFile-9dbc9533414d7454981a75356c21f330
+    projectPath: Temp\UnityTempFile-9dbc9533414d7454981a75356c21f330
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-9fb339c8a90d9fe46b38378132c0a824
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Temp\UnityTempFile-9fb339c8a90d9fe46b38378132c0a824
+    projectPath: Temp\UnityTempFile-9fb339c8a90d9fe46b38378132c0a824
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-a02c157b9893b9b488af643d0fd0464c
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Temp\UnityTempFile-a02c157b9893b9b488af643d0fd0464c
+    projectPath: Temp\UnityTempFile-a02c157b9893b9b488af643d0fd0464c
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-a1404b2e655940842b87a46fa93f0833
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Temp\UnityTempFile-a1404b2e655940842b87a46fa93f0833
+    projectPath: Temp\UnityTempFile-a1404b2e655940842b87a46fa93f0833
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-a35f5222c78354a488d886e22fb40bf4
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Temp\UnityTempFile-a35f5222c78354a488d886e22fb40bf4
+    projectPath: Temp\UnityTempFile-a35f5222c78354a488d886e22fb40bf4
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-a430673f88983f64ea063db06778e52f
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Temp\UnityTempFile-a430673f88983f64ea063db06778e52f
+    projectPath: Temp\UnityTempFile-a430673f88983f64ea063db06778e52f
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-a46b54efb86954b40adee3df238fbb14
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Temp\UnityTempFile-a46b54efb86954b40adee3df238fbb14
+    projectPath: Temp\UnityTempFile-a46b54efb86954b40adee3df238fbb14
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-a4c06c63071e0e54288c5905415e6d77
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Temp\UnityTempFile-a4c06c63071e0e54288c5905415e6d77
+    projectPath: Temp\UnityTempFile-a4c06c63071e0e54288c5905415e6d77
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-a9fde4395cf60a241b1af08eddd93d4f
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Temp\UnityTempFile-a9fde4395cf60a241b1af08eddd93d4f
+    projectPath: Temp\UnityTempFile-a9fde4395cf60a241b1af08eddd93d4f
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-aa12bdc978de83f4c923ee83942c118c
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Temp\UnityTempFile-aa12bdc978de83f4c923ee83942c118c
+    projectPath: Temp\UnityTempFile-aa12bdc978de83f4c923ee83942c118c
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-abe55909d239dd74c90cc08363d6331a
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Temp\UnityTempFile-abe55909d239dd74c90cc08363d6331a
+    projectPath: Temp\UnityTempFile-abe55909d239dd74c90cc08363d6331a
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-b700f2160be00af4aad498d56c703480
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Temp\UnityTempFile-b700f2160be00af4aad498d56c703480
+    projectPath: Temp\UnityTempFile-b700f2160be00af4aad498d56c703480
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-b9463de8ed0ee19418aec6427229e1f2
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Temp\UnityTempFile-b9463de8ed0ee19418aec6427229e1f2
+    projectPath: Temp\UnityTempFile-b9463de8ed0ee19418aec6427229e1f2
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-bb8655f6843a74047bb1a8b4007add89
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Temp\UnityTempFile-bb8655f6843a74047bb1a8b4007add89
+    projectPath: Temp\UnityTempFile-bb8655f6843a74047bb1a8b4007add89
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-bbe2ce870b862a74a9c063e00c39a49c
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Temp\UnityTempFile-bbe2ce870b862a74a9c063e00c39a49c
+    projectPath: Temp\UnityTempFile-bbe2ce870b862a74a9c063e00c39a49c
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-bbfd76b1e7adf5e459bba49ac2b360f7
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Temp\UnityTempFile-bbfd76b1e7adf5e459bba49ac2b360f7
+    projectPath: Temp\UnityTempFile-bbfd76b1e7adf5e459bba49ac2b360f7
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-bc9e7ce794584614b993c0983d86ec55
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Temp\UnityTempFile-bc9e7ce794584614b993c0983d86ec55
+    projectPath: Temp\UnityTempFile-bc9e7ce794584614b993c0983d86ec55
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-bf4417920b75a2e42b759b801f8d8cc8
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Temp\UnityTempFile-bf4417920b75a2e42b759b801f8d8cc8
+    projectPath: Temp\UnityTempFile-bf4417920b75a2e42b759b801f8d8cc8
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-bfb45c3ab652c384bb9f280b560af5fb
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Temp\UnityTempFile-bfb45c3ab652c384bb9f280b560af5fb
+    projectPath: Temp\UnityTempFile-bfb45c3ab652c384bb9f280b560af5fb
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-c3d6f42af3e64a94ab30a23d7e654c0a
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Temp\UnityTempFile-c3d6f42af3e64a94ab30a23d7e654c0a
+    projectPath: Temp\UnityTempFile-c3d6f42af3e64a94ab30a23d7e654c0a
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-ca8369c7fe7a61d45a42885139283053
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Temp\UnityTempFile-ca8369c7fe7a61d45a42885139283053
+    projectPath: Temp\UnityTempFile-ca8369c7fe7a61d45a42885139283053
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-cbd86af04039b33459b639080f68fd50
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Temp\UnityTempFile-cbd86af04039b33459b639080f68fd50
+    projectPath: Temp\UnityTempFile-cbd86af04039b33459b639080f68fd50
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-ce25457133c6ed44ca8e0d2a01f7a9d9
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Temp\UnityTempFile-ce25457133c6ed44ca8e0d2a01f7a9d9
+    projectPath: Temp\UnityTempFile-ce25457133c6ed44ca8e0d2a01f7a9d9
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-ce2b7e989d0ca4441a9d694060facd82
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Temp\UnityTempFile-ce2b7e989d0ca4441a9d694060facd82
+    projectPath: Temp\UnityTempFile-ce2b7e989d0ca4441a9d694060facd82
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-ce8880e071c95644daa27f43f4bf7182
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Temp\UnityTempFile-ce8880e071c95644daa27f43f4bf7182
+    projectPath: Temp\UnityTempFile-ce8880e071c95644daa27f43f4bf7182
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-d0b0c7c756af03743aac135bb6a238d0
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Temp\UnityTempFile-d0b0c7c756af03743aac135bb6a238d0
+    projectPath: Temp\UnityTempFile-d0b0c7c756af03743aac135bb6a238d0
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-d157b81c63a754a4f8e1d57d71661611
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Temp\UnityTempFile-d157b81c63a754a4f8e1d57d71661611
+    projectPath: Temp\UnityTempFile-d157b81c63a754a4f8e1d57d71661611
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-d5929d910f403d144af1c79f9538ebcb
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Temp\UnityTempFile-d5929d910f403d144af1c79f9538ebcb
+    projectPath: Temp\UnityTempFile-d5929d910f403d144af1c79f9538ebcb
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-d6ad3ce5f5f2a8747b3ac5e0b288d0ed
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Temp\UnityTempFile-d6ad3ce5f5f2a8747b3ac5e0b288d0ed
+    projectPath: Temp\UnityTempFile-d6ad3ce5f5f2a8747b3ac5e0b288d0ed
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-d7feba801fa0b424db4637e946810a5b
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Temp\UnityTempFile-d7feba801fa0b424db4637e946810a5b
+    projectPath: Temp\UnityTempFile-d7feba801fa0b424db4637e946810a5b
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-e1c3d427d32ab9643a46bf5b36a33170
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Temp\UnityTempFile-e1c3d427d32ab9643a46bf5b36a33170
+    projectPath: Temp\UnityTempFile-e1c3d427d32ab9643a46bf5b36a33170
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-e26da7208cadf0d44a179273fca711f2
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Temp\UnityTempFile-e26da7208cadf0d44a179273fca711f2
+    projectPath: Temp\UnityTempFile-e26da7208cadf0d44a179273fca711f2
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-e4e920f94112fe0458c584faadfca0d2
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Temp\UnityTempFile-e4e920f94112fe0458c584faadfca0d2
+    projectPath: Temp\UnityTempFile-e4e920f94112fe0458c584faadfca0d2
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-e85b820716aad044ca4cd402b20bb894
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Temp\UnityTempFile-e85b820716aad044ca4cd402b20bb894
+    projectPath: Temp\UnityTempFile-e85b820716aad044ca4cd402b20bb894
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-ea5f0f7d2d866c547beea2566e7ed043
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Temp\UnityTempFile-ea5f0f7d2d866c547beea2566e7ed043
+    projectPath: Temp\UnityTempFile-ea5f0f7d2d866c547beea2566e7ed043
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-ec565a7fa167ceb40b6e16817e80a73a
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Temp\UnityTempFile-ec565a7fa167ceb40b6e16817e80a73a
+    projectPath: Temp\UnityTempFile-ec565a7fa167ceb40b6e16817e80a73a
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-ee1436163d89a4644ae82e2dfc27685a
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Temp\UnityTempFile-ee1436163d89a4644ae82e2dfc27685a
+    projectPath: Temp\UnityTempFile-ee1436163d89a4644ae82e2dfc27685a
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-eeffd62e2eac61a4b832dd075e39338d
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Temp\UnityTempFile-eeffd62e2eac61a4b832dd075e39338d
+    projectPath: Temp\UnityTempFile-eeffd62e2eac61a4b832dd075e39338d
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-f169d0df1804556419c2778464d71bac
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Temp\UnityTempFile-f169d0df1804556419c2778464d71bac
+    projectPath: Temp\UnityTempFile-f169d0df1804556419c2778464d71bac
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-f37e26d0023d5314d8efc6f6146155bd
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Temp\UnityTempFile-f37e26d0023d5314d8efc6f6146155bd
+    projectPath: Temp\UnityTempFile-f37e26d0023d5314d8efc6f6146155bd
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-f4ea5c6f660449a46b6c8964e0d47778
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Temp\UnityTempFile-f4ea5c6f660449a46b6c8964e0d47778
+    projectPath: Temp\UnityTempFile-f4ea5c6f660449a46b6c8964e0d47778
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-f6021e61857ad004d9be83b1bd7038d5
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Temp\UnityTempFile-f6021e61857ad004d9be83b1bd7038d5
+    projectPath: Temp\UnityTempFile-f6021e61857ad004d9be83b1bd7038d5
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-fbddec267f6a3bf4c8d7cb237a0bd17a
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Temp\UnityTempFile-fbddec267f6a3bf4c8d7cb237a0bd17a
+    projectPath: Temp\UnityTempFile-fbddec267f6a3bf4c8d7cb237a0bd17a
+    originalPath: 
+    status: 1
+    staged: 0
