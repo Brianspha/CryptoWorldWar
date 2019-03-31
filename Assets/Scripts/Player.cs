@@ -28,6 +28,7 @@ namespace Assets.Scripts
         public Gun playerGun;
         public Vector3 currentFoward;
         Vector3 originalPos;
+        public float slamDistance = 5;
         private void Start()
         {
             originalPos = transform.position;
@@ -69,6 +70,7 @@ namespace Assets.Scripts
             if (Input.GetMouseButtonDown(0) && grounded)
             {
                   playerGun.Shoot();
+                transform.position = new Vector3(transform.position.x, minY, transform.position.z);
             }
             if (!grounded && Input.GetKeyDown(KeyCode.Mouse2)){
                 deSlam();
@@ -80,7 +82,6 @@ namespace Assets.Scripts
             }
             currentFoward = transform.forward;
         }
-
         private void faceMouse()
         {
             RaycastHit hit;
@@ -96,7 +97,6 @@ namespace Assets.Scripts
                 //Quaternion rotation = Quaternion.AngleAxis(-angle, Vector3.up);
                 //transform.rotation = Quaternion.Slerp(transform.rotation, rotation, rotateSpeed);
             }
-
         public void deSlam()
         {
             rb.AddForce(new Vector3(0, -deslamjumpForce, 0), ForceMode.Impulse);

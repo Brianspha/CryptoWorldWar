@@ -32,17 +32,20 @@ public class RipplePostProcessor : MonoBehaviour {
     private float Amount = 0f;
 
     void Update () {
-        this.RippleMaterial.SetFloat ("_Amount", this.Amount);
-        this.Amount *= this.Friction;
+        if (RippleMaterial != null)
+        {
+            RippleMaterial.SetFloat("_Amount", Amount);
+            Amount *= Friction;
+        }
     }
     public void Ripple () {
-        this.Amount = this.MaxAmount;
+        Amount = MaxAmount;
         Vector3 pos = Input.mousePosition;
-        this.RippleMaterial.SetFloat ("_CenterX", pos.x);
-        this.RippleMaterial.SetFloat ("_CenterY", pos.y);
+        RippleMaterial.SetFloat ("_CenterX", pos.x);
+        RippleMaterial.SetFloat ("_CenterY", pos.y);
 
     }
     void OnRenderImage (RenderTexture src, RenderTexture dst) {
-        Graphics.Blit (src, dst, this.RippleMaterial);
+        Graphics.Blit (src, dst, RippleMaterial);
     }
 }

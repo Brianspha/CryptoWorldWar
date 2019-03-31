@@ -25,7 +25,8 @@ namespace Assets.Scripts
         }
         void Go()
         {
-            rb.AddForce(player.currentFoward * force,ForceMode.Acceleration);
+            rb.AddForce(player.currentFoward * force);
         }
+
     }
 }

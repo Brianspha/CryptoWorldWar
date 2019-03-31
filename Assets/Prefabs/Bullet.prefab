@@ -123,6 +123,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   force: 3200
+  hurtEffect: {fileID: 2846188130341999932, guid: 195c3482fd260a047a098a0f3bdec959,
+    type: 3}
+  deathEffect: {fileID: 4740069121957514666, guid: 6cdbd2259afd393428b6e51dcfbb0c25,
+    type: 3}
 --- !u!114 &8013337212356023845
 MonoBehaviour:
   m_ObjectHideFlags: 0

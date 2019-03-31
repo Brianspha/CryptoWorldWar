@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/Test Scene.unity
+- path: C:/Users/g14m1190/Downloads/Compressed/LevelGenerator-master/LevelGenerator-master/Assets/scene.unity
   isLoaded: 1
   isActive: 1
