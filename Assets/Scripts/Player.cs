@@ -42,10 +42,15 @@ namespace Assets.Scripts
         }
         public void FixedUpdate()
         {
+            Move();
+        }
+
+        private void Move()
+        {
             if (Input.GetKey(KeyCode.A))//@Dev move left
             {
-              moveVector = Vector3.MoveTowards(transform.position, new Vector3(transform.position.x+Vector3.left.x, transform.position.y, transform.position.z),Speed * Time.deltaTime);
-              transform.position = moveVector;
+                moveVector = Vector3.MoveTowards(transform.position, new Vector3(transform.position.x + Vector3.left.x, transform.position.y, transform.position.z), Speed * Time.deltaTime);
+                transform.position = moveVector;
             }
             if (Input.GetKey(KeyCode.D))//@Dev move right
             {
@@ -54,7 +59,7 @@ namespace Assets.Scripts
             }
             if (Input.GetKey(KeyCode.S))//@Dev move down
             {
-                moveVector = Vector3.MoveTowards(transform.position, new Vector3(transform.position.x , transform.position.y, transform.position.z-Vector3.forward.z), Speed * Time.deltaTime);
+                moveVector = Vector3.MoveTowards(transform.position, new Vector3(transform.position.x, transform.position.y, transform.position.z - Vector3.forward.z), Speed * Time.deltaTime);
                 transform.position = moveVector;
             }
             if (Input.GetKey(KeyCode.W))//@Dev move up
@@ -64,15 +69,16 @@ namespace Assets.Scripts
             }
             if (Input.GetKeyDown(KeyCode.Space))
             {
-                  Slam();
-                  Debug.Log("Called Slam");
+                Slam();
+                Debug.Log("Called Slam");
             }
             if (Input.GetMouseButtonDown(0) && grounded)
             {
-                  playerGun.Shoot();
+                playerGun.Shoot();
                 transform.position = new Vector3(transform.position.x, minY, transform.position.z);
             }
-            if (!grounded && Input.GetKeyDown(KeyCode.Mouse2)){
+            if (!grounded && Input.GetKeyDown(KeyCode.Mouse2))
+            {
                 deSlam();
                 jumped = true;
             }
@@ -82,6 +88,7 @@ namespace Assets.Scripts
             }
             currentFoward = transform.forward;
         }
+
         private void faceMouse()
         {
             RaycastHit hit;

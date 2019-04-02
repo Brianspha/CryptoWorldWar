@@ -1,4 +1,5 @@
-﻿using Assets.Scripts.Interfaces;
+﻿using Assets.Scripts;
+using Assets.Scripts.Interfaces;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -20,14 +21,19 @@ public class Gun : MonoBehaviour,IGun
     }
     public void Reload()
     {
-        throw new System.NotImplementedException();
     }
 
     public void Shoot()
     {
+        if (gameObject.CompareTag("Enemy"))
+        {
+            bullet.GetComponent<BulletEnemy>().currentFoward = transform.forward;
+
+        }
         Instantiate(bullet, position1.position, Quaternion.identity);
         Instantiate(bullet, position2.position, Quaternion.identity);
         Instantiate(muzzle, position1.position, Quaternion.identity);
         Instantiate(muzzle, position2.position, Quaternion.identity);
+        
     }
 }

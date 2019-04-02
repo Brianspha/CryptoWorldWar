@@ -35,7 +35,11 @@ public class Enemy : MonoBehaviour
     public float health;
     [Range(0,1)]
     public float decreaseFactor;
-
+    Quaternion rotation;
+    bool isPlayerGrounded = false;
+    public Gun gun;
+    public float maxShootTime = 1.5f;
+    public float currentShootTime;
     // Start is called before the first frame update
     void Start()
     {
@@ -45,16 +49,36 @@ public class Enemy : MonoBehaviour
         rb = GetComponent<Rigidbody>();
         player = GameObject.FindGameObjectWithTag("Player");
         ripple = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<RipplePostProcessor>();
+        currentShootTime = maxShootTime;
     }
-
     // Update is called once per frame
     void Update()
     {
         checkDeslam();
         ResetPosition();
         move();
+        facePlayer();
+        shoot();
+        
     }
 
+    private void shoot()
+    {
+        if (currentShootTime <= 0)
+        {
+            currentShootTime = maxShootTime;
+            gun.Shoot();
+        }
+        else
+        {
+            currentShootTime -= Time.deltaTime;
+        }
+    }
+
+    private void facePlayer()
+    {
+        transform.LookAt(player.transform.position);
+    }
     private void move()
     {
         if (!ignore)
@@ -96,7 +120,6 @@ public class Enemy : MonoBehaviour
             transform.position = originalPos;
             transform.rotation = defaultRot;
         }
-
     }
     void checkDeslam()
     {
@@ -113,7 +136,6 @@ public class Enemy : MonoBehaviour
         }
         Debug.Log("Distance: " + distance);
     }
-
     private void DestroyEnemy()
     {
         Destroy(gameObject);

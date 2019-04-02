@@ -25,12 +25,9 @@ using UnityEngine;
 public class RipplePostProcessor : MonoBehaviour {
     public Material RippleMaterial;
     public float MaxAmount = 50f;
-
     [Range (0, 1)]
     public float Friction = .9f;
-
     private float Amount = 0f;
-
     void Update () {
         if (RippleMaterial != null)
         {
