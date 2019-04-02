@@ -114,7 +114,7 @@ MonoBehaviour:
   m_MinSize: {x: 713, y: 498}
   m_MaxSize: {x: 18008, y: 14048}
   vertical: 0
-  controlID: 104
+  controlID: 128
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -139,7 +139,7 @@ MonoBehaviour:
   m_MinSize: {x: 436, y: 498}
   m_MaxSize: {x: 14006, y: 14048}
   vertical: 1
-  controlID: 105
+  controlID: 129
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -164,7 +164,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 224}
   m_MaxSize: {x: 8006, y: 4024}
   vertical: 0
-  controlID: 36
+  controlID: 130
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -211,8 +211,8 @@ MonoBehaviour:
     y: 0
     width: 738
     height: 522
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 204, y: 224}
+  m_MaxSize: {x: 4004, y: 4024}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -242,7 +242,7 @@ MonoBehaviour:
   m_MinSize: {x: 436, y: 274}
   m_MaxSize: {x: 14006, y: 10024}
   vertical: 0
-  controlID: 106
+  controlID: 99
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -315,8 +315,8 @@ MonoBehaviour:
     y: 0
     width: 440
     height: 947
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 277, y: 74}
+  m_MaxSize: {x: 4002, y: 4024}
   m_ActualView: {fileID: 20}
   m_Panes:
   - {fileID: 20}
@@ -434,9 +434,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0, y: 0, z: 0}
+    m_Target: {x: 0, y: 67.4, z: -13.200006}
     speed: 2
-    m_Value: {x: 0, y: 0, z: 0}
+    m_Value: {x: 0, y: 67.4, z: -13.200006}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -468,9 +468,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0.040337197, y: -0.92270905, z: 0.36994427, w: 0.10060895}
   m_Size:
-    m_Target: 22
+    m_Target: 54.93313
     speed: 2
-    m_Value: 22
+    m_Value: 54.93313
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -537,9 +537,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: d0100000
-      m_LastClickedID: 0
-      m_ExpandedIDs: a66dffff06f9ffff2ef9ffff74f9ffffd4fbffff
+      m_SelectedIDs: 0693fdff
+      m_LastClickedID: -158970
+      m_ExpandedIDs: 468bfdff2a93fdff6493fdff9e93fdff02d0fdff18d0fdffd0d5fdff0ad6fdffa4ebfdffd096ffffd6dcffff02e5ffff18e5ffff26e5ffff1ae7fffff6e8ffff30fbffff34fbffff38fbffff3cfbffff56fbffff58fbffffb8fbffff2a300000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -627,34 +627,34 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets/Scripts
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/Scripts
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: e8100000
-    m_LastClickedID: 4328
-    m_ExpandedIDs: 00000000e80b0000c60c0000ea0c00007e0d0000840d0000c00e0000420f00008a0f0000b80f000012100000ca1100004e12000000ca9a3b
+    m_SelectedIDs: 580d0000
+    m_LastClickedID: 3416
+    m_ExpandedIDs: 00000000f80b0000d20c0000f40c0000820d0000ba0e0000360f00007c0f0000aa0f000004100000a811000026120000ae2f000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: roomTemplates
-      m_OriginalName: roomTemplates
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 3454
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 12}
     m_SearchString: 
@@ -668,7 +668,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000e80b0000c60c0000ea0c0000840d0000c00e0000420f00008a0f0000b80f000012100000ca1100004e120000
+    m_ExpandedIDs: 00000000f80b0000d20c0000f40c0000820d0000ba0e0000360f00007c0f0000aa0f000004100000a811000026120000ae2f0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 

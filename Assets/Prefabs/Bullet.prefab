@@ -122,11 +122,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f452990082395449e5c3e66dd1fb96, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  force: 3200
-  hurtEffect: {fileID: 2846188130341999932, guid: 195c3482fd260a047a098a0f3bdec959,
-    type: 3}
-  deathEffect: {fileID: 4740069121957514666, guid: 6cdbd2259afd393428b6e51dcfbb0c25,
-    type: 3}
+  force: 500
+  magn: 2500
+  rough: 2000
+  fadeIn: 0.08
+  fadeOut: 0.04
 --- !u!114 &8013337212356023845
 MonoBehaviour:
   m_ObjectHideFlags: 0

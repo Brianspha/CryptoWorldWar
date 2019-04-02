@@ -2,36 +2,36 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class RoomSpawner : MonoBehaviour {
+public class RoomSpawner : MonoBehaviour
+{
 
-	public int openingDirection;
-	// 1 --> need bottom door
-	// 2 --> need top door
-	// 3 --> need left door
-	// 4 --> need right door
+    public int openingDirection;
+    // 1 --> need bottom door
+    // 2 --> need top door
+    // 3 --> need left door
+    // 4 --> need right door
 
 
-	private RoomTemplates templates;
-	private int rand;
-	public bool spawned = false;
+    private RoomTemplates templates;
+    private int rand;
+    public bool spawned = false;
+    int iterations = 50;
+    public float waitTime = 4f;
 
-	public float waitTime = 8f;
-    public bool close = false;
-	void Start(){
-		Destroy(gameObject, waitTime);
-		templates = GameObject.FindGameObjectWithTag("Rooms").GetComponent<RoomTemplates>();
-        Spawn();
-	}
+    void Start()
+    {
+        Destroy(gameObject, waitTime);
+        templates = GameObject.FindGameObjectWithTag("Rooms").GetComponent<RoomTemplates>();
+
+        //for (int i = 0; i < iterations; i++)
+        //{
+            Invoke("Spawn", 0.1f);
+        //}
+    }
 
 
     void Spawn()
     {
-        if (close)
-        {
-            Instantiate(templates.closedRoom, transform.position, templates.closedRoom.transform.rotation);
-            spawned = true;
-            Destroy(gameObject);
-        }
         if (spawned == false)
         {
             if (openingDirection == 1)
@@ -61,37 +61,17 @@ public class RoomSpawner : MonoBehaviour {
             spawned = true;
         }
     }
-  
-	void OnTriggerEnter(Collider other){
-        //if (other.gameObject.CompareTag("SpawnPoint"))
-        //{
-        //    if (openingDirection == 0)
-        //    {
-        //        Destroy(other.gameObject);
-        //    }
-        //    else if (other.gameObject.GetComponent<RoomSpawner>().openingDirection == 0)
-        //    {
-        //        Destroy(gameObject);
-        //    }
-        //    else if(other.gameObject.GetComponent<RoomSpawner>().openingDirection !=0 && openingDirection != 0)
-        //    {
-        //        other.gameObject.GetComponent<RoomSpawner>().spawned = true;
-        //        spawned = true;
 
-        //    }
-        //}
-        //if (other.CompareTag("SpawnPoint"))
-        //{
-        //    // Debug.Log("Yay called: " + templates.closedRoom);
-        //    //if (templates == null) return;
-        //    if (other.gameObject.GetComponent<RoomSpawner>().spawned == false && spawned == false)
-        //    {
-        //        Debug.Log("Current Object: " + templates.closedRoom);
-        //        Instantiate(templates.closedRoom, transform.position, Quaternion.identity);
-        //        Destroy(gameObject);
-        //        Debug.Log("Called");
-        //    }
-        //    spawned = true;
-        //}
+    void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("SpawnPoint"))
+        {
+            if (other.GetComponent<RoomSpawner>().spawned == false && spawned == false)
+            {
+                Instantiate(templates.closedRoom, transform.position, Quaternion.identity);
+                Destroy(gameObject);
+            }
+            spawned = true;
+        }
     }
 }

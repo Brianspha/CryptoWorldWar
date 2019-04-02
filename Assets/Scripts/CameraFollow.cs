@@ -11,18 +11,18 @@ public class CameraFollow : MonoBehaviour
     public float offSetFromTarget;
     void Start()
     {
-        
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+                target = GameObject.FindGameObjectWithTag("Player").transform;
+
     }
     void FixedUpdate()
     {
         Vector3 desiredPos = new Vector3(transform.position.x, transform.position.y, target.position.z + offSetFromTarget);
-        Vector3 smoothPos = Vector3.Lerp(transform.position, desiredPos, Time.deltaTime * smoothSpeed);
-        transform.position = smoothPos;
+       // Vector3 smoothPos = Vector3.Lerp(transform.position, desiredPos, Time.deltaTime * smoothSpeed);
+        transform.position = desiredPos;
     }
 }

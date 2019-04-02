@@ -1,4 +1,4 @@
 sceneSetups:
-- path: C:/Users/g14m1190/Downloads/Compressed/LevelGenerator-master/LevelGenerator-master/Assets/scene.unity
+- path: C:/Users/g14m1190/Downloads/Compressed/Random-Dungeon-Generation-master/Random-Dungeon-Generation-master/IsaacGenTut/Assets/Scenes/Tutorial.unity
   isLoaded: 1
   isActive: 1
