@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2019-04-02T18:07:13.782+02:00
-  initializedAtString: 2019-04-02T04:53:43.463+02:00
+  lastUpdatedAtString: 2019-04-22T00:38:39.575+02:00
+  initializedAtString: 2019-04-22T00:30:23.844+02:00
   entries:
   - path: Assembly-CSharp.csproj
     fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assembly-CSharp.csproj
@@ -22,29 +22,1088 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
+  - path: Assembly-CSharp-firstpass.csproj
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assembly-CSharp-firstpass.csproj
+    projectPath: Assembly-CSharp-firstpass.csproj
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\JMO Assets\WarFX\_Effects (Mobile)\Explosions\WFXMR_Explosion Simple.prefab
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\JMO Assets\WarFX\_Effects
+      (Mobile)\Explosions\WFXMR_Explosion Simple.prefab
+    projectPath: Assets\JMO Assets\WarFX\_Effects (Mobile)\Explosions\WFXMR_Explosion
+      Simple.prefab
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets\JMO Assets\WarFX\_Effects (Mobile)\Explosions\WFXMR_Explosion StarSmoke.prefab
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\JMO Assets\WarFX\_Effects
+      (Mobile)\Explosions\WFXMR_Explosion StarSmoke.prefab
+    projectPath: Assets\JMO Assets\WarFX\_Effects (Mobile)\Explosions\WFXMR_Explosion
+      StarSmoke.prefab
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets\JMO Assets\WarFX\_Effects\Fire\WFX_FlameThrower Big Alt Looped.prefab
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\JMO Assets\WarFX\_Effects\Fire\WFX_FlameThrower
+      Big Alt Looped.prefab
+    projectPath: Assets\JMO Assets\WarFX\_Effects\Fire\WFX_FlameThrower Big Alt Looped.prefab
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets\JMO Assets\WarFX\_Effects\Fire\WFX_FlameThrower Big Looped.prefab
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\JMO Assets\WarFX\_Effects\Fire\WFX_FlameThrower
+      Big Looped.prefab
+    projectPath: Assets\JMO Assets\WarFX\_Effects\Fire\WFX_FlameThrower Big Looped.prefab
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets\JMO Assets\WarFX\_Effects\Fire\WFX_FlameThrower Looped.prefab
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\JMO Assets\WarFX\_Effects\Fire\WFX_FlameThrower
+      Looped.prefab
+    projectPath: Assets\JMO Assets\WarFX\_Effects\Fire\WFX_FlameThrower Looped.prefab
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets\JMO Assets\WarFX\_Effects\Fire\WFX_GazFireBig (Blue).prefab
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\JMO Assets\WarFX\_Effects\Fire\WFX_GazFireBig
+      (Blue).prefab
+    projectPath: Assets\JMO Assets\WarFX\_Effects\Fire\WFX_GazFireBig (Blue).prefab
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets\JMO Assets\WarFX\_Effects\Fire\WFX_GazFireBig (Green).prefab
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\JMO Assets\WarFX\_Effects\Fire\WFX_GazFireBig
+      (Green).prefab
+    projectPath: Assets\JMO Assets\WarFX\_Effects\Fire\WFX_GazFireBig (Green).prefab
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets\JMO Assets\WarFX\_Effects\Smoke\Color Variants\WFX_SmokeGrenade AlphaBlend
+      Green.prefab
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\JMO Assets\WarFX\_Effects\Smoke\Color
+      Variants\WFX_SmokeGrenade AlphaBlend Green.prefab
+    projectPath: Assets\JMO Assets\WarFX\_Effects\Smoke\Color Variants\WFX_SmokeGrenade
+      AlphaBlend Green.prefab
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets\JMO Assets\WarFX\_Effects\Smoke\Color Variants\WFX_SmokeGrenade AlphaBlend
+      Red.prefab
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\JMO Assets\WarFX\_Effects\Smoke\Color
+      Variants\WFX_SmokeGrenade AlphaBlend Red.prefab
+    projectPath: Assets\JMO Assets\WarFX\_Effects\Smoke\Color Variants\WFX_SmokeGrenade
+      AlphaBlend Red.prefab
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets\JMO Assets\WarFX\_Effects\Smoke\Color Variants\WFX_SmokeGrenade Blue.prefab
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\JMO Assets\WarFX\_Effects\Smoke\Color
+      Variants\WFX_SmokeGrenade Blue.prefab
+    projectPath: Assets\JMO Assets\WarFX\_Effects\Smoke\Color Variants\WFX_SmokeGrenade
+      Blue.prefab
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets\JMO Assets\WarFX\_Effects\Smoke\Color Variants\WFX_SmokeGrenade Green.prefab
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\JMO Assets\WarFX\_Effects\Smoke\Color
+      Variants\WFX_SmokeGrenade Green.prefab
+    projectPath: Assets\JMO Assets\WarFX\_Effects\Smoke\Color Variants\WFX_SmokeGrenade
+      Green.prefab
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets\JMO Assets\WarFX\_Effects\Smoke\Color Variants\WFX_SmokeGrenade Red.prefab
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\JMO Assets\WarFX\_Effects\Smoke\Color
+      Variants\WFX_SmokeGrenade Red.prefab
+    projectPath: Assets\JMO Assets\WarFX\_Effects\Smoke\Color Variants\WFX_SmokeGrenade
+      Red.prefab
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets\JMO Assets\WarFX\_Effects\Smoke\WFX_SmokeGrenade Black.prefab
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\JMO Assets\WarFX\_Effects\Smoke\WFX_SmokeGrenade
+      Black.prefab
+    projectPath: Assets\JMO Assets\WarFX\_Effects\Smoke\WFX_SmokeGrenade Black.prefab
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets\JMO Assets\WarFX\Shaders\WFX_S Multiply Soft.shader
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\JMO Assets\WarFX\Shaders\WFX_S
+      Multiply Soft.shader
+    projectPath: Assets\JMO Assets\WarFX\Shaders\WFX_S Multiply Soft.shader
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets\JMO Assets\WarFX\Shaders\WFX_S Smoke Scroll.shader
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\JMO Assets\WarFX\Shaders\WFX_S
+      Smoke Scroll.shader
+    projectPath: Assets\JMO Assets\WarFX\Shaders\WFX_S Smoke Scroll.shader
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets\Materials\EnemySpecial.mat
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\Materials\EnemySpecial.mat
+    projectPath: Assets\Materials\EnemySpecial.mat
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Materials\EnemySpecial.mat.meta
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\Materials\EnemySpecial.mat.meta
+    projectPath: Assets\Materials\EnemySpecial.mat.meta
+    originalPath: 
+    status: 1
+    staged: 0
   - path: Assets\Materials\ripple.mat
     fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\Materials\ripple.mat
     projectPath: Assets\Materials\ripple.mat
     originalPath: 
     status: 3
     staged: 0
-  - path: Assets\Prefabs\BulletEnemy.prefab
-    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\Prefabs\BulletEnemy.prefab
-    projectPath: Assets\Prefabs\BulletEnemy.prefab
+  - path: Assets\PowerUp.meta
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\PowerUp.meta
+    projectPath: Assets\PowerUp.meta
     originalPath: 
     status: 1
     staged: 0
-  - path: Assets\Prefabs\BulletEnemy.prefab.meta
-    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\Prefabs\BulletEnemy.prefab.meta
-    projectPath: Assets\Prefabs\BulletEnemy.prefab.meta
+  - path: Assets\PowerUp\Materials.meta
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\PowerUp\Materials.meta
+    projectPath: Assets\PowerUp\Materials.meta
     originalPath: 
     status: 1
     staged: 0
-  - path: Assets\Scenes\Test Level.unity
-    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\Scenes\Test Level.unity
-    projectPath: Assets\Scenes\Test Level.unity
+  - path: Assets\PowerUp\Materials\dirt.png
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\PowerUp\Materials\dirt.png
+    projectPath: Assets\PowerUp\Materials\dirt.png
     originalPath: 
-    status: 3
+    status: 1
+    staged: 0
+  - path: Assets\PowerUp\Materials\dirt.png.meta
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\PowerUp\Materials\dirt.png.meta
+    projectPath: Assets\PowerUp\Materials\dirt.png.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\PowerUp\Materials\ExternPowerUp.mat
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\PowerUp\Materials\ExternPowerUp.mat
+    projectPath: Assets\PowerUp\Materials\ExternPowerUp.mat
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\PowerUp\Materials\ExternPowerUp.mat.meta
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\PowerUp\Materials\ExternPowerUp.mat.meta
+    projectPath: Assets\PowerUp\Materials\ExternPowerUp.mat.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\PowerUp\Materials\extern-power-up.tga
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\PowerUp\Materials\extern-power-up.tga
+    projectPath: Assets\PowerUp\Materials\extern-power-up.tga
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\PowerUp\Materials\extern-power-up.tga.meta
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\PowerUp\Materials\extern-power-up.tga.meta
+    projectPath: Assets\PowerUp\Materials\extern-power-up.tga.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\PowerUp\Materials\ExternPowerUpBlue.mat
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\PowerUp\Materials\ExternPowerUpBlue.mat
+    projectPath: Assets\PowerUp\Materials\ExternPowerUpBlue.mat
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\PowerUp\Materials\ExternPowerUpBlue.mat.meta
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\PowerUp\Materials\ExternPowerUpBlue.mat.meta
+    projectPath: Assets\PowerUp\Materials\ExternPowerUpBlue.mat.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\PowerUp\Materials\extern-power-up-blue.tga
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\PowerUp\Materials\extern-power-up-blue.tga
+    projectPath: Assets\PowerUp\Materials\extern-power-up-blue.tga
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\PowerUp\Materials\extern-power-up-blue.tga.meta
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\PowerUp\Materials\extern-power-up-blue.tga.meta
+    projectPath: Assets\PowerUp\Materials\extern-power-up-blue.tga.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\PowerUp\Materials\ExternPowerUpGreen.mat
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\PowerUp\Materials\ExternPowerUpGreen.mat
+    projectPath: Assets\PowerUp\Materials\ExternPowerUpGreen.mat
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\PowerUp\Materials\ExternPowerUpGreen.mat.meta
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\PowerUp\Materials\ExternPowerUpGreen.mat.meta
+    projectPath: Assets\PowerUp\Materials\ExternPowerUpGreen.mat.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\PowerUp\Materials\extern-power-up-green.tga
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\PowerUp\Materials\extern-power-up-green.tga
+    projectPath: Assets\PowerUp\Materials\extern-power-up-green.tga
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\PowerUp\Materials\extern-power-up-green.tga.meta
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\PowerUp\Materials\extern-power-up-green.tga.meta
+    projectPath: Assets\PowerUp\Materials\extern-power-up-green.tga.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\PowerUp\Materials\ExternPowerUpRed.mat
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\PowerUp\Materials\ExternPowerUpRed.mat
+    projectPath: Assets\PowerUp\Materials\ExternPowerUpRed.mat
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\PowerUp\Materials\ExternPowerUpRed.mat.meta
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\PowerUp\Materials\ExternPowerUpRed.mat.meta
+    projectPath: Assets\PowerUp\Materials\ExternPowerUpRed.mat.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\PowerUp\Materials\extern-power-up-red.tga
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\PowerUp\Materials\extern-power-up-red.tga
+    projectPath: Assets\PowerUp\Materials\extern-power-up-red.tga
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\PowerUp\Materials\extern-power-up-red.tga.meta
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\PowerUp\Materials\extern-power-up-red.tga.meta
+    projectPath: Assets\PowerUp\Materials\extern-power-up-red.tga.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\PowerUp\Materials\ExternPowerUpYellow.mat
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\PowerUp\Materials\ExternPowerUpYellow.mat
+    projectPath: Assets\PowerUp\Materials\ExternPowerUpYellow.mat
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\PowerUp\Materials\ExternPowerUpYellow.mat.meta
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\PowerUp\Materials\ExternPowerUpYellow.mat.meta
+    projectPath: Assets\PowerUp\Materials\ExternPowerUpYellow.mat.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\PowerUp\Materials\extern-power-up-yellow.tga
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\PowerUp\Materials\extern-power-up-yellow.tga
+    projectPath: Assets\PowerUp\Materials\extern-power-up-yellow.tga
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\PowerUp\Materials\extern-power-up-yellow.tga.meta
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\PowerUp\Materials\extern-power-up-yellow.tga.meta
+    projectPath: Assets\PowerUp\Materials\extern-power-up-yellow.tga.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\PowerUp\Materials\flame-1.mat
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\PowerUp\Materials\flame-1.mat
+    projectPath: Assets\PowerUp\Materials\flame-1.mat
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\PowerUp\Materials\flame-1.mat.meta
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\PowerUp\Materials\flame-1.mat.meta
+    projectPath: Assets\PowerUp\Materials\flame-1.mat.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\PowerUp\Materials\flame-1.tga
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\PowerUp\Materials\flame-1.tga
+    projectPath: Assets\PowerUp\Materials\flame-1.tga
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\PowerUp\Materials\flame-1.tga.meta
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\PowerUp\Materials\flame-1.tga.meta
+    projectPath: Assets\PowerUp\Materials\flame-1.tga.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\PowerUp\Materials\flame-2.mat
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\PowerUp\Materials\flame-2.mat
+    projectPath: Assets\PowerUp\Materials\flame-2.mat
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\PowerUp\Materials\flame-2.mat.meta
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\PowerUp\Materials\flame-2.mat.meta
+    projectPath: Assets\PowerUp\Materials\flame-2.mat.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\PowerUp\Materials\flame-2.tga
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\PowerUp\Materials\flame-2.tga
+    projectPath: Assets\PowerUp\Materials\flame-2.tga
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\PowerUp\Materials\flame-2.tga.meta
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\PowerUp\Materials\flame-2.tga.meta
+    projectPath: Assets\PowerUp\Materials\flame-2.tga.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\PowerUp\Materials\Shine.mat
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\PowerUp\Materials\Shine.mat
+    projectPath: Assets\PowerUp\Materials\Shine.mat
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\PowerUp\Materials\Shine.mat.meta
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\PowerUp\Materials\Shine.mat.meta
+    projectPath: Assets\PowerUp\Materials\Shine.mat.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\PowerUp\Materials\shine.tga
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\PowerUp\Materials\shine.tga
+    projectPath: Assets\PowerUp\Materials\shine.tga
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\PowerUp\Materials\shine.tga.meta
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\PowerUp\Materials\shine.tga.meta
+    projectPath: Assets\PowerUp\Materials\shine.tga.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\PowerUp\Materials\shine-1.mat
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\PowerUp\Materials\shine-1.mat
+    projectPath: Assets\PowerUp\Materials\shine-1.mat
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\PowerUp\Materials\shine-1.mat.meta
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\PowerUp\Materials\shine-1.mat.meta
+    projectPath: Assets\PowerUp\Materials\shine-1.mat.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\PowerUp\Materials\shine-1.tga
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\PowerUp\Materials\shine-1.tga
+    projectPath: Assets\PowerUp\Materials\shine-1.tga
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\PowerUp\Materials\shine-1.tga.meta
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\PowerUp\Materials\shine-1.tga.meta
+    projectPath: Assets\PowerUp\Materials\shine-1.tga.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\PowerUp\Materials\spark-1.mat
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\PowerUp\Materials\spark-1.mat
+    projectPath: Assets\PowerUp\Materials\spark-1.mat
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\PowerUp\Materials\spark-1.mat.meta
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\PowerUp\Materials\spark-1.mat.meta
+    projectPath: Assets\PowerUp\Materials\spark-1.mat.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\PowerUp\Materials\spark-1.tga
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\PowerUp\Materials\spark-1.tga
+    projectPath: Assets\PowerUp\Materials\spark-1.tga
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\PowerUp\Materials\spark-1.tga.meta
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\PowerUp\Materials\spark-1.tga.meta
+    projectPath: Assets\PowerUp\Materials\spark-1.tga.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\PowerUp\Materials\spark-2.mat
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\PowerUp\Materials\spark-2.mat
+    projectPath: Assets\PowerUp\Materials\spark-2.mat
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\PowerUp\Materials\spark-2.mat.meta
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\PowerUp\Materials\spark-2.mat.meta
+    projectPath: Assets\PowerUp\Materials\spark-2.mat.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\PowerUp\Materials\spark-2.tga
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\PowerUp\Materials\spark-2.tga
+    projectPath: Assets\PowerUp\Materials\spark-2.tga
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\PowerUp\Materials\spark-2.tga.meta
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\PowerUp\Materials\spark-2.tga.meta
+    projectPath: Assets\PowerUp\Materials\spark-2.tga.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\PowerUp\Materials\spark-3.mat
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\PowerUp\Materials\spark-3.mat
+    projectPath: Assets\PowerUp\Materials\spark-3.mat
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\PowerUp\Materials\spark-3.mat.meta
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\PowerUp\Materials\spark-3.mat.meta
+    projectPath: Assets\PowerUp\Materials\spark-3.mat.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\PowerUp\Materials\spark-3.tga
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\PowerUp\Materials\spark-3.tga
+    projectPath: Assets\PowerUp\Materials\spark-3.tga
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\PowerUp\Materials\spark-3.tga.meta
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\PowerUp\Materials\spark-3.tga.meta
+    projectPath: Assets\PowerUp\Materials\spark-3.tga.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\PowerUp\Materials\spark-4.mat
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\PowerUp\Materials\spark-4.mat
+    projectPath: Assets\PowerUp\Materials\spark-4.mat
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\PowerUp\Materials\spark-4.mat.meta
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\PowerUp\Materials\spark-4.mat.meta
+    projectPath: Assets\PowerUp\Materials\spark-4.mat.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\PowerUp\Materials\spark-4.tga
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\PowerUp\Materials\spark-4.tga
+    projectPath: Assets\PowerUp\Materials\spark-4.tga
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\PowerUp\Materials\spark-4.tga.meta
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\PowerUp\Materials\spark-4.tga.meta
+    projectPath: Assets\PowerUp\Materials\spark-4.tga.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\PowerUp\Materials\Specular.mat
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\PowerUp\Materials\Specular.mat
+    projectPath: Assets\PowerUp\Materials\Specular.mat
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\PowerUp\Materials\Specular.mat.meta
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\PowerUp\Materials\Specular.mat.meta
+    projectPath: Assets\PowerUp\Materials\Specular.mat.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\PowerUp\Materials\SpecularBlue.mat
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\PowerUp\Materials\SpecularBlue.mat
+    projectPath: Assets\PowerUp\Materials\SpecularBlue.mat
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\PowerUp\Materials\SpecularBlue.mat.meta
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\PowerUp\Materials\SpecularBlue.mat.meta
+    projectPath: Assets\PowerUp\Materials\SpecularBlue.mat.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\PowerUp\Materials\SpecularGreen.mat
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\PowerUp\Materials\SpecularGreen.mat
+    projectPath: Assets\PowerUp\Materials\SpecularGreen.mat
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\PowerUp\Materials\SpecularGreen.mat.meta
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\PowerUp\Materials\SpecularGreen.mat.meta
+    projectPath: Assets\PowerUp\Materials\SpecularGreen.mat.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\PowerUp\Materials\SpecularRed.mat
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\PowerUp\Materials\SpecularRed.mat
+    projectPath: Assets\PowerUp\Materials\SpecularRed.mat
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\PowerUp\Materials\SpecularRed.mat.meta
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\PowerUp\Materials\SpecularRed.mat.meta
+    projectPath: Assets\PowerUp\Materials\SpecularRed.mat.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\PowerUp\Materials\SpecularWhite.mat
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\PowerUp\Materials\SpecularWhite.mat
+    projectPath: Assets\PowerUp\Materials\SpecularWhite.mat
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\PowerUp\Materials\SpecularWhite.mat.meta
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\PowerUp\Materials\SpecularWhite.mat.meta
+    projectPath: Assets\PowerUp\Materials\SpecularWhite.mat.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\PowerUp\Materials\SpecularYellow.mat
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\PowerUp\Materials\SpecularYellow.mat
+    projectPath: Assets\PowerUp\Materials\SpecularYellow.mat
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\PowerUp\Materials\SpecularYellow.mat.meta
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\PowerUp\Materials\SpecularYellow.mat.meta
+    projectPath: Assets\PowerUp\Materials\SpecularYellow.mat.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\PowerUp\Models.meta
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\PowerUp\Models.meta
+    projectPath: Assets\PowerUp\Models.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\PowerUp\Models\dollar.FBX
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\PowerUp\Models\dollar.FBX
+    projectPath: Assets\PowerUp\Models\dollar.FBX
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\PowerUp\Models\dollar.FBX.meta
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\PowerUp\Models\dollar.FBX.meta
+    projectPath: Assets\PowerUp\Models\dollar.FBX.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\PowerUp\Models\euro.FBX
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\PowerUp\Models\euro.FBX
+    projectPath: Assets\PowerUp\Models\euro.FBX
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\PowerUp\Models\euro.FBX.meta
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\PowerUp\Models\euro.FBX.meta
+    projectPath: Assets\PowerUp\Models\euro.FBX.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\PowerUp\Models\health.FBX
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\PowerUp\Models\health.FBX
+    projectPath: Assets\PowerUp\Models\health.FBX
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\PowerUp\Models\health.FBX.meta
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\PowerUp\Models\health.FBX.meta
+    projectPath: Assets\PowerUp\Models\health.FBX.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\PowerUp\Models\Materials.meta
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\PowerUp\Models\Materials.meta
+    projectPath: Assets\PowerUp\Models\Materials.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\PowerUp\Models\Materials\No Name.mat
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\PowerUp\Models\Materials\No
+      Name.mat
+    projectPath: Assets\PowerUp\Models\Materials\No Name.mat
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\PowerUp\Models\Materials\No Name.mat.meta
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\PowerUp\Models\Materials\No
+      Name.mat.meta
+    projectPath: Assets\PowerUp\Models\Materials\No Name.mat.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\PowerUp\Particles Systems.meta
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\PowerUp\Particles
+      Systems.meta
+    projectPath: Assets\PowerUp\Particles Systems.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\PowerUp\Particles Systems\Flame-1-Particles.prefab
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\PowerUp\Particles
+      Systems\Flame-1-Particles.prefab
+    projectPath: Assets\PowerUp\Particles Systems\Flame-1-Particles.prefab
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\PowerUp\Particles Systems\Flame-1-Particles.prefab.meta
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\PowerUp\Particles
+      Systems\Flame-1-Particles.prefab.meta
+    projectPath: Assets\PowerUp\Particles Systems\Flame-1-Particles.prefab.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\PowerUp\Particles Systems\Flame-2-Particles.prefab
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\PowerUp\Particles
+      Systems\Flame-2-Particles.prefab
+    projectPath: Assets\PowerUp\Particles Systems\Flame-2-Particles.prefab
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\PowerUp\Particles Systems\Flame-2-Particles.prefab.meta
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\PowerUp\Particles
+      Systems\Flame-2-Particles.prefab.meta
+    projectPath: Assets\PowerUp\Particles Systems\Flame-2-Particles.prefab.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\PowerUp\Particles Systems\Flame-3-Particles.prefab
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\PowerUp\Particles
+      Systems\Flame-3-Particles.prefab
+    projectPath: Assets\PowerUp\Particles Systems\Flame-3-Particles.prefab
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\PowerUp\Particles Systems\Flame-3-Particles.prefab.meta
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\PowerUp\Particles
+      Systems\Flame-3-Particles.prefab.meta
+    projectPath: Assets\PowerUp\Particles Systems\Flame-3-Particles.prefab.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\PowerUp\Particles Systems\Shine-1-Particles.prefab
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\PowerUp\Particles
+      Systems\Shine-1-Particles.prefab
+    projectPath: Assets\PowerUp\Particles Systems\Shine-1-Particles.prefab
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\PowerUp\Particles Systems\Shine-1-Particles.prefab.meta
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\PowerUp\Particles
+      Systems\Shine-1-Particles.prefab.meta
+    projectPath: Assets\PowerUp\Particles Systems\Shine-1-Particles.prefab.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\PowerUp\Particles Systems\Shine-2-Particles.prefab
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\PowerUp\Particles
+      Systems\Shine-2-Particles.prefab
+    projectPath: Assets\PowerUp\Particles Systems\Shine-2-Particles.prefab
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\PowerUp\Particles Systems\Shine-2-Particles.prefab.meta
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\PowerUp\Particles
+      Systems\Shine-2-Particles.prefab.meta
+    projectPath: Assets\PowerUp\Particles Systems\Shine-2-Particles.prefab.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\PowerUp\Particles Systems\Spark-1-Particles.prefab
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\PowerUp\Particles
+      Systems\Spark-1-Particles.prefab
+    projectPath: Assets\PowerUp\Particles Systems\Spark-1-Particles.prefab
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\PowerUp\Particles Systems\Spark-1-Particles.prefab.meta
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\PowerUp\Particles
+      Systems\Spark-1-Particles.prefab.meta
+    projectPath: Assets\PowerUp\Particles Systems\Spark-1-Particles.prefab.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\PowerUp\Particles Systems\Spark-2-Particles.prefab
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\PowerUp\Particles
+      Systems\Spark-2-Particles.prefab
+    projectPath: Assets\PowerUp\Particles Systems\Spark-2-Particles.prefab
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\PowerUp\Particles Systems\Spark-2-Particles.prefab.meta
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\PowerUp\Particles
+      Systems\Spark-2-Particles.prefab.meta
+    projectPath: Assets\PowerUp\Particles Systems\Spark-2-Particles.prefab.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\PowerUp\Particles Systems\Spark-3-Particles.prefab
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\PowerUp\Particles
+      Systems\Spark-3-Particles.prefab
+    projectPath: Assets\PowerUp\Particles Systems\Spark-3-Particles.prefab
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\PowerUp\Particles Systems\Spark-3-Particles.prefab.meta
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\PowerUp\Particles
+      Systems\Spark-3-Particles.prefab.meta
+    projectPath: Assets\PowerUp\Particles Systems\Spark-3-Particles.prefab.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\PowerUp\Particles Systems\Spark-4-Particles.prefab
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\PowerUp\Particles
+      Systems\Spark-4-Particles.prefab
+    projectPath: Assets\PowerUp\Particles Systems\Spark-4-Particles.prefab
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\PowerUp\Particles Systems\Spark-4-Particles.prefab.meta
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\PowerUp\Particles
+      Systems\Spark-4-Particles.prefab.meta
+    projectPath: Assets\PowerUp\Particles Systems\Spark-4-Particles.prefab.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\PowerUp\Prefabs.meta
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\PowerUp\Prefabs.meta
+    projectPath: Assets\PowerUp\Prefabs.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\PowerUp\Prefabs\CustomizableParts.meta
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\PowerUp\Prefabs\CustomizableParts.meta
+    projectPath: Assets\PowerUp\Prefabs\CustomizableParts.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\PowerUp\Prefabs\CustomizableParts\InnerPowerUp.prefab
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\PowerUp\Prefabs\CustomizableParts\InnerPowerUp.prefab
+    projectPath: Assets\PowerUp\Prefabs\CustomizableParts\InnerPowerUp.prefab
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\PowerUp\Prefabs\CustomizableParts\InnerPowerUp.prefab.meta
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\PowerUp\Prefabs\CustomizableParts\InnerPowerUp.prefab.meta
+    projectPath: Assets\PowerUp\Prefabs\CustomizableParts\InnerPowerUp.prefab.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\PowerUp\Prefabs\CustomizableParts\PowerUp.prefab
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\PowerUp\Prefabs\CustomizableParts\PowerUp.prefab
+    projectPath: Assets\PowerUp\Prefabs\CustomizableParts\PowerUp.prefab
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\PowerUp\Prefabs\CustomizableParts\PowerUp.prefab.meta
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\PowerUp\Prefabs\CustomizableParts\PowerUp.prefab.meta
+    projectPath: Assets\PowerUp\Prefabs\CustomizableParts\PowerUp.prefab.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\PowerUp\Prefabs\PowerUpContainerBlue.prefab
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\PowerUp\Prefabs\PowerUpContainerBlue.prefab
+    projectPath: Assets\PowerUp\Prefabs\PowerUpContainerBlue.prefab
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\PowerUp\Prefabs\PowerUpContainerBlue.prefab.meta
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\PowerUp\Prefabs\PowerUpContainerBlue.prefab.meta
+    projectPath: Assets\PowerUp\Prefabs\PowerUpContainerBlue.prefab.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\PowerUp\Prefabs\PowerUpContainerBlueFlame.prefab
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\PowerUp\Prefabs\PowerUpContainerBlueFlame.prefab
+    projectPath: Assets\PowerUp\Prefabs\PowerUpContainerBlueFlame.prefab
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\PowerUp\Prefabs\PowerUpContainerBlueFlame.prefab.meta
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\PowerUp\Prefabs\PowerUpContainerBlueFlame.prefab.meta
+    projectPath: Assets\PowerUp\Prefabs\PowerUpContainerBlueFlame.prefab.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\PowerUp\Prefabs\PowerUpContainerDoubleShine.prefab
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\PowerUp\Prefabs\PowerUpContainerDoubleShine.prefab
+    projectPath: Assets\PowerUp\Prefabs\PowerUpContainerDoubleShine.prefab
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\PowerUp\Prefabs\PowerUpContainerDoubleShine.prefab.meta
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\PowerUp\Prefabs\PowerUpContainerDoubleShine.prefab.meta
+    projectPath: Assets\PowerUp\Prefabs\PowerUpContainerDoubleShine.prefab.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\PowerUp\Prefabs\PowerUpContainerDoubleSpark-1.prefab
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\PowerUp\Prefabs\PowerUpContainerDoubleSpark-1.prefab
+    projectPath: Assets\PowerUp\Prefabs\PowerUpContainerDoubleSpark-1.prefab
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\PowerUp\Prefabs\PowerUpContainerDoubleSpark-1.prefab.meta
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\PowerUp\Prefabs\PowerUpContainerDoubleSpark-1.prefab.meta
+    projectPath: Assets\PowerUp\Prefabs\PowerUpContainerDoubleSpark-1.prefab.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\PowerUp\Prefabs\PowerUpContainerDoubleSpark-2.prefab
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\PowerUp\Prefabs\PowerUpContainerDoubleSpark-2.prefab
+    projectPath: Assets\PowerUp\Prefabs\PowerUpContainerDoubleSpark-2.prefab
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\PowerUp\Prefabs\PowerUpContainerDoubleSpark-2.prefab.meta
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\PowerUp\Prefabs\PowerUpContainerDoubleSpark-2.prefab.meta
+    projectPath: Assets\PowerUp\Prefabs\PowerUpContainerDoubleSpark-2.prefab.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\PowerUp\Prefabs\PowerUpContainerElectricSpark.prefab
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\PowerUp\Prefabs\PowerUpContainerElectricSpark.prefab
+    projectPath: Assets\PowerUp\Prefabs\PowerUpContainerElectricSpark.prefab
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\PowerUp\Prefabs\PowerUpContainerElectricSpark.prefab.meta
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\PowerUp\Prefabs\PowerUpContainerElectricSpark.prefab.meta
+    projectPath: Assets\PowerUp\Prefabs\PowerUpContainerElectricSpark.prefab.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\PowerUp\Prefabs\PowerUpContainerFlame-1.prefab
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\PowerUp\Prefabs\PowerUpContainerFlame-1.prefab
+    projectPath: Assets\PowerUp\Prefabs\PowerUpContainerFlame-1.prefab
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\PowerUp\Prefabs\PowerUpContainerFlame-1.prefab.meta
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\PowerUp\Prefabs\PowerUpContainerFlame-1.prefab.meta
+    projectPath: Assets\PowerUp\Prefabs\PowerUpContainerFlame-1.prefab.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\PowerUp\Prefabs\PowerUpContainerGreen.prefab
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\PowerUp\Prefabs\PowerUpContainerGreen.prefab
+    projectPath: Assets\PowerUp\Prefabs\PowerUpContainerGreen.prefab
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\PowerUp\Prefabs\PowerUpContainerGreen.prefab.meta
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\PowerUp\Prefabs\PowerUpContainerGreen.prefab.meta
+    projectPath: Assets\PowerUp\Prefabs\PowerUpContainerGreen.prefab.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\PowerUp\Prefabs\PowerUpContainerRed.prefab
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\PowerUp\Prefabs\PowerUpContainerRed.prefab
+    projectPath: Assets\PowerUp\Prefabs\PowerUpContainerRed.prefab
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\PowerUp\Prefabs\PowerUpContainerRed.prefab.meta
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\PowerUp\Prefabs\PowerUpContainerRed.prefab.meta
+    projectPath: Assets\PowerUp\Prefabs\PowerUpContainerRed.prefab.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\PowerUp\Prefabs\PowerUpContainerWhite.prefab
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\PowerUp\Prefabs\PowerUpContainerWhite.prefab
+    projectPath: Assets\PowerUp\Prefabs\PowerUpContainerWhite.prefab
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\PowerUp\Prefabs\PowerUpContainerWhite.prefab.meta
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\PowerUp\Prefabs\PowerUpContainerWhite.prefab.meta
+    projectPath: Assets\PowerUp\Prefabs\PowerUpContainerWhite.prefab.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\PowerUp\Prefabs\PowerUpContainerYellow.prefab
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\PowerUp\Prefabs\PowerUpContainerYellow.prefab
+    projectPath: Assets\PowerUp\Prefabs\PowerUpContainerYellow.prefab
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\PowerUp\Prefabs\PowerUpContainerYellow.prefab.meta
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\PowerUp\Prefabs\PowerUpContainerYellow.prefab.meta
+    projectPath: Assets\PowerUp\Prefabs\PowerUpContainerYellow.prefab.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\PowerUp\Prefabs\PowerUpContainerYellowDollar.prefab
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\PowerUp\Prefabs\PowerUpContainerYellowDollar.prefab
+    projectPath: Assets\PowerUp\Prefabs\PowerUpContainerYellowDollar.prefab
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\PowerUp\Prefabs\PowerUpContainerYellowDollar.prefab.meta
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\PowerUp\Prefabs\PowerUpContainerYellowDollar.prefab.meta
+    projectPath: Assets\PowerUp\Prefabs\PowerUpContainerYellowDollar.prefab.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\PowerUp\Prefabs\PowerUpContainerYellowEuro.prefab
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\PowerUp\Prefabs\PowerUpContainerYellowEuro.prefab
+    projectPath: Assets\PowerUp\Prefabs\PowerUpContainerYellowEuro.prefab
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\PowerUp\Prefabs\PowerUpContainerYellowEuro.prefab.meta
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\PowerUp\Prefabs\PowerUpContainerYellowEuro.prefab.meta
+    projectPath: Assets\PowerUp\Prefabs\PowerUpContainerYellowEuro.prefab.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\PowerUp\Scenes.meta
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\PowerUp\Scenes.meta
+    projectPath: Assets\PowerUp\Scenes.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\PowerUp\Scenes\Example.meta
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\PowerUp\Scenes\Example.meta
+    projectPath: Assets\PowerUp\Scenes\Example.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\PowerUp\Scenes\Example.unity
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\PowerUp\Scenes\Example.unity
+    projectPath: Assets\PowerUp\Scenes\Example.unity
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\PowerUp\Scenes\Example.unity.meta
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\PowerUp\Scenes\Example.unity.meta
+    projectPath: Assets\PowerUp\Scenes\Example.unity.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\PowerUp\Scenes\Example\LightmapFar-0.exr
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\PowerUp\Scenes\Example\LightmapFar-0.exr
+    projectPath: Assets\PowerUp\Scenes\Example\LightmapFar-0.exr
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\PowerUp\Scenes\Example\LightmapFar-0.exr.meta
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\PowerUp\Scenes\Example\LightmapFar-0.exr.meta
+    projectPath: Assets\PowerUp\Scenes\Example\LightmapFar-0.exr.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\PowerUp\Scenes\Example\LightmapNear-0.exr
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\PowerUp\Scenes\Example\LightmapNear-0.exr
+    projectPath: Assets\PowerUp\Scenes\Example\LightmapNear-0.exr
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\PowerUp\Scenes\Example\LightmapNear-0.exr.meta
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\PowerUp\Scenes\Example\LightmapNear-0.exr.meta
+    projectPath: Assets\PowerUp\Scenes\Example\LightmapNear-0.exr.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\PowerUp\Scripts.meta
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\PowerUp\Scripts.meta
+    projectPath: Assets\PowerUp\Scripts.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\PowerUp\Scripts\CustomizablePowerUp.cs
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\PowerUp\Scripts\CustomizablePowerUp.cs
+    projectPath: Assets\PowerUp\Scripts\CustomizablePowerUp.cs
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\PowerUp\Scripts\CustomizablePowerUp.cs.meta
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\PowerUp\Scripts\CustomizablePowerUp.cs.meta
+    projectPath: Assets\PowerUp\Scripts\CustomizablePowerUp.cs.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\PowerUp\Scripts\PowerUpManager.cs
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\PowerUp\Scripts\PowerUpManager.cs
+    projectPath: Assets\PowerUp\Scripts\PowerUpManager.cs
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\PowerUp\Scripts\PowerUpManager.cs.meta
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\PowerUp\Scripts\PowerUpManager.cs.meta
+    projectPath: Assets\PowerUp\Scripts\PowerUpManager.cs.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\PowerUp\Scripts\PowerUpRotation.cs
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\PowerUp\Scripts\PowerUpRotation.cs
+    projectPath: Assets\PowerUp\Scripts\PowerUpRotation.cs
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\PowerUp\Scripts\PowerUpRotation.cs.meta
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\PowerUp\Scripts\PowerUpRotation.cs.meta
+    projectPath: Assets\PowerUp\Scripts\PowerUpRotation.cs.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\PowerUp\Scripts\ScaleParticles.cs
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\PowerUp\Scripts\ScaleParticles.cs
+    projectPath: Assets\PowerUp\Scripts\ScaleParticles.cs
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\PowerUp\Scripts\ScaleParticles.cs.meta
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\PowerUp\Scripts\ScaleParticles.cs.meta
+    projectPath: Assets\PowerUp\Scripts\ScaleParticles.cs.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\PowerUp\Scripts\TakeablePowerUp.cs
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\PowerUp\Scripts\TakeablePowerUp.cs
+    projectPath: Assets\PowerUp\Scripts\TakeablePowerUp.cs
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\PowerUp\Scripts\TakeablePowerUp.cs.meta
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\PowerUp\Scripts\TakeablePowerUp.cs.meta
+    projectPath: Assets\PowerUp\Scripts\TakeablePowerUp.cs.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\PowerUp\Scripts\Utility.meta
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\PowerUp\Scripts\Utility.meta
+    projectPath: Assets\PowerUp\Scripts\Utility.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\PowerUp\Scripts\Utility\Singleton.cs
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\PowerUp\Scripts\Utility\Singleton.cs
+    projectPath: Assets\PowerUp\Scripts\Utility\Singleton.cs
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\PowerUp\Scripts\Utility\Singleton.cs.meta
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\PowerUp\Scripts\Utility\Singleton.cs.meta
+    projectPath: Assets\PowerUp\Scripts\Utility\Singleton.cs.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\PowerUp\Sounds.meta
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\PowerUp\Sounds.meta
+    projectPath: Assets\PowerUp\Sounds.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\PowerUp\Sounds\power-up.wav
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\PowerUp\Sounds\power-up.wav
+    projectPath: Assets\PowerUp\Sounds\power-up.wav
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\PowerUp\Sounds\power-up.wav.meta
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\PowerUp\Sounds\power-up.wav.meta
+    projectPath: Assets\PowerUp\Sounds\power-up.wav.meta
+    originalPath: 
+    status: 1
     staged: 0
   - path: Assets\Scenes\Test Scene.unity
     fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\Scenes\Test Scene.unity
@@ -52,51 +1111,57 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: Assets\Scripts\BulletEnemy.cs
-    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\Scripts\BulletEnemy.cs
-    projectPath: Assets\Scripts\BulletEnemy.cs
+  - path: Assets\Scripts\Bullet.cs
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\Scripts\Bullet.cs
+    projectPath: Assets\Scripts\Bullet.cs
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets\Scripts\CollionDetector.cs
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\Scripts\CollionDetector.cs
+    projectPath: Assets\Scripts\CollionDetector.cs
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets\Scripts\EnemySpecial.cs
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\Scripts\EnemySpecial.cs
+    projectPath: Assets\Scripts\EnemySpecial.cs
     originalPath: 
     status: 1
     staged: 0
-  - path: Assets\Scripts\BulletEnemy.cs.meta
-    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\Scripts\BulletEnemy.cs.meta
-    projectPath: Assets\Scripts\BulletEnemy.cs.meta
+  - path: Assets\Scripts\EnemySpecial.cs.meta
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\Scripts\EnemySpecial.cs.meta
+    projectPath: Assets\Scripts\EnemySpecial.cs.meta
     originalPath: 
     status: 1
     staged: 0
-  - path: Assets\Scripts\Destroyer.cs
-    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\Scripts\Destroyer.cs
-    projectPath: Assets\Scripts\Destroyer.cs
+  - path: Assets\Standard Assets.meta
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\Standard Assets.meta
+    projectPath: Assets\Standard Assets.meta
     originalPath: 
-    status: 3
-    staged: 0
-  - path: Assets\Scripts\Enemy.cs
-    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\Scripts\Enemy.cs
-    projectPath: Assets\Scripts\Enemy.cs
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Assets\Scripts\Gun.cs
-    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\Scripts\Gun.cs
-    projectPath: Assets\Scripts\Gun.cs
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Assets\Scripts\Player.cs
-    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\Scripts\Player.cs
-    projectPath: Assets\Scripts\Player.cs
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Assets\Scripts\RipplePostProcessor.cs
-    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Assets\Scripts\RipplePostProcessor.cs
-    projectPath: Assets\Scripts\RipplePostProcessor.cs
-    originalPath: 
-    status: 3
+    status: 1
     staged: 0
   - path: Library\assetDatabase3
     fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\assetDatabase3
     projectPath: Library\assetDatabase3
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\CurrentLayout.dwlt
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\CurrentLayout.dwlt
+    projectPath: Library\CurrentLayout.dwlt
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\EditorInstance.json
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\EditorInstance.json
+    projectPath: Library\EditorInstance.json
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\expandedItems
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\expandedItems
+    projectPath: Library\expandedItems
     originalPath: 
     status: 3
     staged: 0
@@ -122,7 +1187,7 @@ MonoBehaviour:
     fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\gfu\cache\gitstatusentries.yaml
     projectPath: Library\gfu\cache\gitstatusentries.yaml
     originalPath: 
-    status: 3
+    status: 5
     staged: 0
   - path: Library\gfu\cache\gittrackingstatus.yaml
     fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\gfu\cache\gittrackingstatus.yaml
@@ -130,65 +1195,1157 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: Library\InspectorExpandedItems.asset
-    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\InspectorExpandedItems.asset
-    projectPath: Library\InspectorExpandedItems.asset
+  - path: Library\gfu\cache\repoinfo.yaml
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\gfu\cache\repoinfo.yaml
+    projectPath: Library\gfu\cache\repoinfo.yaml
     originalPath: 
     status: 3
     staged: 0
-  - path: Library\metadata\03\03f04672fed7c284ba85e9debc2a5e47
-    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\03\03f04672fed7c284ba85e9debc2a5e47
-    projectPath: Library\metadata\03\03f04672fed7c284ba85e9debc2a5e47
+  - path: Library\LastSceneManagerSetup.txt
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\LastSceneManagerSetup.txt
+    projectPath: Library\LastSceneManagerSetup.txt
     originalPath: 
     status: 3
     staged: 0
-  - path: Library\metadata\20\2065e36297bdee848af4c6eb40478399
-    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\20\2065e36297bdee848af4c6eb40478399
-    projectPath: Library\metadata\20\2065e36297bdee848af4c6eb40478399
+  - path: Library\metadata\01\011979f3ae820274b97c8529337325d4
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\01\011979f3ae820274b97c8529337325d4
+    projectPath: Library\metadata\01\011979f3ae820274b97c8529337325d4
     originalPath: 
     status: 1
     staged: 0
-  - path: Library\metadata\20\2065e36297bdee848af4c6eb40478399.info
-    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\20\2065e36297bdee848af4c6eb40478399.info
-    projectPath: Library\metadata\20\2065e36297bdee848af4c6eb40478399.info
+  - path: Library\metadata\01\011979f3ae820274b97c8529337325d4.info
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\01\011979f3ae820274b97c8529337325d4.info
+    projectPath: Library\metadata\01\011979f3ae820274b97c8529337325d4.info
     originalPath: 
     status: 1
     staged: 0
-  - path: Library\metadata\69\696ca8f93dfdfb44dbbe2f639c392ea5
-    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\69\696ca8f93dfdfb44dbbe2f639c392ea5
-    projectPath: Library\metadata\69\696ca8f93dfdfb44dbbe2f639c392ea5
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\cf\cf763efef2cd7304b929f85ec6e0a66e
-    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\cf\cf763efef2cd7304b929f85ec6e0a66e
-    projectPath: Library\metadata\cf\cf763efef2cd7304b929f85ec6e0a66e
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\d1\d1710d6094ecbd24e9bb14e40783e15b
-    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\d1\d1710d6094ecbd24e9bb14e40783e15b
-    projectPath: Library\metadata\d1\d1710d6094ecbd24e9bb14e40783e15b
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\db\db82b3e364864764fbf67560a2dad24d
-    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\db\db82b3e364864764fbf67560a2dad24d
-    projectPath: Library\metadata\db\db82b3e364864764fbf67560a2dad24d
+  - path: Library\metadata\02\02758698f6605d345a67239c79c069b6
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\02\02758698f6605d345a67239c79c069b6
+    projectPath: Library\metadata\02\02758698f6605d345a67239c79c069b6
     originalPath: 
     status: 1
     staged: 0
-  - path: Library\metadata\db\db82b3e364864764fbf67560a2dad24d.info
-    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\db\db82b3e364864764fbf67560a2dad24d.info
-    projectPath: Library\metadata\db\db82b3e364864764fbf67560a2dad24d.info
+  - path: Library\metadata\02\02758698f6605d345a67239c79c069b6.info
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\02\02758698f6605d345a67239c79c069b6.info
+    projectPath: Library\metadata\02\02758698f6605d345a67239c79c069b6.info
     originalPath: 
     status: 1
     staged: 0
-  - path: Library\metadata\e4\e4da77e3fb646674dba1ef33ebd98235
-    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\e4\e4da77e3fb646674dba1ef33ebd98235
-    projectPath: Library\metadata\e4\e4da77e3fb646674dba1ef33ebd98235
+  - path: Library\metadata\03\034e51e6d8986d04795f48b487231687
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\03\034e51e6d8986d04795f48b487231687
+    projectPath: Library\metadata\03\034e51e6d8986d04795f48b487231687
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\03\034e51e6d8986d04795f48b487231687.info
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\03\034e51e6d8986d04795f48b487231687.info
+    projectPath: Library\metadata\03\034e51e6d8986d04795f48b487231687.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\03\03f452990082395449e5c3e66dd1fb96
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\03\03f452990082395449e5c3e66dd1fb96
+    projectPath: Library\metadata\03\03f452990082395449e5c3e66dd1fb96
     originalPath: 
     status: 3
+    staged: 0
+  - path: Library\metadata\06\06d796ccd85dc4c4b9c98270196715ae
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\06\06d796ccd85dc4c4b9c98270196715ae
+    projectPath: Library\metadata\06\06d796ccd85dc4c4b9c98270196715ae
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\0a\0a4e461b2cf4e484d802e723251be7c0
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\0a\0a4e461b2cf4e484d802e723251be7c0
+    projectPath: Library\metadata\0a\0a4e461b2cf4e484d802e723251be7c0
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\0a\0a4e461b2cf4e484d802e723251be7c0.info
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\0a\0a4e461b2cf4e484d802e723251be7c0.info
+    projectPath: Library\metadata\0a\0a4e461b2cf4e484d802e723251be7c0.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\0b\0b288b03da9c72b428d8397183f11126
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\0b\0b288b03da9c72b428d8397183f11126
+    projectPath: Library\metadata\0b\0b288b03da9c72b428d8397183f11126
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\0b\0b288b03da9c72b428d8397183f11126.info
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\0b\0b288b03da9c72b428d8397183f11126.info
+    projectPath: Library\metadata\0b\0b288b03da9c72b428d8397183f11126.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\0b\0b96cfde923514d4f94409c375d99959
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\0b\0b96cfde923514d4f94409c375d99959
+    projectPath: Library\metadata\0b\0b96cfde923514d4f94409c375d99959
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\0b\0b96cfde923514d4f94409c375d99959.info
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\0b\0b96cfde923514d4f94409c375d99959.info
+    projectPath: Library\metadata\0b\0b96cfde923514d4f94409c375d99959.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\0b\0bbc0ff0c73fcbe4a88035b8e54c124c
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\0b\0bbc0ff0c73fcbe4a88035b8e54c124c
+    projectPath: Library\metadata\0b\0bbc0ff0c73fcbe4a88035b8e54c124c
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\0b\0bbc0ff0c73fcbe4a88035b8e54c124c.info
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\0b\0bbc0ff0c73fcbe4a88035b8e54c124c.info
+    projectPath: Library\metadata\0b\0bbc0ff0c73fcbe4a88035b8e54c124c.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\0c\0c6c6a0e9df04f341be96e061ddbf145
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\0c\0c6c6a0e9df04f341be96e061ddbf145
+    projectPath: Library\metadata\0c\0c6c6a0e9df04f341be96e061ddbf145
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\0c\0c6c6a0e9df04f341be96e061ddbf145.info
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\0c\0c6c6a0e9df04f341be96e061ddbf145.info
+    projectPath: Library\metadata\0c\0c6c6a0e9df04f341be96e061ddbf145.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\0d\0dcfe4a250f9e9f499b4f3b32d8d81f3
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\0d\0dcfe4a250f9e9f499b4f3b32d8d81f3
+    projectPath: Library\metadata\0d\0dcfe4a250f9e9f499b4f3b32d8d81f3
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\0d\0dcfe4a250f9e9f499b4f3b32d8d81f3.info
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\0d\0dcfe4a250f9e9f499b4f3b32d8d81f3.info
+    projectPath: Library\metadata\0d\0dcfe4a250f9e9f499b4f3b32d8d81f3.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\10\108a2d4bbf26846428af8b5fbdfede1c
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\10\108a2d4bbf26846428af8b5fbdfede1c
+    projectPath: Library\metadata\10\108a2d4bbf26846428af8b5fbdfede1c
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\10\108a2d4bbf26846428af8b5fbdfede1c.info
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\10\108a2d4bbf26846428af8b5fbdfede1c.info
+    projectPath: Library\metadata\10\108a2d4bbf26846428af8b5fbdfede1c.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\10\10beb189be5370647a6afbc9f3f763a4
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\10\10beb189be5370647a6afbc9f3f763a4
+    projectPath: Library\metadata\10\10beb189be5370647a6afbc9f3f763a4
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\10\10beb189be5370647a6afbc9f3f763a4.info
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\10\10beb189be5370647a6afbc9f3f763a4.info
+    projectPath: Library\metadata\10\10beb189be5370647a6afbc9f3f763a4.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\14\149a83b3d7325574581f93b92f7e7746
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\14\149a83b3d7325574581f93b92f7e7746
+    projectPath: Library\metadata\14\149a83b3d7325574581f93b92f7e7746
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\14\149a83b3d7325574581f93b92f7e7746.info
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\14\149a83b3d7325574581f93b92f7e7746.info
+    projectPath: Library\metadata\14\149a83b3d7325574581f93b92f7e7746.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\17\179c22242d881384a9a9b7abd22a944b
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\17\179c22242d881384a9a9b7abd22a944b
+    projectPath: Library\metadata\17\179c22242d881384a9a9b7abd22a944b
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\18\1821f1f379b5c4e44a11ee82e883001b
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\18\1821f1f379b5c4e44a11ee82e883001b
+    projectPath: Library\metadata\18\1821f1f379b5c4e44a11ee82e883001b
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\18\1821f1f379b5c4e44a11ee82e883001b.info
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\18\1821f1f379b5c4e44a11ee82e883001b.info
+    projectPath: Library\metadata\18\1821f1f379b5c4e44a11ee82e883001b.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\21\21f6aea0c9b788c4b9b6275efc33d0f9
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\21\21f6aea0c9b788c4b9b6275efc33d0f9
+    projectPath: Library\metadata\21\21f6aea0c9b788c4b9b6275efc33d0f9
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\22\22463acfbb4f64946ac85bde00abea2c
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\22\22463acfbb4f64946ac85bde00abea2c
+    projectPath: Library\metadata\22\22463acfbb4f64946ac85bde00abea2c
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\22\22463acfbb4f64946ac85bde00abea2c.info
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\22\22463acfbb4f64946ac85bde00abea2c.info
+    projectPath: Library\metadata\22\22463acfbb4f64946ac85bde00abea2c.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\23\23147e3eb6060684bab673329f4bfa77
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\23\23147e3eb6060684bab673329f4bfa77
+    projectPath: Library\metadata\23\23147e3eb6060684bab673329f4bfa77
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\23\23147e3eb6060684bab673329f4bfa77.info
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\23\23147e3eb6060684bab673329f4bfa77.info
+    projectPath: Library\metadata\23\23147e3eb6060684bab673329f4bfa77.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\23\2333ad3120911894b8cb7e2d33a4e304
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\23\2333ad3120911894b8cb7e2d33a4e304
+    projectPath: Library\metadata\23\2333ad3120911894b8cb7e2d33a4e304
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\23\2333ad3120911894b8cb7e2d33a4e304.info
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\23\2333ad3120911894b8cb7e2d33a4e304.info
+    projectPath: Library\metadata\23\2333ad3120911894b8cb7e2d33a4e304.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\23\234dc7ebff095244b948288a5886c5da
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\23\234dc7ebff095244b948288a5886c5da
+    projectPath: Library\metadata\23\234dc7ebff095244b948288a5886c5da
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\23\234dc7ebff095244b948288a5886c5da.info
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\23\234dc7ebff095244b948288a5886c5da.info
+    projectPath: Library\metadata\23\234dc7ebff095244b948288a5886c5da.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\26\264365c2f4791d34e84390c2b8b24f31
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\26\264365c2f4791d34e84390c2b8b24f31
+    projectPath: Library\metadata\26\264365c2f4791d34e84390c2b8b24f31
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\26\264365c2f4791d34e84390c2b8b24f31.info
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\26\264365c2f4791d34e84390c2b8b24f31.info
+    projectPath: Library\metadata\26\264365c2f4791d34e84390c2b8b24f31.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\26\2654f19d4810209498b8cc2060519e9e
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\26\2654f19d4810209498b8cc2060519e9e
+    projectPath: Library\metadata\26\2654f19d4810209498b8cc2060519e9e
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\26\2654f19d4810209498b8cc2060519e9e.info
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\26\2654f19d4810209498b8cc2060519e9e.info
+    projectPath: Library\metadata\26\2654f19d4810209498b8cc2060519e9e.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\28\28ccd38a41e256a4e8fea96f5a8d039d
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\28\28ccd38a41e256a4e8fea96f5a8d039d
+    projectPath: Library\metadata\28\28ccd38a41e256a4e8fea96f5a8d039d
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\29\298ea2e9f387a124d9ee2b3ac6bb3a23
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\29\298ea2e9f387a124d9ee2b3ac6bb3a23
+    projectPath: Library\metadata\29\298ea2e9f387a124d9ee2b3ac6bb3a23
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\2c\2c4ed347d4ee1a3438d747596c36309e
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\2c\2c4ed347d4ee1a3438d747596c36309e
+    projectPath: Library\metadata\2c\2c4ed347d4ee1a3438d747596c36309e
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\2c\2c4ed347d4ee1a3438d747596c36309e.info
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\2c\2c4ed347d4ee1a3438d747596c36309e.info
+    projectPath: Library\metadata\2c\2c4ed347d4ee1a3438d747596c36309e.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\2d\2d3cb5d36e1758a4fb18078e6484571c
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\2d\2d3cb5d36e1758a4fb18078e6484571c
+    projectPath: Library\metadata\2d\2d3cb5d36e1758a4fb18078e6484571c
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\2d\2d3cb5d36e1758a4fb18078e6484571c.info
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\2d\2d3cb5d36e1758a4fb18078e6484571c.info
+    projectPath: Library\metadata\2d\2d3cb5d36e1758a4fb18078e6484571c.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\2d\2dc82d30627a42945ac935e5658a1d4d
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\2d\2dc82d30627a42945ac935e5658a1d4d
+    projectPath: Library\metadata\2d\2dc82d30627a42945ac935e5658a1d4d
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\2d\2dc82d30627a42945ac935e5658a1d4d.info
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\2d\2dc82d30627a42945ac935e5658a1d4d.info
+    projectPath: Library\metadata\2d\2dc82d30627a42945ac935e5658a1d4d.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\33\339ec13e94b70ca469275f6f7e29bac3
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\33\339ec13e94b70ca469275f6f7e29bac3
+    projectPath: Library\metadata\33\339ec13e94b70ca469275f6f7e29bac3
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\33\339ec13e94b70ca469275f6f7e29bac3.info
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\33\339ec13e94b70ca469275f6f7e29bac3.info
+    projectPath: Library\metadata\33\339ec13e94b70ca469275f6f7e29bac3.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\35\350a78ed8fb6190438a98b7895e5054e
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\35\350a78ed8fb6190438a98b7895e5054e
+    projectPath: Library\metadata\35\350a78ed8fb6190438a98b7895e5054e
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\35\350a78ed8fb6190438a98b7895e5054e.info
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\35\350a78ed8fb6190438a98b7895e5054e.info
+    projectPath: Library\metadata\35\350a78ed8fb6190438a98b7895e5054e.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\35\35a80721181006b41a9a1f03dd6ac05f
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\35\35a80721181006b41a9a1f03dd6ac05f
+    projectPath: Library\metadata\35\35a80721181006b41a9a1f03dd6ac05f
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\35\35a80721181006b41a9a1f03dd6ac05f.info
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\35\35a80721181006b41a9a1f03dd6ac05f.info
+    projectPath: Library\metadata\35\35a80721181006b41a9a1f03dd6ac05f.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\3a\3ac3af0756bb3654690122060f9cef08
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\3a\3ac3af0756bb3654690122060f9cef08
+    projectPath: Library\metadata\3a\3ac3af0756bb3654690122060f9cef08
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\3a\3ac3af0756bb3654690122060f9cef08.info
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\3a\3ac3af0756bb3654690122060f9cef08.info
+    projectPath: Library\metadata\3a\3ac3af0756bb3654690122060f9cef08.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\41\416b2492ca9d1b140874c7ba41cb3214
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\41\416b2492ca9d1b140874c7ba41cb3214
+    projectPath: Library\metadata\41\416b2492ca9d1b140874c7ba41cb3214
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\45\457a39782125330448afbee00a967baf
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\45\457a39782125330448afbee00a967baf
+    projectPath: Library\metadata\45\457a39782125330448afbee00a967baf
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\45\457a39782125330448afbee00a967baf.info
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\45\457a39782125330448afbee00a967baf.info
+    projectPath: Library\metadata\45\457a39782125330448afbee00a967baf.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\4f\4f4be043c2b5a1a46afe89967b785ab1
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\4f\4f4be043c2b5a1a46afe89967b785ab1
+    projectPath: Library\metadata\4f\4f4be043c2b5a1a46afe89967b785ab1
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\4f\4f4be043c2b5a1a46afe89967b785ab1.info
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\4f\4f4be043c2b5a1a46afe89967b785ab1.info
+    projectPath: Library\metadata\4f\4f4be043c2b5a1a46afe89967b785ab1.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\50\5009bf425539d77498f5db824a14dab5
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\50\5009bf425539d77498f5db824a14dab5
+    projectPath: Library\metadata\50\5009bf425539d77498f5db824a14dab5
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\51\51803f42c5ad6ed469cd71e4b4e0dec0
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\51\51803f42c5ad6ed469cd71e4b4e0dec0
+    projectPath: Library\metadata\51\51803f42c5ad6ed469cd71e4b4e0dec0
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\51\51803f42c5ad6ed469cd71e4b4e0dec0.info
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\51\51803f42c5ad6ed469cd71e4b4e0dec0.info
+    projectPath: Library\metadata\51\51803f42c5ad6ed469cd71e4b4e0dec0.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\53\5352006d1121a1b438ec436bcb2ad49c
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\53\5352006d1121a1b438ec436bcb2ad49c
+    projectPath: Library\metadata\53\5352006d1121a1b438ec436bcb2ad49c
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\53\5352006d1121a1b438ec436bcb2ad49c.info
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\53\5352006d1121a1b438ec436bcb2ad49c.info
+    projectPath: Library\metadata\53\5352006d1121a1b438ec436bcb2ad49c.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\54\54d548b1a922d54449e2bd5424597d57
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\54\54d548b1a922d54449e2bd5424597d57
+    projectPath: Library\metadata\54\54d548b1a922d54449e2bd5424597d57
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\54\54d548b1a922d54449e2bd5424597d57.info
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\54\54d548b1a922d54449e2bd5424597d57.info
+    projectPath: Library\metadata\54\54d548b1a922d54449e2bd5424597d57.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\5a\5a92045f2e5f77b479fd6bc6baa3b066
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\5a\5a92045f2e5f77b479fd6bc6baa3b066
+    projectPath: Library\metadata\5a\5a92045f2e5f77b479fd6bc6baa3b066
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\5a\5a92045f2e5f77b479fd6bc6baa3b066.info
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\5a\5a92045f2e5f77b479fd6bc6baa3b066.info
+    projectPath: Library\metadata\5a\5a92045f2e5f77b479fd6bc6baa3b066.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\5b\5bbe3e380f9dd4a42a40cfafe958e9cc
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\5b\5bbe3e380f9dd4a42a40cfafe958e9cc
+    projectPath: Library\metadata\5b\5bbe3e380f9dd4a42a40cfafe958e9cc
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\60\60ec2dfa19167834fbf25b2bced33360
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\60\60ec2dfa19167834fbf25b2bced33360
+    projectPath: Library\metadata\60\60ec2dfa19167834fbf25b2bced33360
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\61\617243c6fdcf2d246b04b3da0e06d673
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\61\617243c6fdcf2d246b04b3da0e06d673
+    projectPath: Library\metadata\61\617243c6fdcf2d246b04b3da0e06d673
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\61\617243c6fdcf2d246b04b3da0e06d673.info
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\61\617243c6fdcf2d246b04b3da0e06d673.info
+    projectPath: Library\metadata\61\617243c6fdcf2d246b04b3da0e06d673.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\64\64f4603d589ad9b4fb378d4977c03317
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\64\64f4603d589ad9b4fb378d4977c03317
+    projectPath: Library\metadata\64\64f4603d589ad9b4fb378d4977c03317
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\64\64f4603d589ad9b4fb378d4977c03317.info
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\64\64f4603d589ad9b4fb378d4977c03317.info
+    projectPath: Library\metadata\64\64f4603d589ad9b4fb378d4977c03317.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\67\6721d2f89555b80499ed48ce25e78326
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\67\6721d2f89555b80499ed48ce25e78326
+    projectPath: Library\metadata\67\6721d2f89555b80499ed48ce25e78326
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\67\6721d2f89555b80499ed48ce25e78326.info
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\67\6721d2f89555b80499ed48ce25e78326.info
+    projectPath: Library\metadata\67\6721d2f89555b80499ed48ce25e78326.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\6a\6a33a5034a1469948aa3d237cc1fdd5b
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\6a\6a33a5034a1469948aa3d237cc1fdd5b
+    projectPath: Library\metadata\6a\6a33a5034a1469948aa3d237cc1fdd5b
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\6a\6a33a5034a1469948aa3d237cc1fdd5b.info
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\6a\6a33a5034a1469948aa3d237cc1fdd5b.info
+    projectPath: Library\metadata\6a\6a33a5034a1469948aa3d237cc1fdd5b.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\6a\6a3cb4ac8fa12944ba1233cbec0e9c69
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\6a\6a3cb4ac8fa12944ba1233cbec0e9c69
+    projectPath: Library\metadata\6a\6a3cb4ac8fa12944ba1233cbec0e9c69
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\6a\6a6450d1b39d99545be383e7549fd7d0
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\6a\6a6450d1b39d99545be383e7549fd7d0
+    projectPath: Library\metadata\6a\6a6450d1b39d99545be383e7549fd7d0
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\6b\6bd48b8ad8246424db56d2beee2f8611
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\6b\6bd48b8ad8246424db56d2beee2f8611
+    projectPath: Library\metadata\6b\6bd48b8ad8246424db56d2beee2f8611
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\6d\6d8729b91e553b646abc441eefeb11ac
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\6d\6d8729b91e553b646abc441eefeb11ac
+    projectPath: Library\metadata\6d\6d8729b91e553b646abc441eefeb11ac
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\6d\6d8729b91e553b646abc441eefeb11ac.info
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\6d\6d8729b91e553b646abc441eefeb11ac.info
+    projectPath: Library\metadata\6d\6d8729b91e553b646abc441eefeb11ac.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\6e\6e629e770dbc8084185515f2d69bb428
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\6e\6e629e770dbc8084185515f2d69bb428
+    projectPath: Library\metadata\6e\6e629e770dbc8084185515f2d69bb428
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\6e\6e629e770dbc8084185515f2d69bb428.info
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\6e\6e629e770dbc8084185515f2d69bb428.info
+    projectPath: Library\metadata\6e\6e629e770dbc8084185515f2d69bb428.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\70\70322d5cca9cefa4383336c2bdab52ec
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\70\70322d5cca9cefa4383336c2bdab52ec
+    projectPath: Library\metadata\70\70322d5cca9cefa4383336c2bdab52ec
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\70\70322d5cca9cefa4383336c2bdab52ec.info
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\70\70322d5cca9cefa4383336c2bdab52ec.info
+    projectPath: Library\metadata\70\70322d5cca9cefa4383336c2bdab52ec.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\72\72cec98c07b5d364bb567b5579e4ec7e
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\72\72cec98c07b5d364bb567b5579e4ec7e
+    projectPath: Library\metadata\72\72cec98c07b5d364bb567b5579e4ec7e
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\72\72cec98c07b5d364bb567b5579e4ec7e.info
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\72\72cec98c07b5d364bb567b5579e4ec7e.info
+    projectPath: Library\metadata\72\72cec98c07b5d364bb567b5579e4ec7e.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\78\78b3d2607f4c8c843b131bd40468e68a
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\78\78b3d2607f4c8c843b131bd40468e68a
+    projectPath: Library\metadata\78\78b3d2607f4c8c843b131bd40468e68a
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\78\78b3d2607f4c8c843b131bd40468e68a.info
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\78\78b3d2607f4c8c843b131bd40468e68a.info
+    projectPath: Library\metadata\78\78b3d2607f4c8c843b131bd40468e68a.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\80\805df92cec033ed4f8591ada0f5d7687
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\80\805df92cec033ed4f8591ada0f5d7687
+    projectPath: Library\metadata\80\805df92cec033ed4f8591ada0f5d7687
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\80\805df92cec033ed4f8591ada0f5d7687.info
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\80\805df92cec033ed4f8591ada0f5d7687.info
+    projectPath: Library\metadata\80\805df92cec033ed4f8591ada0f5d7687.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\87\870b1aab6db6b3a4793e20ba16c84c6d
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\87\870b1aab6db6b3a4793e20ba16c84c6d
+    projectPath: Library\metadata\87\870b1aab6db6b3a4793e20ba16c84c6d
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\87\870b1aab6db6b3a4793e20ba16c84c6d.info
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\87\870b1aab6db6b3a4793e20ba16c84c6d.info
+    projectPath: Library\metadata\87\870b1aab6db6b3a4793e20ba16c84c6d.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\87\879451a5e2214f143a7edf5dd3e32020
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\87\879451a5e2214f143a7edf5dd3e32020
+    projectPath: Library\metadata\87\879451a5e2214f143a7edf5dd3e32020
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\87\879451a5e2214f143a7edf5dd3e32020.info
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\87\879451a5e2214f143a7edf5dd3e32020.info
+    projectPath: Library\metadata\87\879451a5e2214f143a7edf5dd3e32020.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\87\87cc3a156649b8547ab7913e14f2dd4c
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\87\87cc3a156649b8547ab7913e14f2dd4c
+    projectPath: Library\metadata\87\87cc3a156649b8547ab7913e14f2dd4c
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\87\87cc3a156649b8547ab7913e14f2dd4c.info
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\87\87cc3a156649b8547ab7913e14f2dd4c.info
+    projectPath: Library\metadata\87\87cc3a156649b8547ab7913e14f2dd4c.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\8b\8b2e5fb6effaf264eb694f41cf93dae6
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\8b\8b2e5fb6effaf264eb694f41cf93dae6
+    projectPath: Library\metadata\8b\8b2e5fb6effaf264eb694f41cf93dae6
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\8b\8b2e5fb6effaf264eb694f41cf93dae6.info
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\8b\8b2e5fb6effaf264eb694f41cf93dae6.info
+    projectPath: Library\metadata\8b\8b2e5fb6effaf264eb694f41cf93dae6.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\8d\8d3a8767c49890047888854518822b77
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\8d\8d3a8767c49890047888854518822b77
+    projectPath: Library\metadata\8d\8d3a8767c49890047888854518822b77
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\8d\8d3a8767c49890047888854518822b77.info
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\8d\8d3a8767c49890047888854518822b77.info
+    projectPath: Library\metadata\8d\8d3a8767c49890047888854518822b77.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\8d\8d81cc4a7694b6548b26e04b8efd1b3d
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\8d\8d81cc4a7694b6548b26e04b8efd1b3d
+    projectPath: Library\metadata\8d\8d81cc4a7694b6548b26e04b8efd1b3d
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\8d\8d81cc4a7694b6548b26e04b8efd1b3d.info
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\8d\8d81cc4a7694b6548b26e04b8efd1b3d.info
+    projectPath: Library\metadata\8d\8d81cc4a7694b6548b26e04b8efd1b3d.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\8f\8f2875655f485be4d8438962a9d306bc
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\8f\8f2875655f485be4d8438962a9d306bc
+    projectPath: Library\metadata\8f\8f2875655f485be4d8438962a9d306bc
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\8f\8f2875655f485be4d8438962a9d306bc.info
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\8f\8f2875655f485be4d8438962a9d306bc.info
+    projectPath: Library\metadata\8f\8f2875655f485be4d8438962a9d306bc.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\8f\8f611da60097c85438a2947021f045cf
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\8f\8f611da60097c85438a2947021f045cf
+    projectPath: Library\metadata\8f\8f611da60097c85438a2947021f045cf
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\92\926db6568fbb04a48a02665c8f475fcd
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\92\926db6568fbb04a48a02665c8f475fcd
+    projectPath: Library\metadata\92\926db6568fbb04a48a02665c8f475fcd
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\92\926db6568fbb04a48a02665c8f475fcd.info
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\92\926db6568fbb04a48a02665c8f475fcd.info
+    projectPath: Library\metadata\92\926db6568fbb04a48a02665c8f475fcd.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\94\94280c62f18e3154da04ee1a744c90a7
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\94\94280c62f18e3154da04ee1a744c90a7
+    projectPath: Library\metadata\94\94280c62f18e3154da04ee1a744c90a7
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\94\94280c62f18e3154da04ee1a744c90a7.info
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\94\94280c62f18e3154da04ee1a744c90a7.info
+    projectPath: Library\metadata\94\94280c62f18e3154da04ee1a744c90a7.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\97\977b6d7a9501307478a6fab8d0743ae9
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\97\977b6d7a9501307478a6fab8d0743ae9
+    projectPath: Library\metadata\97\977b6d7a9501307478a6fab8d0743ae9
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\97\977b6d7a9501307478a6fab8d0743ae9.info
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\97\977b6d7a9501307478a6fab8d0743ae9.info
+    projectPath: Library\metadata\97\977b6d7a9501307478a6fab8d0743ae9.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\9a\9a8ab42d6f1b3a94e92fe881e0e867c6
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\9a\9a8ab42d6f1b3a94e92fe881e0e867c6
+    projectPath: Library\metadata\9a\9a8ab42d6f1b3a94e92fe881e0e867c6
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\9a\9a8ab42d6f1b3a94e92fe881e0e867c6.info
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\9a\9a8ab42d6f1b3a94e92fe881e0e867c6.info
+    projectPath: Library\metadata\9a\9a8ab42d6f1b3a94e92fe881e0e867c6.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\9b\9bc423992dbbf6c469f5c767af90da51
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\9b\9bc423992dbbf6c469f5c767af90da51
+    projectPath: Library\metadata\9b\9bc423992dbbf6c469f5c767af90da51
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\9b\9bc423992dbbf6c469f5c767af90da51.info
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\9b\9bc423992dbbf6c469f5c767af90da51.info
+    projectPath: Library\metadata\9b\9bc423992dbbf6c469f5c767af90da51.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\a1\a1bde096ad2e87342930da8beb2b8818
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\a1\a1bde096ad2e87342930da8beb2b8818
+    projectPath: Library\metadata\a1\a1bde096ad2e87342930da8beb2b8818
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\a1\a1bde096ad2e87342930da8beb2b8818.info
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\a1\a1bde096ad2e87342930da8beb2b8818.info
+    projectPath: Library\metadata\a1\a1bde096ad2e87342930da8beb2b8818.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\a4\a4a9327e98855524c846cc8e2f559e96
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\a4\a4a9327e98855524c846cc8e2f559e96
+    projectPath: Library\metadata\a4\a4a9327e98855524c846cc8e2f559e96
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\a4\a4a9327e98855524c846cc8e2f559e96.info
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\a4\a4a9327e98855524c846cc8e2f559e96.info
+    projectPath: Library\metadata\a4\a4a9327e98855524c846cc8e2f559e96.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\a4\a4a9327e98855524c846cc8e2f559e96.resource
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\a4\a4a9327e98855524c846cc8e2f559e96.resource
+    projectPath: Library\metadata\a4\a4a9327e98855524c846cc8e2f559e96.resource
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\a5\a54e66c3f9f98534fb19d4fea9cd1962
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\a5\a54e66c3f9f98534fb19d4fea9cd1962
+    projectPath: Library\metadata\a5\a54e66c3f9f98534fb19d4fea9cd1962
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\a5\a54e66c3f9f98534fb19d4fea9cd1962.info
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\a5\a54e66c3f9f98534fb19d4fea9cd1962.info
+    projectPath: Library\metadata\a5\a54e66c3f9f98534fb19d4fea9cd1962.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\aa\aaf860cd8993a6c4b984c97449417579
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\aa\aaf860cd8993a6c4b984c97449417579
+    projectPath: Library\metadata\aa\aaf860cd8993a6c4b984c97449417579
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\aa\aaf860cd8993a6c4b984c97449417579.info
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\aa\aaf860cd8993a6c4b984c97449417579.info
+    projectPath: Library\metadata\aa\aaf860cd8993a6c4b984c97449417579.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\af\af266ecce698e1f488a4dcefb13fc43f
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\af\af266ecce698e1f488a4dcefb13fc43f
+    projectPath: Library\metadata\af\af266ecce698e1f488a4dcefb13fc43f
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\af\af266ecce698e1f488a4dcefb13fc43f.info
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\af\af266ecce698e1f488a4dcefb13fc43f.info
+    projectPath: Library\metadata\af\af266ecce698e1f488a4dcefb13fc43f.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\af\af4fe9730068e18419ff84a958ba6744
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\af\af4fe9730068e18419ff84a958ba6744
+    projectPath: Library\metadata\af\af4fe9730068e18419ff84a958ba6744
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\af\af4fe9730068e18419ff84a958ba6744.info
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\af\af4fe9730068e18419ff84a958ba6744.info
+    projectPath: Library\metadata\af\af4fe9730068e18419ff84a958ba6744.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\b2\b2e8413438f79464aa69948979b150a8
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\b2\b2e8413438f79464aa69948979b150a8
+    projectPath: Library\metadata\b2\b2e8413438f79464aa69948979b150a8
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\b6\b6a4fc1c8cdd50a44b3d036e8258689d
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\b6\b6a4fc1c8cdd50a44b3d036e8258689d
+    projectPath: Library\metadata\b6\b6a4fc1c8cdd50a44b3d036e8258689d
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\b6\b6a4fc1c8cdd50a44b3d036e8258689d.info
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\b6\b6a4fc1c8cdd50a44b3d036e8258689d.info
+    projectPath: Library\metadata\b6\b6a4fc1c8cdd50a44b3d036e8258689d.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\b8\b8254e3f20ef72d42af39930cd133988
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\b8\b8254e3f20ef72d42af39930cd133988
+    projectPath: Library\metadata\b8\b8254e3f20ef72d42af39930cd133988
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\b8\b8254e3f20ef72d42af39930cd133988.info
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\b8\b8254e3f20ef72d42af39930cd133988.info
+    projectPath: Library\metadata\b8\b8254e3f20ef72d42af39930cd133988.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\bc\bc0290eb454386141a1f4a4cf6a5c25b
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\bc\bc0290eb454386141a1f4a4cf6a5c25b
+    projectPath: Library\metadata\bc\bc0290eb454386141a1f4a4cf6a5c25b
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\bc\bc0290eb454386141a1f4a4cf6a5c25b.info
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\bc\bc0290eb454386141a1f4a4cf6a5c25b.info
+    projectPath: Library\metadata\bc\bc0290eb454386141a1f4a4cf6a5c25b.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\bc\bc7f73aad75bda84b91b729bcddc4717
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\bc\bc7f73aad75bda84b91b729bcddc4717
+    projectPath: Library\metadata\bc\bc7f73aad75bda84b91b729bcddc4717
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\bc\bc7f73aad75bda84b91b729bcddc4717.info
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\bc\bc7f73aad75bda84b91b729bcddc4717.info
+    projectPath: Library\metadata\bc\bc7f73aad75bda84b91b729bcddc4717.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\bd\bdcb8291e870d534ea3f1d9cae98d32b
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\bd\bdcb8291e870d534ea3f1d9cae98d32b
+    projectPath: Library\metadata\bd\bdcb8291e870d534ea3f1d9cae98d32b
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\bd\bdcb8291e870d534ea3f1d9cae98d32b.info
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\bd\bdcb8291e870d534ea3f1d9cae98d32b.info
+    projectPath: Library\metadata\bd\bdcb8291e870d534ea3f1d9cae98d32b.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\c0\c0752d6a2d871854eb3657ea338d9b66
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\c0\c0752d6a2d871854eb3657ea338d9b66
+    projectPath: Library\metadata\c0\c0752d6a2d871854eb3657ea338d9b66
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\c0\c0752d6a2d871854eb3657ea338d9b66.info
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\c0\c0752d6a2d871854eb3657ea338d9b66.info
+    projectPath: Library\metadata\c0\c0752d6a2d871854eb3657ea338d9b66.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\c2\c2204c8be58cfc341a8cc5f6d3d0897e
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\c2\c2204c8be58cfc341a8cc5f6d3d0897e
+    projectPath: Library\metadata\c2\c2204c8be58cfc341a8cc5f6d3d0897e
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\c2\c2204c8be58cfc341a8cc5f6d3d0897e.info
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\c2\c2204c8be58cfc341a8cc5f6d3d0897e.info
+    projectPath: Library\metadata\c2\c2204c8be58cfc341a8cc5f6d3d0897e.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\c3\c329e31cd338d284cb61fd4048be3047
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\c3\c329e31cd338d284cb61fd4048be3047
+    projectPath: Library\metadata\c3\c329e31cd338d284cb61fd4048be3047
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\c3\c329e31cd338d284cb61fd4048be3047.info
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\c3\c329e31cd338d284cb61fd4048be3047.info
+    projectPath: Library\metadata\c3\c329e31cd338d284cb61fd4048be3047.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\c9\c9fda59c7a8ae6541ba43453ee86c60e
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\c9\c9fda59c7a8ae6541ba43453ee86c60e
+    projectPath: Library\metadata\c9\c9fda59c7a8ae6541ba43453ee86c60e
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\c9\c9fda59c7a8ae6541ba43453ee86c60e.info
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\c9\c9fda59c7a8ae6541ba43453ee86c60e.info
+    projectPath: Library\metadata\c9\c9fda59c7a8ae6541ba43453ee86c60e.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\cc\cc5b20b4307519e40bdcc830c0b39d44
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\cc\cc5b20b4307519e40bdcc830c0b39d44
+    projectPath: Library\metadata\cc\cc5b20b4307519e40bdcc830c0b39d44
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\cc\cc5b20b4307519e40bdcc830c0b39d44.info
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\cc\cc5b20b4307519e40bdcc830c0b39d44.info
+    projectPath: Library\metadata\cc\cc5b20b4307519e40bdcc830c0b39d44.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\cd\cdd71635203c8ed47a18dcefce87463e
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\cd\cdd71635203c8ed47a18dcefce87463e
+    projectPath: Library\metadata\cd\cdd71635203c8ed47a18dcefce87463e
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\d7\d775a3112327f234c884d35e82436c83
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\d7\d775a3112327f234c884d35e82436c83
+    projectPath: Library\metadata\d7\d775a3112327f234c884d35e82436c83
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\d7\d775a3112327f234c884d35e82436c83.info
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\d7\d775a3112327f234c884d35e82436c83.info
+    projectPath: Library\metadata\d7\d775a3112327f234c884d35e82436c83.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\da\da3d18c3ad8d31945abc8592ac7d3693
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\da\da3d18c3ad8d31945abc8592ac7d3693
+    projectPath: Library\metadata\da\da3d18c3ad8d31945abc8592ac7d3693
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\da\da3d18c3ad8d31945abc8592ac7d3693.info
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\da\da3d18c3ad8d31945abc8592ac7d3693.info
+    projectPath: Library\metadata\da\da3d18c3ad8d31945abc8592ac7d3693.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\dd\dd2bbffcc21c7c742b0934307e1090a0
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\dd\dd2bbffcc21c7c742b0934307e1090a0
+    projectPath: Library\metadata\dd\dd2bbffcc21c7c742b0934307e1090a0
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\dd\dd2bbffcc21c7c742b0934307e1090a0.info
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\dd\dd2bbffcc21c7c742b0934307e1090a0.info
+    projectPath: Library\metadata\dd\dd2bbffcc21c7c742b0934307e1090a0.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\e0\e021c1a7a552c5a44a48282c6f566418
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\e0\e021c1a7a552c5a44a48282c6f566418
+    projectPath: Library\metadata\e0\e021c1a7a552c5a44a48282c6f566418
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\e0\e021c1a7a552c5a44a48282c6f566418.info
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\e0\e021c1a7a552c5a44a48282c6f566418.info
+    projectPath: Library\metadata\e0\e021c1a7a552c5a44a48282c6f566418.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\e0\e0b186a53bbd65f498681cafa278d094
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\e0\e0b186a53bbd65f498681cafa278d094
+    projectPath: Library\metadata\e0\e0b186a53bbd65f498681cafa278d094
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\e0\e0b186a53bbd65f498681cafa278d094.info
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\e0\e0b186a53bbd65f498681cafa278d094.info
+    projectPath: Library\metadata\e0\e0b186a53bbd65f498681cafa278d094.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\e8\e80bf5945c9e01b4a8180c7fa7860a0f
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\e8\e80bf5945c9e01b4a8180c7fa7860a0f
+    projectPath: Library\metadata\e8\e80bf5945c9e01b4a8180c7fa7860a0f
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\e8\e80bf5945c9e01b4a8180c7fa7860a0f.info
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\e8\e80bf5945c9e01b4a8180c7fa7860a0f.info
+    projectPath: Library\metadata\e8\e80bf5945c9e01b4a8180c7fa7860a0f.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\ee\eec59a6c009a8e441b905f5da2999837
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\ee\eec59a6c009a8e441b905f5da2999837
+    projectPath: Library\metadata\ee\eec59a6c009a8e441b905f5da2999837
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\ee\eec59a6c009a8e441b905f5da2999837.info
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\ee\eec59a6c009a8e441b905f5da2999837.info
+    projectPath: Library\metadata\ee\eec59a6c009a8e441b905f5da2999837.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\f1\f10a79f37ff522b4280e2844332bef77
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\f1\f10a79f37ff522b4280e2844332bef77
+    projectPath: Library\metadata\f1\f10a79f37ff522b4280e2844332bef77
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\f1\f10a79f37ff522b4280e2844332bef77.info
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\f1\f10a79f37ff522b4280e2844332bef77.info
+    projectPath: Library\metadata\f1\f10a79f37ff522b4280e2844332bef77.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\f2\f2dacaa4335515b4f9c9e182642fcf8a
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\f2\f2dacaa4335515b4f9c9e182642fcf8a
+    projectPath: Library\metadata\f2\f2dacaa4335515b4f9c9e182642fcf8a
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\f2\f2dacaa4335515b4f9c9e182642fcf8a.info
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\f2\f2dacaa4335515b4f9c9e182642fcf8a.info
+    projectPath: Library\metadata\f2\f2dacaa4335515b4f9c9e182642fcf8a.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\f3\f3dd62699811b074da1614883aa97091
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\f3\f3dd62699811b074da1614883aa97091
+    projectPath: Library\metadata\f3\f3dd62699811b074da1614883aa97091
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\f3\f3dd62699811b074da1614883aa97091.info
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\f3\f3dd62699811b074da1614883aa97091.info
+    projectPath: Library\metadata\f3\f3dd62699811b074da1614883aa97091.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\f6\f604b43e09a6b14449810bfb51736fef
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\f6\f604b43e09a6b14449810bfb51736fef
+    projectPath: Library\metadata\f6\f604b43e09a6b14449810bfb51736fef
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\f6\f604b43e09a6b14449810bfb51736fef.info
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\f6\f604b43e09a6b14449810bfb51736fef.info
+    projectPath: Library\metadata\f6\f604b43e09a6b14449810bfb51736fef.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\f6\f6beb56c5f5b3294c9c6339ed839ba9f
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\f6\f6beb56c5f5b3294c9c6339ed839ba9f
+    projectPath: Library\metadata\f6\f6beb56c5f5b3294c9c6339ed839ba9f
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\f6\f6beb56c5f5b3294c9c6339ed839ba9f.info
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\f6\f6beb56c5f5b3294c9c6339ed839ba9f.info
+    projectPath: Library\metadata\f6\f6beb56c5f5b3294c9c6339ed839ba9f.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\f8\f832b09c86bd81e4f91beb978de1ae75
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\f8\f832b09c86bd81e4f91beb978de1ae75
+    projectPath: Library\metadata\f8\f832b09c86bd81e4f91beb978de1ae75
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\f8\f832b09c86bd81e4f91beb978de1ae75.info
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\f8\f832b09c86bd81e4f91beb978de1ae75.info
+    projectPath: Library\metadata\f8\f832b09c86bd81e4f91beb978de1ae75.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\f8\f8efad34b6fb67641a44679362c8f942
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\f8\f8efad34b6fb67641a44679362c8f942
+    projectPath: Library\metadata\f8\f8efad34b6fb67641a44679362c8f942
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\f8\f8efad34b6fb67641a44679362c8f942.info
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\f8\f8efad34b6fb67641a44679362c8f942.info
+    projectPath: Library\metadata\f8\f8efad34b6fb67641a44679362c8f942.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\f9\f9f38f77edcc4364bbe69808863d0c83
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\f9\f9f38f77edcc4364bbe69808863d0c83
+    projectPath: Library\metadata\f9\f9f38f77edcc4364bbe69808863d0c83
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\f9\f9f38f77edcc4364bbe69808863d0c83.info
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\f9\f9f38f77edcc4364bbe69808863d0c83.info
+    projectPath: Library\metadata\f9\f9f38f77edcc4364bbe69808863d0c83.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\fe\fea95a8674a12ca469d953eefadb847c
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\fe\fea95a8674a12ca469d953eefadb847c
+    projectPath: Library\metadata\fe\fea95a8674a12ca469d953eefadb847c
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\ff\ff721caafe458664e9f2bcfa423df5a9
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\ff\ff721caafe458664e9f2bcfa423df5a9
+    projectPath: Library\metadata\ff\ff721caafe458664e9f2bcfa423df5a9
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\ff\ff721caafe458664e9f2bcfa423df5a9.info
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\metadata\ff\ff721caafe458664e9f2bcfa423df5a9.info
+    projectPath: Library\metadata\ff\ff721caafe458664e9f2bcfa423df5a9.info
+    originalPath: 
+    status: 1
     staged: 0
   - path: Library\ScriptAssemblies\Assembly-CSharp.dll
     fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\ScriptAssemblies\Assembly-CSharp.dll
@@ -208,15 +2365,453 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
+  - path: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+    projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\ScriptAssemblies\BuiltinAssemblies.stamp
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\ScriptAssemblies\BuiltinAssemblies.stamp
+    projectPath: Library\ScriptAssemblies\BuiltinAssemblies.stamp
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
+    projectPath: Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\ScriptAssemblies\Unity.TextMeshPro.dll
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.dll
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\ShaderCache.db
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\ShaderCache.db
+    projectPath: Library\ShaderCache.db
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\ShaderCache\0\079efe79ab3ebb893b9a2e1e26fbfe4e.bin
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\ShaderCache\0\079efe79ab3ebb893b9a2e1e26fbfe4e.bin
+    projectPath: Library\ShaderCache\0\079efe79ab3ebb893b9a2e1e26fbfe4e.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\ShaderCache\0\0b476b7f5f13f776b77d8d4630fc38dd.bin
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\ShaderCache\0\0b476b7f5f13f776b77d8d4630fc38dd.bin
+    projectPath: Library\ShaderCache\0\0b476b7f5f13f776b77d8d4630fc38dd.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\ShaderCache\2\299b87d9151f8b0ba09f08980e2b4967.bin
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\ShaderCache\2\299b87d9151f8b0ba09f08980e2b4967.bin
+    projectPath: Library\ShaderCache\2\299b87d9151f8b0ba09f08980e2b4967.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\ShaderCache\3\31746d4006542e6438f3bf88430eb3ce.bin
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\ShaderCache\3\31746d4006542e6438f3bf88430eb3ce.bin
+    projectPath: Library\ShaderCache\3\31746d4006542e6438f3bf88430eb3ce.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\ShaderCache\3\33a0424c6d4a6439923ed27e5c86c8ed.bin
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\ShaderCache\3\33a0424c6d4a6439923ed27e5c86c8ed.bin
+    projectPath: Library\ShaderCache\3\33a0424c6d4a6439923ed27e5c86c8ed.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\ShaderCache\4\480bfd5e43faf3fe2643dc55682da942.bin
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\ShaderCache\4\480bfd5e43faf3fe2643dc55682da942.bin
+    projectPath: Library\ShaderCache\4\480bfd5e43faf3fe2643dc55682da942.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\ShaderCache\4\4d072068375d4004590b08bacd4de8ea.bin
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\ShaderCache\4\4d072068375d4004590b08bacd4de8ea.bin
+    projectPath: Library\ShaderCache\4\4d072068375d4004590b08bacd4de8ea.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\ShaderCache\5\50754c93c537bf87944a40f60c9f9260.bin
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\ShaderCache\5\50754c93c537bf87944a40f60c9f9260.bin
+    projectPath: Library\ShaderCache\5\50754c93c537bf87944a40f60c9f9260.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\ShaderCache\5\56abac5fb202afcab7fbed13ba7141b0.bin
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\ShaderCache\5\56abac5fb202afcab7fbed13ba7141b0.bin
+    projectPath: Library\ShaderCache\5\56abac5fb202afcab7fbed13ba7141b0.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\ShaderCache\5\57a3883b6361a19f39d427fdee83192f.bin
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\ShaderCache\5\57a3883b6361a19f39d427fdee83192f.bin
+    projectPath: Library\ShaderCache\5\57a3883b6361a19f39d427fdee83192f.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\ShaderCache\5\5deecfd94fb405aa844df774ea28fc65.bin
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\ShaderCache\5\5deecfd94fb405aa844df774ea28fc65.bin
+    projectPath: Library\ShaderCache\5\5deecfd94fb405aa844df774ea28fc65.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\ShaderCache\7\7fd900c8694275bc99af1641c3d39f12.bin
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\ShaderCache\7\7fd900c8694275bc99af1641c3d39f12.bin
+    projectPath: Library\ShaderCache\7\7fd900c8694275bc99af1641c3d39f12.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\ShaderCache\8\8d474157e63d418384a999426088fe05.bin
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\ShaderCache\8\8d474157e63d418384a999426088fe05.bin
+    projectPath: Library\ShaderCache\8\8d474157e63d418384a999426088fe05.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\ShaderCache\9\949acdc0b57769e28734f18d12c963ad.bin
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\ShaderCache\9\949acdc0b57769e28734f18d12c963ad.bin
+    projectPath: Library\ShaderCache\9\949acdc0b57769e28734f18d12c963ad.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\ShaderCache\9\95b6f04f898381b676a3b34639d093e0.bin
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\ShaderCache\9\95b6f04f898381b676a3b34639d093e0.bin
+    projectPath: Library\ShaderCache\9\95b6f04f898381b676a3b34639d093e0.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\ShaderCache\9\97abc46b5363b2716ab85a1bac658403.bin
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\ShaderCache\9\97abc46b5363b2716ab85a1bac658403.bin
+    projectPath: Library\ShaderCache\9\97abc46b5363b2716ab85a1bac658403.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\ShaderCache\b\b1d5c3e748021f736e8efd167205f1c1.bin
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\ShaderCache\b\b1d5c3e748021f736e8efd167205f1c1.bin
+    projectPath: Library\ShaderCache\b\b1d5c3e748021f736e8efd167205f1c1.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\ShaderCache\b\b33d2d08945b178e7207e33733767598.bin
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\ShaderCache\b\b33d2d08945b178e7207e33733767598.bin
+    projectPath: Library\ShaderCache\b\b33d2d08945b178e7207e33733767598.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\ShaderCache\b\baf087fc21d918a565e73efac50ed439.bin
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\ShaderCache\b\baf087fc21d918a565e73efac50ed439.bin
+    projectPath: Library\ShaderCache\b\baf087fc21d918a565e73efac50ed439.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\ShaderCache\c\c5ea177fe7e5840e7b54f2f3567eee36.bin
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\ShaderCache\c\c5ea177fe7e5840e7b54f2f3567eee36.bin
+    projectPath: Library\ShaderCache\c\c5ea177fe7e5840e7b54f2f3567eee36.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\ShaderCache\c\c7459f6ad30f192a17c119fb1579feb2.bin
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\ShaderCache\c\c7459f6ad30f192a17c119fb1579feb2.bin
+    projectPath: Library\ShaderCache\c\c7459f6ad30f192a17c119fb1579feb2.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\ShaderCache\e\e37bf236c2a74ec8940f47cca1e68c14.bin
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\ShaderCache\e\e37bf236c2a74ec8940f47cca1e68c14.bin
+    projectPath: Library\ShaderCache\e\e37bf236c2a74ec8940f47cca1e68c14.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\ShaderCache\e\ef5ba5864d94747091006936fc880ade.bin
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\ShaderCache\e\ef5ba5864d94747091006936fc880ade.bin
+    projectPath: Library\ShaderCache\e\ef5ba5864d94747091006936fc880ade.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\ShaderCache\e\efa3ede73110cfd0704f404b44d7ee34.bin
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\ShaderCache\e\efa3ede73110cfd0704f404b44d7ee34.bin
+    projectPath: Library\ShaderCache\e\efa3ede73110cfd0704f404b44d7ee34.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\ShaderCache\f\f7051b050b0a1dcd6b6c1d4a29f52ed9.bin
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\ShaderCache\f\f7051b050b0a1dcd6b6c1d4a29f52ed9.bin
+    projectPath: Library\ShaderCache\f\f7051b050b0a1dcd6b6c1d4a29f52ed9.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\ShaderCache\f\ff1073c99117e0140a4d4f2ab14486cd.bin
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\ShaderCache\f\ff1073c99117e0140a4d4f2ab14486cd.bin
+    projectPath: Library\ShaderCache\f\ff1073c99117e0140a4d4f2ab14486cd.bin
+    originalPath: 
+    status: 1
+    staged: 0
   - path: Library\shadercompiler-UnityShaderCompiler.exe0.log
     fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\shadercompiler-UnityShaderCompiler.exe0.log
     projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
     originalPath: 
     status: 3
     staged: 0
-  - path: Library\StateCache\Hierarchy\7b4aab-2065e36297bdee848a.json
-    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\StateCache\Hierarchy\7b4aab-2065e36297bdee848a.json
-    projectPath: Library\StateCache\Hierarchy\7b4aab-2065e36297bdee848a.json
+  - path: Library\StateCache\Hierarchy\7b4aab-03a4a1935a9f4454c8.json
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\StateCache\Hierarchy\7b4aab-03a4a1935a9f4454c8.json
+    projectPath: Library\StateCache\Hierarchy\7b4aab-03a4a1935a9f4454c8.json
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\StateCache\Hierarchy\7b4aab-06d796ccd85dc4c4b9.json
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\StateCache\Hierarchy\7b4aab-06d796ccd85dc4c4b9.json
+    projectPath: Library\StateCache\Hierarchy\7b4aab-06d796ccd85dc4c4b9.json
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\StateCache\Hierarchy\7b4aab-084c6a87873fd6e4da.json
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\StateCache\Hierarchy\7b4aab-084c6a87873fd6e4da.json
+    projectPath: Library\StateCache\Hierarchy\7b4aab-084c6a87873fd6e4da.json
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\StateCache\Hierarchy\7b4aab-1ae4db7b36e51124b8.json
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\StateCache\Hierarchy\7b4aab-1ae4db7b36e51124b8.json
+    projectPath: Library\StateCache\Hierarchy\7b4aab-1ae4db7b36e51124b8.json
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\StateCache\Hierarchy\7b4aab-21f6aea0c9b788c4b9.json
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\StateCache\Hierarchy\7b4aab-21f6aea0c9b788c4b9.json
+    projectPath: Library\StateCache\Hierarchy\7b4aab-21f6aea0c9b788c4b9.json
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\StateCache\Hierarchy\7b4aab-234dc7ebff095244b9.json
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\StateCache\Hierarchy\7b4aab-234dc7ebff095244b9.json
+    projectPath: Library\StateCache\Hierarchy\7b4aab-234dc7ebff095244b9.json
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\StateCache\Hierarchy\7b4aab-28ccd38a41e256a4e8.json
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\StateCache\Hierarchy\7b4aab-28ccd38a41e256a4e8.json
+    projectPath: Library\StateCache\Hierarchy\7b4aab-28ccd38a41e256a4e8.json
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\StateCache\Hierarchy\7b4aab-298ea2e9f387a124d9.json
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\StateCache\Hierarchy\7b4aab-298ea2e9f387a124d9.json
+    projectPath: Library\StateCache\Hierarchy\7b4aab-298ea2e9f387a124d9.json
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\StateCache\Hierarchy\7b4aab-30b4cc2728d8cec499.json
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\StateCache\Hierarchy\7b4aab-30b4cc2728d8cec499.json
+    projectPath: Library\StateCache\Hierarchy\7b4aab-30b4cc2728d8cec499.json
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\StateCache\Hierarchy\7b4aab-416b2492ca9d1b1408.json
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\StateCache\Hierarchy\7b4aab-416b2492ca9d1b1408.json
+    projectPath: Library\StateCache\Hierarchy\7b4aab-416b2492ca9d1b1408.json
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\StateCache\Hierarchy\7b4aab-42f257b24c959a4479.json
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\StateCache\Hierarchy\7b4aab-42f257b24c959a4479.json
+    projectPath: Library\StateCache\Hierarchy\7b4aab-42f257b24c959a4479.json
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\StateCache\Hierarchy\7b4aab-4bf22a1d8d9e7724b9.json
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\StateCache\Hierarchy\7b4aab-4bf22a1d8d9e7724b9.json
+    projectPath: Library\StateCache\Hierarchy\7b4aab-4bf22a1d8d9e7724b9.json
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\StateCache\Hierarchy\7b4aab-4ecfa3d3919108f4fb.json
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\StateCache\Hierarchy\7b4aab-4ecfa3d3919108f4fb.json
+    projectPath: Library\StateCache\Hierarchy\7b4aab-4ecfa3d3919108f4fb.json
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\StateCache\Hierarchy\7b4aab-4f4be043c2b5a1a46a.json
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\StateCache\Hierarchy\7b4aab-4f4be043c2b5a1a46a.json
+    projectPath: Library\StateCache\Hierarchy\7b4aab-4f4be043c2b5a1a46a.json
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\StateCache\Hierarchy\7b4aab-5009bf425539d77498.json
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\StateCache\Hierarchy\7b4aab-5009bf425539d77498.json
+    projectPath: Library\StateCache\Hierarchy\7b4aab-5009bf425539d77498.json
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\StateCache\Hierarchy\7b4aab-54d548b1a922d54449.json
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\StateCache\Hierarchy\7b4aab-54d548b1a922d54449.json
+    projectPath: Library\StateCache\Hierarchy\7b4aab-54d548b1a922d54449.json
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\StateCache\Hierarchy\7b4aab-6890a03af913b87409.json
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\StateCache\Hierarchy\7b4aab-6890a03af913b87409.json
+    projectPath: Library\StateCache\Hierarchy\7b4aab-6890a03af913b87409.json
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\StateCache\Hierarchy\7b4aab-6a3cb4ac8fa12944ba.json
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\StateCache\Hierarchy\7b4aab-6a3cb4ac8fa12944ba.json
+    projectPath: Library\StateCache\Hierarchy\7b4aab-6a3cb4ac8fa12944ba.json
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\StateCache\Hierarchy\7b4aab-6a6450d1b39d99545b.json
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\StateCache\Hierarchy\7b4aab-6a6450d1b39d99545b.json
+    projectPath: Library\StateCache\Hierarchy\7b4aab-6a6450d1b39d99545b.json
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\StateCache\Hierarchy\7b4aab-6bd48b8ad8246424db.json
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\StateCache\Hierarchy\7b4aab-6bd48b8ad8246424db.json
+    projectPath: Library\StateCache\Hierarchy\7b4aab-6bd48b8ad8246424db.json
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\StateCache\Hierarchy\7b4aab-7075bd5fe148018469.json
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\StateCache\Hierarchy\7b4aab-7075bd5fe148018469.json
+    projectPath: Library\StateCache\Hierarchy\7b4aab-7075bd5fe148018469.json
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\StateCache\Hierarchy\7b4aab-7cde0416639579a478.json
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\StateCache\Hierarchy\7b4aab-7cde0416639579a478.json
+    projectPath: Library\StateCache\Hierarchy\7b4aab-7cde0416639579a478.json
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\StateCache\Hierarchy\7b4aab-805df92cec033ed4f8.json
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\StateCache\Hierarchy\7b4aab-805df92cec033ed4f8.json
+    projectPath: Library\StateCache\Hierarchy\7b4aab-805df92cec033ed4f8.json
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\StateCache\Hierarchy\7b4aab-808e73d863fcde3499.json
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\StateCache\Hierarchy\7b4aab-808e73d863fcde3499.json
+    projectPath: Library\StateCache\Hierarchy\7b4aab-808e73d863fcde3499.json
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\StateCache\Hierarchy\7b4aab-8f611da60097c85438.json
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\StateCache\Hierarchy\7b4aab-8f611da60097c85438.json
+    projectPath: Library\StateCache\Hierarchy\7b4aab-8f611da60097c85438.json
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\StateCache\Hierarchy\7b4aab-990c2328597308a46a.json
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\StateCache\Hierarchy\7b4aab-990c2328597308a46a.json
+    projectPath: Library\StateCache\Hierarchy\7b4aab-990c2328597308a46a.json
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\StateCache\Hierarchy\7b4aab-a2b9ce854d0a5004cb.json
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\StateCache\Hierarchy\7b4aab-a2b9ce854d0a5004cb.json
+    projectPath: Library\StateCache\Hierarchy\7b4aab-a2b9ce854d0a5004cb.json
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\StateCache\Hierarchy\7b4aab-a57a6829db3568c4d9.json
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\StateCache\Hierarchy\7b4aab-a57a6829db3568c4d9.json
+    projectPath: Library\StateCache\Hierarchy\7b4aab-a57a6829db3568c4d9.json
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\StateCache\Hierarchy\7b4aab-b2e8413438f79464aa.json
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\StateCache\Hierarchy\7b4aab-b2e8413438f79464aa.json
+    projectPath: Library\StateCache\Hierarchy\7b4aab-b2e8413438f79464aa.json
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\StateCache\Hierarchy\7b4aab-b46890100828db6429.json
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\StateCache\Hierarchy\7b4aab-b46890100828db6429.json
+    projectPath: Library\StateCache\Hierarchy\7b4aab-b46890100828db6429.json
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\StateCache\Hierarchy\7b4aab-c2204c8be58cfc341a.json
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\StateCache\Hierarchy\7b4aab-c2204c8be58cfc341a.json
+    projectPath: Library\StateCache\Hierarchy\7b4aab-c2204c8be58cfc341a.json
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\StateCache\Hierarchy\7b4aab-c9fda59c7a8ae6541b.json
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\StateCache\Hierarchy\7b4aab-c9fda59c7a8ae6541b.json
+    projectPath: Library\StateCache\Hierarchy\7b4aab-c9fda59c7a8ae6541b.json
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\StateCache\Hierarchy\7b4aab-cdd71635203c8ed47a.json
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\StateCache\Hierarchy\7b4aab-cdd71635203c8ed47a.json
+    projectPath: Library\StateCache\Hierarchy\7b4aab-cdd71635203c8ed47a.json
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\StateCache\Hierarchy\7b4aab-d609d5ebc845aca409.json
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\StateCache\Hierarchy\7b4aab-d609d5ebc845aca409.json
+    projectPath: Library\StateCache\Hierarchy\7b4aab-d609d5ebc845aca409.json
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\StateCache\Hierarchy\7b4aab-da3d18c3ad8d31945a.json
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\StateCache\Hierarchy\7b4aab-da3d18c3ad8d31945a.json
+    projectPath: Library\StateCache\Hierarchy\7b4aab-da3d18c3ad8d31945a.json
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\StateCache\Hierarchy\7b4aab-e3b931080c9262e408.json
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\StateCache\Hierarchy\7b4aab-e3b931080c9262e408.json
+    projectPath: Library\StateCache\Hierarchy\7b4aab-e3b931080c9262e408.json
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\StateCache\Hierarchy\7b4aab-e4704660d196fac408.json
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\StateCache\Hierarchy\7b4aab-e4704660d196fac408.json
+    projectPath: Library\StateCache\Hierarchy\7b4aab-e4704660d196fac408.json
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\StateCache\Hierarchy\7b4aab-fafeb973cad62304ba.json
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\StateCache\Hierarchy\7b4aab-fafeb973cad62304ba.json
+    projectPath: Library\StateCache\Hierarchy\7b4aab-fafeb973cad62304ba.json
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\StateCache\Hierarchy\7b4aab-fc6291033b995b845a.json
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\StateCache\Hierarchy\7b4aab-fc6291033b995b845a.json
+    projectPath: Library\StateCache\Hierarchy\7b4aab-fc6291033b995b845a.json
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\StateCache\Hierarchy\7b4aab-fea95a8674a12ca469.json
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\StateCache\Hierarchy\7b4aab-fea95a8674a12ca469.json
+    projectPath: Library\StateCache\Hierarchy\7b4aab-fea95a8674a12ca469.json
     originalPath: 
     status: 1
     staged: 0
@@ -226,9 +2821,243 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: Library\StateCache\SceneView\c86f21-2065e36297bdee848a.json
-    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\StateCache\SceneView\c86f21-2065e36297bdee848a.json
-    projectPath: Library\StateCache\SceneView\c86f21-2065e36297bdee848a.json
+  - path: Library\StateCache\SceneView\c86f21-03a4a1935a9f4454c8.json
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\StateCache\SceneView\c86f21-03a4a1935a9f4454c8.json
+    projectPath: Library\StateCache\SceneView\c86f21-03a4a1935a9f4454c8.json
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\StateCache\SceneView\c86f21-06d796ccd85dc4c4b9.json
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\StateCache\SceneView\c86f21-06d796ccd85dc4c4b9.json
+    projectPath: Library\StateCache\SceneView\c86f21-06d796ccd85dc4c4b9.json
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\StateCache\SceneView\c86f21-084c6a87873fd6e4da.json
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\StateCache\SceneView\c86f21-084c6a87873fd6e4da.json
+    projectPath: Library\StateCache\SceneView\c86f21-084c6a87873fd6e4da.json
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\StateCache\SceneView\c86f21-1ae4db7b36e51124b8.json
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\StateCache\SceneView\c86f21-1ae4db7b36e51124b8.json
+    projectPath: Library\StateCache\SceneView\c86f21-1ae4db7b36e51124b8.json
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\StateCache\SceneView\c86f21-21f6aea0c9b788c4b9.json
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\StateCache\SceneView\c86f21-21f6aea0c9b788c4b9.json
+    projectPath: Library\StateCache\SceneView\c86f21-21f6aea0c9b788c4b9.json
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\StateCache\SceneView\c86f21-234dc7ebff095244b9.json
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\StateCache\SceneView\c86f21-234dc7ebff095244b9.json
+    projectPath: Library\StateCache\SceneView\c86f21-234dc7ebff095244b9.json
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\StateCache\SceneView\c86f21-28ccd38a41e256a4e8.json
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\StateCache\SceneView\c86f21-28ccd38a41e256a4e8.json
+    projectPath: Library\StateCache\SceneView\c86f21-28ccd38a41e256a4e8.json
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\StateCache\SceneView\c86f21-298ea2e9f387a124d9.json
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\StateCache\SceneView\c86f21-298ea2e9f387a124d9.json
+    projectPath: Library\StateCache\SceneView\c86f21-298ea2e9f387a124d9.json
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\StateCache\SceneView\c86f21-30b4cc2728d8cec499.json
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\StateCache\SceneView\c86f21-30b4cc2728d8cec499.json
+    projectPath: Library\StateCache\SceneView\c86f21-30b4cc2728d8cec499.json
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\StateCache\SceneView\c86f21-416b2492ca9d1b1408.json
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\StateCache\SceneView\c86f21-416b2492ca9d1b1408.json
+    projectPath: Library\StateCache\SceneView\c86f21-416b2492ca9d1b1408.json
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\StateCache\SceneView\c86f21-42f257b24c959a4479.json
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\StateCache\SceneView\c86f21-42f257b24c959a4479.json
+    projectPath: Library\StateCache\SceneView\c86f21-42f257b24c959a4479.json
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\StateCache\SceneView\c86f21-4bf22a1d8d9e7724b9.json
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\StateCache\SceneView\c86f21-4bf22a1d8d9e7724b9.json
+    projectPath: Library\StateCache\SceneView\c86f21-4bf22a1d8d9e7724b9.json
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\StateCache\SceneView\c86f21-4ecfa3d3919108f4fb.json
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\StateCache\SceneView\c86f21-4ecfa3d3919108f4fb.json
+    projectPath: Library\StateCache\SceneView\c86f21-4ecfa3d3919108f4fb.json
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\StateCache\SceneView\c86f21-4f4be043c2b5a1a46a.json
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\StateCache\SceneView\c86f21-4f4be043c2b5a1a46a.json
+    projectPath: Library\StateCache\SceneView\c86f21-4f4be043c2b5a1a46a.json
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\StateCache\SceneView\c86f21-5009bf425539d77498.json
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\StateCache\SceneView\c86f21-5009bf425539d77498.json
+    projectPath: Library\StateCache\SceneView\c86f21-5009bf425539d77498.json
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\StateCache\SceneView\c86f21-54d548b1a922d54449.json
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\StateCache\SceneView\c86f21-54d548b1a922d54449.json
+    projectPath: Library\StateCache\SceneView\c86f21-54d548b1a922d54449.json
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\StateCache\SceneView\c86f21-6890a03af913b87409.json
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\StateCache\SceneView\c86f21-6890a03af913b87409.json
+    projectPath: Library\StateCache\SceneView\c86f21-6890a03af913b87409.json
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\StateCache\SceneView\c86f21-6a3cb4ac8fa12944ba.json
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\StateCache\SceneView\c86f21-6a3cb4ac8fa12944ba.json
+    projectPath: Library\StateCache\SceneView\c86f21-6a3cb4ac8fa12944ba.json
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\StateCache\SceneView\c86f21-6a6450d1b39d99545b.json
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\StateCache\SceneView\c86f21-6a6450d1b39d99545b.json
+    projectPath: Library\StateCache\SceneView\c86f21-6a6450d1b39d99545b.json
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\StateCache\SceneView\c86f21-6bd48b8ad8246424db.json
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\StateCache\SceneView\c86f21-6bd48b8ad8246424db.json
+    projectPath: Library\StateCache\SceneView\c86f21-6bd48b8ad8246424db.json
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\StateCache\SceneView\c86f21-7075bd5fe148018469.json
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\StateCache\SceneView\c86f21-7075bd5fe148018469.json
+    projectPath: Library\StateCache\SceneView\c86f21-7075bd5fe148018469.json
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\StateCache\SceneView\c86f21-7cde0416639579a478.json
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\StateCache\SceneView\c86f21-7cde0416639579a478.json
+    projectPath: Library\StateCache\SceneView\c86f21-7cde0416639579a478.json
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\StateCache\SceneView\c86f21-805df92cec033ed4f8.json
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\StateCache\SceneView\c86f21-805df92cec033ed4f8.json
+    projectPath: Library\StateCache\SceneView\c86f21-805df92cec033ed4f8.json
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\StateCache\SceneView\c86f21-808e73d863fcde3499.json
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\StateCache\SceneView\c86f21-808e73d863fcde3499.json
+    projectPath: Library\StateCache\SceneView\c86f21-808e73d863fcde3499.json
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\StateCache\SceneView\c86f21-8f611da60097c85438.json
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\StateCache\SceneView\c86f21-8f611da60097c85438.json
+    projectPath: Library\StateCache\SceneView\c86f21-8f611da60097c85438.json
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\StateCache\SceneView\c86f21-990c2328597308a46a.json
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\StateCache\SceneView\c86f21-990c2328597308a46a.json
+    projectPath: Library\StateCache\SceneView\c86f21-990c2328597308a46a.json
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\StateCache\SceneView\c86f21-a2b9ce854d0a5004cb.json
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\StateCache\SceneView\c86f21-a2b9ce854d0a5004cb.json
+    projectPath: Library\StateCache\SceneView\c86f21-a2b9ce854d0a5004cb.json
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\StateCache\SceneView\c86f21-a57a6829db3568c4d9.json
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\StateCache\SceneView\c86f21-a57a6829db3568c4d9.json
+    projectPath: Library\StateCache\SceneView\c86f21-a57a6829db3568c4d9.json
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\StateCache\SceneView\c86f21-b2e8413438f79464aa.json
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\StateCache\SceneView\c86f21-b2e8413438f79464aa.json
+    projectPath: Library\StateCache\SceneView\c86f21-b2e8413438f79464aa.json
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\StateCache\SceneView\c86f21-b46890100828db6429.json
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\StateCache\SceneView\c86f21-b46890100828db6429.json
+    projectPath: Library\StateCache\SceneView\c86f21-b46890100828db6429.json
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\StateCache\SceneView\c86f21-c2204c8be58cfc341a.json
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\StateCache\SceneView\c86f21-c2204c8be58cfc341a.json
+    projectPath: Library\StateCache\SceneView\c86f21-c2204c8be58cfc341a.json
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\StateCache\SceneView\c86f21-c9fda59c7a8ae6541b.json
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\StateCache\SceneView\c86f21-c9fda59c7a8ae6541b.json
+    projectPath: Library\StateCache\SceneView\c86f21-c9fda59c7a8ae6541b.json
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\StateCache\SceneView\c86f21-cdd71635203c8ed47a.json
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\StateCache\SceneView\c86f21-cdd71635203c8ed47a.json
+    projectPath: Library\StateCache\SceneView\c86f21-cdd71635203c8ed47a.json
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\StateCache\SceneView\c86f21-d609d5ebc845aca409.json
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\StateCache\SceneView\c86f21-d609d5ebc845aca409.json
+    projectPath: Library\StateCache\SceneView\c86f21-d609d5ebc845aca409.json
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\StateCache\SceneView\c86f21-da3d18c3ad8d31945a.json
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\StateCache\SceneView\c86f21-da3d18c3ad8d31945a.json
+    projectPath: Library\StateCache\SceneView\c86f21-da3d18c3ad8d31945a.json
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\StateCache\SceneView\c86f21-e3b931080c9262e408.json
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\StateCache\SceneView\c86f21-e3b931080c9262e408.json
+    projectPath: Library\StateCache\SceneView\c86f21-e3b931080c9262e408.json
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\StateCache\SceneView\c86f21-e4704660d196fac408.json
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\StateCache\SceneView\c86f21-e4704660d196fac408.json
+    projectPath: Library\StateCache\SceneView\c86f21-e4704660d196fac408.json
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\StateCache\SceneView\c86f21-fafeb973cad62304ba.json
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\StateCache\SceneView\c86f21-fafeb973cad62304ba.json
+    projectPath: Library\StateCache\SceneView\c86f21-fafeb973cad62304ba.json
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\StateCache\SceneView\c86f21-fc6291033b995b845a.json
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\StateCache\SceneView\c86f21-fc6291033b995b845a.json
+    projectPath: Library\StateCache\SceneView\c86f21-fc6291033b995b845a.json
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\StateCache\SceneView\c86f21-fea95a8674a12ca469.json
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Library\StateCache\SceneView\c86f21-fea95a8674a12ca469.json
+    projectPath: Library\StateCache\SceneView\c86f21-fea95a8674a12ca469.json
     originalPath: 
     status: 1
     staged: 0
@@ -250,35 +3079,35 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: obj\Debug\Assembly-CSharp.dll
-    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\obj\Debug\Assembly-CSharp.dll
-    projectPath: obj\Debug\Assembly-CSharp.dll
+  - path: obj\Debug\Assembly-CSharp-Editor.csprojAssemblyReference.cache
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\obj\Debug\Assembly-CSharp-Editor.csprojAssemblyReference.cache
+    projectPath: obj\Debug\Assembly-CSharp-Editor.csprojAssemblyReference.cache
     originalPath: 
     status: 3
     staged: 0
-  - path: obj\Debug\Assembly-CSharp.pdb
-    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\obj\Debug\Assembly-CSharp.pdb
-    projectPath: obj\Debug\Assembly-CSharp.pdb
+  - path: obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
+    projectPath: obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
     originalPath: 
     status: 3
+    staged: 0
+  - path: obj\Debug\Assembly-CSharp-firstpass.csproj.CoreCompileInputs.cache
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\obj\Debug\Assembly-CSharp-firstpass.csproj.CoreCompileInputs.cache
+    projectPath: obj\Debug\Assembly-CSharp-firstpass.csproj.CoreCompileInputs.cache
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: obj\Debug\Assembly-CSharp-firstpass.csprojAssemblyReference.cache
+    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\obj\Debug\Assembly-CSharp-firstpass.csprojAssemblyReference.cache
+    projectPath: obj\Debug\Assembly-CSharp-firstpass.csprojAssemblyReference.cache
+    originalPath: 
+    status: 1
     staged: 0
   - path: obj\Debug\build.force
     fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\obj\Debug\build.force
     projectPath: obj\Debug\build.force
     originalPath: 
-    status: 5
-    staged: 0
-  - path: obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
-    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
-    projectPath: obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: ProjectSettings\TagManager.asset
-    fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\ProjectSettings\TagManager.asset
-    projectPath: ProjectSettings\TagManager.asset
-    originalPath: 
-    status: 3
+    status: 1
     staged: 0
   - path: Temp\__Backupscenes\0.backup
     fullPath: C:\Users\g14m1190\Documents\GitHub\Crypto Wars\Temp\__Backupscenes\0.backup

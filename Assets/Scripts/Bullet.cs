@@ -31,6 +31,7 @@ namespace Assets.Scripts
             if (!shookAlready)
             {
                 shaker.ShakeOnce(magn, rough, fadeIn, fadeOut);
+                shookAlready = true;
             }
             //shaker.ShakeOnce(magn, rough, fadeIn, fadeOut);
             transform.position += player.currentFoward * Speed * Time.deltaTime;
