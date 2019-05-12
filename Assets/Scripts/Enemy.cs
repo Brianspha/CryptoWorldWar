@@ -1,8 +1,10 @@
 ﻿using Assets.Scripts;
+using EZCameraShake;
 using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using Random = UnityEngine.Random;
 
 [RequireComponent(typeof(Rigidbody))]
@@ -40,9 +42,15 @@ public class Enemy : MonoBehaviour
     public Gun gun;
     public float maxShootTime = 1.5f;
     public float currentShootTime;
+    Text Kills;
+    public int Killed;
+    CameraShaker main;
+    public float magn = 1000, rough = 500, fadeIn = 1f, fadeOut = 2f;
+
     // Start is called before the first frame update
     void Start()
     {
+        main = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<CameraShaker>();
         health = Random.Range(5, 15);
         defaultRot = transform.rotation;
         originalPos = transform.position;
@@ -50,12 +58,13 @@ public class Enemy : MonoBehaviour
         player = GameObject.FindGameObjectWithTag("Player");
         ripple = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<RipplePostProcessor>();
         currentShootTime = maxShootTime;
+        Kills = GameObject.FindGameObjectWithTag("Score").GetComponent<Text>();
     }
     // Update is called once per frame
     void Update()
     {
         checkDeslam();
-        ResetPosition();
+        //ResetPosition();
         move();
         facePlayer();
         shoot();
@@ -67,7 +76,7 @@ public class Enemy : MonoBehaviour
         if (currentShootTime <= 0)
         {
             currentShootTime = maxShootTime;
-            gun.Shoot();
+            //gun.Shoot();
         }
         else
         {
@@ -148,12 +157,16 @@ public class Enemy : MonoBehaviour
             if (health <= 0)
             {
                 Instantiate(deathEffect, transform.position, Quaternion.identity);
+                Killed += Random.Range(10, 101);
+                main.ShakeOnce(magn, rough, fadeIn, fadeOut);
                 DestroyEnemy();
             }
             else
             {
                 Instantiate(hurtEffect, transform.position, Quaternion.identity);
+                Killed += Random.Range(10,51);
             }
+            Kills.text = Killed.ToString();
         }
         ripple.Ripple();
     }

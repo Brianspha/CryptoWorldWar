@@ -15,6 +15,12 @@ TagManager:
   - SpawnPoint
   - Spawner
   - BulletEnemy
+  - BulletPowerUp
+  - PowerUpGun
+  - PowerUpArmor
+  - PowerUpStamina
+  - Score
+  - Collected
   layers:
   - Default
   - TransparentFX
