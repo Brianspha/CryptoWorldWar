@@ -21,6 +21,7 @@ TagManager:
   - PowerUpStamina
   - Score
   - Collected
+  - GameManager
   layers:
   - Default
   - TransparentFX

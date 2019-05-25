@@ -1277,7 +1277,7 @@ MonoBehaviour:
   maxCollectible: 4
   minY: 0.55
   minYCollectibles: 0.987
-  minDistanceApart: 25
+  minDistanceApart: 35
   collectibles:
   - {fileID: 279657396254881178, guid: fda00495d23aa7740aa484ff2628f99e, type: 3}
   - {fileID: 3696588190695278304, guid: 078c113e1213c2a4b9f8a2cd7f55e73e, type: 3}

@@ -45,17 +45,20 @@ public class Enemy : MonoBehaviour
     Text Kills;
     public int Killed;
     CameraShaker main;
+    GameManager manager;
     public float magn = 1000, rough = 500, fadeIn = 1f, fadeOut = 2f;
 
     // Start is called before the first frame update
     void Start()
     {
+        manager = GameObject.FindGameObjectWithTag("GameManager").GetComponent<GameManager>();
         main = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<CameraShaker>();
         health = Random.Range(5, 15);
         defaultRot = transform.rotation;
         originalPos = transform.position;
         rb = GetComponent<Rigidbody>();
         player = GameObject.FindGameObjectWithTag("Player");
+        Debug.Log(player != null);
         ripple = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<RipplePostProcessor>();
         currentShootTime = maxShootTime;
         Kills = GameObject.FindGameObjectWithTag("Score").GetComponent<Text>();
@@ -157,16 +160,16 @@ public class Enemy : MonoBehaviour
             if (health <= 0)
             {
                 Instantiate(deathEffect, transform.position, Quaternion.identity);
-                Killed += Random.Range(10, 101);
+                manager.updateScore(Random.Range(10, 101));
                 main.ShakeOnce(magn, rough, fadeIn, fadeOut);
                 DestroyEnemy();
             }
             else
             {
                 Instantiate(hurtEffect, transform.position, Quaternion.identity);
-                Killed += Random.Range(10,51);
+                manager.updateScore(Random.Range(10,51));
             }
-            Kills.text = Killed.ToString();
+            Kills.text = manager.Score.ToString();
         }
         ripple.Ripple();
     }
