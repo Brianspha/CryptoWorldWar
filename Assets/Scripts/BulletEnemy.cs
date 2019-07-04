@@ -23,7 +23,6 @@ namespace Assets.Scripts
         private void Start()
         {
             Speed = 30;
-            Debug.Log("Parent: " + gameObject.transform.parent.gameObject.tag);
             currentFoward = GameObject.FindGameObjectWithTag("Player").transform.forward;
             shaker = Camera.main.GetComponent<CameraShaker>();
             //player = GameObject.FindGameObjectWithTag("Enemy").GetComponent<Enemy>();

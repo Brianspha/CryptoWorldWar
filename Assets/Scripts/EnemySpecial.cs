@@ -140,7 +140,7 @@ public class EnemySpecial : MonoBehaviour
                 rb.AddForce(new Vector3(-player.transform.position.x, transform.position.y, -player.transform.position.z) * force);
             }
         }
-        Debug.Log("Distance: " + distance);
+        //Debug.Log("Distance: " + distance);
     }
     private void DestroyEnemy()
     {

@@ -8,7 +8,6 @@ public class GameManager : MonoBehaviour
     public int Score { get; private set; }
     void Start()
     {
-        
     }
 
     // Update is called once per frame

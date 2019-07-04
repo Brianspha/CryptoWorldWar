@@ -12,27 +12,27 @@ public class CollectiblesCollision : MonoBehaviour
         switch (collision.gameObject.tag)
         {
             case "PowerUpGun":
-                Debug.Log("CollectedGun");
+                //Debug.Log("CollectedGun");
                 collected.text = "Gun";
                 Destroy(collision.gameObject);
                 break;
             case "BulletPowerUp":
-                Debug.Log("Collected new Bullet");
+                //Debug.Log("Collected new Bullet");
                 collected.text = "Bullet";
                 Destroy(collision.gameObject);
                 break;
             case "PowerUpArmor":
-                Debug.Log("Collected new Armor");
+                //Debug.Log("Collected new Armor");
                 collected.text = "Armor";
                 Destroy(collision.gameObject);
                 break;
             case "PowerUpStamina":
-                Debug.Log("Collected new Stamina");
+                //Debug.Log("Collected new Stamina");
                 collected.text = "Stamina";
                 Destroy(collision.gameObject);
                 break;
             default:
-                Debug.Log("Found: "+ collision.gameObject.tag);
+                ////Debug.Log("Found: "+ collision.gameObject.tag);
                 break;
         }
         

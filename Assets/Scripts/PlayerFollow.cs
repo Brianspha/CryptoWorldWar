@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerFollow : MonoBehaviour {
 
-    Transform PlayerTransform;
+    public Transform PlayerTransform;
 
     private Vector3 _cameraOffset;
 
@@ -15,7 +15,6 @@ public class PlayerFollow : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-        PlayerTransform = GameObject.FindGameObjectWithTag("Player").transform;
         _cameraOffset = transform.position - PlayerTransform.position;	
 	}
 	
@@ -26,8 +25,7 @@ public class PlayerFollow : MonoBehaviour {
         transform.position = Vector3.Slerp(transform.position, newPos, SmoothFactor);
 
         if (LookAtPlayer)
-        {
             transform.LookAt(PlayerTransform);
-        }
+
 	}
 }

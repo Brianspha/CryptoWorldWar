@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
-  lastUpdatedAtString: 2019-05-25T22:24:53.859+02:00
-  initializedAtString: 2019-05-25T22:24:53.859+02:00
+  lastUpdatedAtString: 2019-07-04T14:49:57.600+02:00
+  initializedAtString: 2019-07-04T14:49:57.600+02:00
   currentGitRemote:
     name: origin
     url: https://github.com/Brianspha/CryptoWorldWar.git

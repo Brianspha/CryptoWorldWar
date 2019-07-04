@@ -35,10 +35,9 @@ public class Enemy : MonoBehaviour
     public float defaultY;
     public float apartForce = 10;
     public float health;
-    [Range(0,1)]
+    [Range(0, 1)]
     public float decreaseFactor;
     Quaternion rotation;
-    bool isPlayerGrounded = false;
     public Gun gun;
     public float maxShootTime = 1.5f;
     public float currentShootTime;
@@ -47,21 +46,26 @@ public class Enemy : MonoBehaviour
     CameraShaker main;
     GameManager manager;
     public float magn = 1000, rough = 500, fadeIn = 1f, fadeOut = 2f;
-
+    public GameObject attachedCollectable;
+    bool hasCollectable;
     // Start is called before the first frame update
     void Start()
     {
         manager = GameObject.FindGameObjectWithTag("GameManager").GetComponent<GameManager>();
-        main = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<CameraShaker>();
-        health = Random.Range(5, 15);
+        main =Camera.main.GetComponent<CameraShaker>();
+        ripple = Camera.main.GetComponent<RipplePostProcessor>();
+        Kills = GameObject.FindGameObjectWithTag("Score").GetComponent<Text>();
+        player = GameObject.FindGameObjectWithTag("Player");
+        rb = GetComponent<Rigidbody>(); currentShootTime = maxShootTime;
         defaultRot = transform.rotation;
         originalPos = transform.position;
-        rb = GetComponent<Rigidbody>();
-        player = GameObject.FindGameObjectWithTag("Player");
-        Debug.Log(player != null);
-        ripple = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<RipplePostProcessor>();
-        currentShootTime = maxShootTime;
-        Kills = GameObject.FindGameObjectWithTag("Score").GetComponent<Text>();
+        health = Random.Range(5, 15);
+        hasCollectable = false;
+    }
+    public void SetCollectable(GameObject collectable)
+    {
+        hasCollectable = true;
+        attachedCollectable = collectable;
     }
     // Update is called once per frame
     void Update()
@@ -71,7 +75,7 @@ public class Enemy : MonoBehaviour
         move();
         facePlayer();
         shoot();
-        
+
     }
 
     private void shoot()
@@ -140,13 +144,14 @@ public class Enemy : MonoBehaviour
         var force = scritp.deslamjumpForce;
         var didSlam = scritp.jumped;
         minDistance = scritp.slamDistance;
-        if (didSlam) {
+        if (didSlam)
+        {
             if (distance >= minDistance)
             {
-                rb.AddForce(new Vector3(-player.transform.position.x, transform.position.y, -player.transform.position.z) * force );
+                rb.AddForce(new Vector3(-player.transform.position.x, transform.position.y, -player.transform.position.z) * force);
             }
         }
-        Debug.Log("Distance: " + distance);
+        //Debug.Log("Distance: " + distance);
     }
     private void DestroyEnemy()
     {
@@ -163,14 +168,20 @@ public class Enemy : MonoBehaviour
                 manager.updateScore(Random.Range(10, 101));
                 main.ShakeOnce(magn, rough, fadeIn, fadeOut);
                 DestroyEnemy();
+                SpawnCollectable();
             }
             else
             {
                 Instantiate(hurtEffect, transform.position, Quaternion.identity);
-                manager.updateScore(Random.Range(10,51));
+                manager.updateScore(Random.Range(10, 51));
             }
             Kills.text = manager.Score.ToString();
         }
         ripple.Ripple();
+    }
+
+    private void SpawnCollectable()
+    {
+        Instantiate(attachedCollectable, transform.position, Quaternion.identity);
     }
 }

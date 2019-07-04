@@ -5,11 +5,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using UnityEngine;
+using UnityEngine.UI;
 
 namespace Assets.Scripts
 {
     [RequireComponent(typeof(Rigidbody))]
-    public class Player:MonoBehaviour,IPlayer
+    public class Player : MonoBehaviour, IPlayer
     {
         public float Speed = 10f;
         Vector3 moveVector;
@@ -29,6 +30,8 @@ namespace Assets.Scripts
         public Vector3 currentFoward;
         Vector3 originalPos;
         public float slamDistance = 5;
+        public Text collected;
+
         private void Start()
         {
             originalPos = transform.position;
@@ -38,7 +41,7 @@ namespace Assets.Scripts
         }
         private void Update()
         {
-          faceMouse();
+            faceMouse();
         }
         public void FixedUpdate()
         {
@@ -70,7 +73,7 @@ namespace Assets.Scripts
             if (Input.GetKeyDown(KeyCode.Space))
             {
                 Slam();
-                Debug.Log("Called Slam");
+                //Debug.Log("Called Slam");
             }
             if (Input.GetMouseButtonDown(0) && grounded)
             {
@@ -96,14 +99,14 @@ namespace Assets.Scripts
 
             if (Physics.Raycast(ray, out hit, distance))
             {
-                transform.LookAt(new Vector3(hit.point.x, transform.position.y, hit.point.z),Vector3.up);
+                transform.LookAt(new Vector3(hit.point.x, transform.position.y, hit.point.z), Vector3.up);
             }
 
-                //Vector3 direction = Camera.main.WorldToViewportPoint(Input.mousePosition) - transform.position;
-                //var angle = Mathf.Atan2(direction.x, direction.y) * Mathf.Rad2Deg;
-                //Quaternion rotation = Quaternion.AngleAxis(-angle, Vector3.up);
-                //transform.rotation = Quaternion.Slerp(transform.rotation, rotation, rotateSpeed);
-            }
+            //Vector3 direction = Camera.main.WorldToViewportPoint(Input.mousePosition) - transform.position;
+            //var angle = Mathf.Atan2(direction.x, direction.y) * Mathf.Rad2Deg;
+            //Quaternion rotation = Quaternion.AngleAxis(-angle, Vector3.up);
+            //transform.rotation = Quaternion.Slerp(transform.rotation, rotation, rotateSpeed);
+        }
         public void deSlam()
         {
             rb.AddForce(new Vector3(0, -deslamjumpForce, 0), ForceMode.Impulse);
@@ -113,23 +116,49 @@ namespace Assets.Scripts
         {
             if (grounded)
             {
-                rb.AddForce(new Vector3(0,jumpForce,0),ForceMode.Impulse);
+                rb.AddForce(new Vector3(0, jumpForce, 0), ForceMode.Impulse);
                 grounded = false;
             }
         }
         private void OnCollisionEnter(Collision collision)
         {
-            Debug.Log("Called");
+            ////Debug.Log("Called");
             if (collision.gameObject.CompareTag("Floor"))
             {
                 grounded = true;
-                Debug.Log("Im touching the ground");
+              //  //Debug.Log("Im touching the ground");
                 if (jumped)
                 {
                     Instantiate(dashEffect, transform.position, Quaternion.identity);
                     jumped = false;
                 }
                 transform.rotation = defaultRot;
+            }
+            switch (collision.gameObject.tag)
+            {
+                case "PowerUpGun":
+                    //Debug.Log("CollectedGun");
+                    collected.text = "Gun";
+                    Destroy(collision.gameObject);
+                    break;
+                case "BulletPowerUp":
+                    //Debug.Log("Collected new Bullet");
+                    collected.text = "Bullet";
+                    Destroy(collision.gameObject);
+                    break;
+                case "PowerUpArmor":
+                    //Debug.Log("Collected new Armor");
+                    collected.text = "Armor";
+                    Destroy(collision.gameObject);
+                    break;
+                case "PowerUpStamina":
+                    //Debug.Log("Collected new Stamina");
+                    collected.text = "Stamina";
+                    Destroy(collision.gameObject);
+                    break;
+                default:
+                    //Debug.Log("Found: " + collision.gameObject.tag);
+                    break;
             }
         }
         public void ResetPlayer()
