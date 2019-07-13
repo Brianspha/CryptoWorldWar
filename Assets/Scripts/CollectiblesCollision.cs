@@ -31,8 +31,12 @@ public class CollectiblesCollision : MonoBehaviour
                 collected.text = "Stamina";
                 Destroy(collision.gameObject);
                 break;
+            case "CollectibeTemplate":
+                collected.text = collision.gameObject.GetComponent<Collectible>().details.Name;
+                Destroy(collision.gameObject);
+                break;
             default:
-                ////Debug.Log("Found: "+ collision.gameObject.tag);
+                //Debug.Log("Found: "+ collision.gameObject.tag);
                 break;
         }
         

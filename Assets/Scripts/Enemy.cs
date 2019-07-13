@@ -47,10 +47,13 @@ public class Enemy : MonoBehaviour
     GameManager manager;
     public float magn = 1000, rough = 500, fadeIn = 1f, fadeOut = 2f;
     public GameObject attachedCollectable;
+    public CollectableManager nftManager;
     bool hasCollectable;
+    GameObject collectableNFT;
     // Start is called before the first frame update
     void Start()
     {
+        nftManager = GameObject.FindGameObjectWithTag("GameManager").GetComponent<CollectableManager>();
         manager = GameObject.FindGameObjectWithTag("GameManager").GetComponent<GameManager>();
         main =Camera.main.GetComponent<CameraShaker>();
         ripple = Camera.main.GetComponent<RipplePostProcessor>();
@@ -62,10 +65,10 @@ public class Enemy : MonoBehaviour
         health = Random.Range(5, 15);
         hasCollectable = false;
     }
-    public void SetCollectable(GameObject collectable)
+
+    public void setCollectible(GameObject collectible)
     {
-        hasCollectable = true;
-        attachedCollectable = collectable;
+        collectableNFT = collectible;
     }
     // Update is called once per frame
     void Update()

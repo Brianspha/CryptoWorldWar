@@ -7,10 +7,12 @@ using UnityEngine;
 
 namespace Assets.SmartContracts.Models
 {
-  public class Collectable
+    public class Collectable
     {
         public Color Color { get; set; }
+        public int Level { get; set; }
         public int ID { get; set; }
+        public string Name {get;set;}
         public string ContractAddress { get; set; }
         public string Description { get; set; }
         public float Value { get; set; }
