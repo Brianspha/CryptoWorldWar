@@ -13,24 +13,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2019-07-13T07:30:42.357+02:00
-  initializedAtString: 2019-07-13T07:30:00.684+02:00
+  lastUpdatedAtString: 2019-07-14T00:18:08.174+02:00
+  initializedAtString: 2019-07-13T22:49:33.864+02:00
   entries:
-  - path: Assembly-CSharp.csproj
-    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Assembly-CSharp.csproj
-    projectPath: Assembly-CSharp.csproj
+  - path: .gitignore
+    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\.gitignore
+    projectPath: .gitignore
     originalPath: 
     status: 3
     staged: 0
-  - path: Assembly-CSharp-Editor.csproj
-    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Assembly-CSharp-Editor.csproj
-    projectPath: Assembly-CSharp-Editor.csproj
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Assembly-CSharp-Editor-firstpass.csproj
-    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Assembly-CSharp-Editor-firstpass.csproj
-    projectPath: Assembly-CSharp-Editor-firstpass.csproj
+  - path: Assets\FX_Kandol_Pack\FX_effect_sprite_image01\fx_fumefx\Prefabs\fx_fumefx_fireball.prefab
+    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Assets\FX_Kandol_Pack\FX_effect_sprite_image01\fx_fumefx\Prefabs\fx_fumefx_fireball.prefab
+    projectPath: Assets\FX_Kandol_Pack\FX_effect_sprite_image01\fx_fumefx\Prefabs\fx_fumefx_fireball.prefab
     originalPath: 
     status: 3
     staged: 0
@@ -40,402 +34,6 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: Assets\Plugins\Nethereum\BouncyCastle.Crypto.dll.meta
-    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Assets\Plugins\Nethereum\BouncyCastle.Crypto.dll.meta
-    projectPath: Assets\Plugins\Nethereum\BouncyCastle.Crypto.dll.meta
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Assets\Plugins\Nethereum\Common.Logging.Core.dll
-    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Assets\Plugins\Nethereum\Common.Logging.Core.dll
-    projectPath: Assets\Plugins\Nethereum\Common.Logging.Core.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets\Plugins\Nethereum\Common.Logging.Core.dll.meta
-    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Assets\Plugins\Nethereum\Common.Logging.Core.dll.meta
-    projectPath: Assets\Plugins\Nethereum\Common.Logging.Core.dll.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets\Plugins\Nethereum\Microsoft.Extensions.Logging.Abstractions.dll
-    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Assets\Plugins\Nethereum\Microsoft.Extensions.Logging.Abstractions.dll
-    projectPath: Assets\Plugins\Nethereum\Microsoft.Extensions.Logging.Abstractions.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets\Plugins\Nethereum\Microsoft.Extensions.Logging.Abstractions.dll.meta
-    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Assets\Plugins\Nethereum\Microsoft.Extensions.Logging.Abstractions.dll.meta
-    projectPath: Assets\Plugins\Nethereum\Microsoft.Extensions.Logging.Abstractions.dll.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets\Plugins\Nethereum\NBitcoin.dll
-    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Assets\Plugins\Nethereum\NBitcoin.dll
-    projectPath: Assets\Plugins\Nethereum\NBitcoin.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets\Plugins\Nethereum\NBitcoin.dll.meta
-    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Assets\Plugins\Nethereum\NBitcoin.dll.meta
-    projectPath: Assets\Plugins\Nethereum\NBitcoin.dll.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets\Plugins\Nethereum\Nethereum.ABI.dll
-    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Assets\Plugins\Nethereum\Nethereum.ABI.dll
-    projectPath: Assets\Plugins\Nethereum\Nethereum.ABI.dll
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Assets\Plugins\Nethereum\Nethereum.ABI.dll.meta
-    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Assets\Plugins\Nethereum\Nethereum.ABI.dll.meta
-    projectPath: Assets\Plugins\Nethereum\Nethereum.ABI.dll.meta
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Assets\Plugins\Nethereum\Nethereum.Accounts.dll
-    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Assets\Plugins\Nethereum\Nethereum.Accounts.dll
-    projectPath: Assets\Plugins\Nethereum\Nethereum.Accounts.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets\Plugins\Nethereum\Nethereum.Accounts.dll.meta
-    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Assets\Plugins\Nethereum\Nethereum.Accounts.dll.meta
-    projectPath: Assets\Plugins\Nethereum\Nethereum.Accounts.dll.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets\Plugins\Nethereum\Nethereum.Contracts.dll
-    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Assets\Plugins\Nethereum\Nethereum.Contracts.dll
-    projectPath: Assets\Plugins\Nethereum\Nethereum.Contracts.dll
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Assets\Plugins\Nethereum\Nethereum.Contracts.dll.meta
-    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Assets\Plugins\Nethereum\Nethereum.Contracts.dll.meta
-    projectPath: Assets\Plugins\Nethereum\Nethereum.Contracts.dll.meta
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Assets\Plugins\Nethereum\Nethereum.Geth.dll
-    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Assets\Plugins\Nethereum\Nethereum.Geth.dll
-    projectPath: Assets\Plugins\Nethereum\Nethereum.Geth.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets\Plugins\Nethereum\Nethereum.Geth.dll.meta
-    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Assets\Plugins\Nethereum\Nethereum.Geth.dll.meta
-    projectPath: Assets\Plugins\Nethereum\Nethereum.Geth.dll.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets\Plugins\Nethereum\Nethereum.HdWallet.dll
-    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Assets\Plugins\Nethereum\Nethereum.HdWallet.dll
-    projectPath: Assets\Plugins\Nethereum\Nethereum.HdWallet.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets\Plugins\Nethereum\Nethereum.HdWallet.dll.meta
-    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Assets\Plugins\Nethereum\Nethereum.HdWallet.dll.meta
-    projectPath: Assets\Plugins\Nethereum\Nethereum.HdWallet.dll.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets\Plugins\Nethereum\Nethereum.Hex.dll
-    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Assets\Plugins\Nethereum\Nethereum.Hex.dll
-    projectPath: Assets\Plugins\Nethereum\Nethereum.Hex.dll
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Assets\Plugins\Nethereum\Nethereum.Hex.dll.meta
-    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Assets\Plugins\Nethereum\Nethereum.Hex.dll.meta
-    projectPath: Assets\Plugins\Nethereum\Nethereum.Hex.dll.meta
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Assets\Plugins\Nethereum\Nethereum.JsonRpc.Client.dll
-    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Assets\Plugins\Nethereum\Nethereum.JsonRpc.Client.dll
-    projectPath: Assets\Plugins\Nethereum\Nethereum.JsonRpc.Client.dll
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Assets\Plugins\Nethereum\Nethereum.JsonRpc.Client.dll.meta
-    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Assets\Plugins\Nethereum\Nethereum.JsonRpc.Client.dll.meta
-    projectPath: Assets\Plugins\Nethereum\Nethereum.JsonRpc.Client.dll.meta
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Assets\Plugins\Nethereum\Nethereum.JsonRpc.IpcClient.dll
-    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Assets\Plugins\Nethereum\Nethereum.JsonRpc.IpcClient.dll
-    projectPath: Assets\Plugins\Nethereum\Nethereum.JsonRpc.IpcClient.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets\Plugins\Nethereum\Nethereum.JsonRpc.IpcClient.dll.meta
-    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Assets\Plugins\Nethereum\Nethereum.JsonRpc.IpcClient.dll.meta
-    projectPath: Assets\Plugins\Nethereum\Nethereum.JsonRpc.IpcClient.dll.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets\Plugins\Nethereum\Nethereum.JsonRpc.RpcClient.dll
-    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Assets\Plugins\Nethereum\Nethereum.JsonRpc.RpcClient.dll
-    projectPath: Assets\Plugins\Nethereum\Nethereum.JsonRpc.RpcClient.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets\Plugins\Nethereum\Nethereum.JsonRpc.RpcClient.dll.meta
-    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Assets\Plugins\Nethereum\Nethereum.JsonRpc.RpcClient.dll.meta
-    projectPath: Assets\Plugins\Nethereum\Nethereum.JsonRpc.RpcClient.dll.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets\Plugins\Nethereum\Nethereum.JsonRpc.WebSocketClient.dll
-    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Assets\Plugins\Nethereum\Nethereum.JsonRpc.WebSocketClient.dll
-    projectPath: Assets\Plugins\Nethereum\Nethereum.JsonRpc.WebSocketClient.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets\Plugins\Nethereum\Nethereum.JsonRpc.WebSocketClient.dll.meta
-    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Assets\Plugins\Nethereum\Nethereum.JsonRpc.WebSocketClient.dll.meta
-    projectPath: Assets\Plugins\Nethereum\Nethereum.JsonRpc.WebSocketClient.dll.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets\Plugins\Nethereum\Nethereum.KeyStore.dll
-    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Assets\Plugins\Nethereum\Nethereum.KeyStore.dll
-    projectPath: Assets\Plugins\Nethereum\Nethereum.KeyStore.dll
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Assets\Plugins\Nethereum\Nethereum.KeyStore.dll.meta
-    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Assets\Plugins\Nethereum\Nethereum.KeyStore.dll.meta
-    projectPath: Assets\Plugins\Nethereum\Nethereum.KeyStore.dll.meta
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Assets\Plugins\Nethereum\Nethereum.Model.dll
-    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Assets\Plugins\Nethereum\Nethereum.Model.dll
-    projectPath: Assets\Plugins\Nethereum\Nethereum.Model.dll
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Assets\Plugins\Nethereum\Nethereum.Model.dll.meta
-    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Assets\Plugins\Nethereum\Nethereum.Model.dll.meta
-    projectPath: Assets\Plugins\Nethereum\Nethereum.Model.dll.meta
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Assets\Plugins\Nethereum\Nethereum.Parity.dll
-    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Assets\Plugins\Nethereum\Nethereum.Parity.dll
-    projectPath: Assets\Plugins\Nethereum\Nethereum.Parity.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets\Plugins\Nethereum\Nethereum.Parity.dll.meta
-    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Assets\Plugins\Nethereum\Nethereum.Parity.dll.meta
-    projectPath: Assets\Plugins\Nethereum\Nethereum.Parity.dll.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets\Plugins\Nethereum\Nethereum.Quorum.dll
-    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Assets\Plugins\Nethereum\Nethereum.Quorum.dll
-    projectPath: Assets\Plugins\Nethereum\Nethereum.Quorum.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets\Plugins\Nethereum\Nethereum.Quorum.dll.meta
-    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Assets\Plugins\Nethereum\Nethereum.Quorum.dll.meta
-    projectPath: Assets\Plugins\Nethereum\Nethereum.Quorum.dll.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets\Plugins\Nethereum\Nethereum.RLP.dll
-    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Assets\Plugins\Nethereum\Nethereum.RLP.dll
-    projectPath: Assets\Plugins\Nethereum\Nethereum.RLP.dll
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Assets\Plugins\Nethereum\Nethereum.RLP.dll.meta
-    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Assets\Plugins\Nethereum\Nethereum.RLP.dll.meta
-    projectPath: Assets\Plugins\Nethereum\Nethereum.RLP.dll.meta
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Assets\Plugins\Nethereum\Nethereum.RPC.dll
-    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Assets\Plugins\Nethereum\Nethereum.RPC.dll
-    projectPath: Assets\Plugins\Nethereum\Nethereum.RPC.dll
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Assets\Plugins\Nethereum\Nethereum.RPC.dll.meta
-    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Assets\Plugins\Nethereum\Nethereum.RPC.dll.meta
-    projectPath: Assets\Plugins\Nethereum\Nethereum.RPC.dll.meta
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Assets\Plugins\Nethereum\Nethereum.Signer.dll
-    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Assets\Plugins\Nethereum\Nethereum.Signer.dll
-    projectPath: Assets\Plugins\Nethereum\Nethereum.Signer.dll
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Assets\Plugins\Nethereum\Nethereum.Signer.dll.meta
-    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Assets\Plugins\Nethereum\Nethereum.Signer.dll.meta
-    projectPath: Assets\Plugins\Nethereum\Nethereum.Signer.dll.meta
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Assets\Plugins\Nethereum\Nethereum.StandardTokenEIP20.dll
-    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Assets\Plugins\Nethereum\Nethereum.StandardTokenEIP20.dll
-    projectPath: Assets\Plugins\Nethereum\Nethereum.StandardTokenEIP20.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets\Plugins\Nethereum\Nethereum.StandardTokenEIP20.dll.meta
-    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Assets\Plugins\Nethereum\Nethereum.StandardTokenEIP20.dll.meta
-    projectPath: Assets\Plugins\Nethereum\Nethereum.StandardTokenEIP20.dll.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets\Plugins\Nethereum\Nethereum.Unity.dll
-    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Assets\Plugins\Nethereum\Nethereum.Unity.dll
-    projectPath: Assets\Plugins\Nethereum\Nethereum.Unity.dll
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Assets\Plugins\Nethereum\Nethereum.Unity.dll.meta
-    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Assets\Plugins\Nethereum\Nethereum.Unity.dll.meta
-    projectPath: Assets\Plugins\Nethereum\Nethereum.Unity.dll.meta
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Assets\Plugins\Nethereum\Nethereum.Util.dll
-    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Assets\Plugins\Nethereum\Nethereum.Util.dll
-    projectPath: Assets\Plugins\Nethereum\Nethereum.Util.dll
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Assets\Plugins\Nethereum\Nethereum.Util.dll.meta
-    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Assets\Plugins\Nethereum\Nethereum.Util.dll.meta
-    projectPath: Assets\Plugins\Nethereum\Nethereum.Util.dll.meta
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Assets\Plugins\Nethereum\Nethereum.Web3.dll
-    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Assets\Plugins\Nethereum\Nethereum.Web3.dll
-    projectPath: Assets\Plugins\Nethereum\Nethereum.Web3.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets\Plugins\Nethereum\Nethereum.Web3.dll.meta
-    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Assets\Plugins\Nethereum\Nethereum.Web3.dll.meta
-    projectPath: Assets\Plugins\Nethereum\Nethereum.Web3.dll.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets\Plugins\Nethereum\Newtonsoft.Json.dll.meta
-    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Assets\Plugins\Nethereum\Newtonsoft.Json.dll.meta
-    projectPath: Assets\Plugins\Nethereum\Newtonsoft.Json.dll.meta
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Assets\Plugins\Nethereum\System.Buffers.dll
-    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Assets\Plugins\Nethereum\System.Buffers.dll
-    projectPath: Assets\Plugins\Nethereum\System.Buffers.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets\Plugins\Nethereum\System.Buffers.dll.meta
-    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Assets\Plugins\Nethereum\System.Buffers.dll.meta
-    projectPath: Assets\Plugins\Nethereum\System.Buffers.dll.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets\Plugins\Nethereum\System.IO.Pipes.dll
-    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Assets\Plugins\Nethereum\System.IO.Pipes.dll
-    projectPath: Assets\Plugins\Nethereum\System.IO.Pipes.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets\Plugins\Nethereum\System.IO.Pipes.dll.meta
-    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Assets\Plugins\Nethereum\System.IO.Pipes.dll.meta
-    projectPath: Assets\Plugins\Nethereum\System.IO.Pipes.dll.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets\Plugins\Nethereum\System.Numerics.dll
-    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Assets\Plugins\Nethereum\System.Numerics.dll
-    projectPath: Assets\Plugins\Nethereum\System.Numerics.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets\Plugins\Nethereum\System.Numerics.dll.meta
-    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Assets\Plugins\Nethereum\System.Numerics.dll.meta
-    projectPath: Assets\Plugins\Nethereum\System.Numerics.dll.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets\Plugins\Nethereum\System.Security.Cryptography.Algorithms.dll
-    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Assets\Plugins\Nethereum\System.Security.Cryptography.Algorithms.dll
-    projectPath: Assets\Plugins\Nethereum\System.Security.Cryptography.Algorithms.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets\Plugins\Nethereum\System.Security.Cryptography.Algorithms.dll.meta
-    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Assets\Plugins\Nethereum\System.Security.Cryptography.Algorithms.dll.meta
-    projectPath: Assets\Plugins\Nethereum\System.Security.Cryptography.Algorithms.dll.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets\Plugins\Nethereum\System.Security.Cryptography.Encoding.dll
-    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Assets\Plugins\Nethereum\System.Security.Cryptography.Encoding.dll
-    projectPath: Assets\Plugins\Nethereum\System.Security.Cryptography.Encoding.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets\Plugins\Nethereum\System.Security.Cryptography.Encoding.dll.meta
-    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Assets\Plugins\Nethereum\System.Security.Cryptography.Encoding.dll.meta
-    projectPath: Assets\Plugins\Nethereum\System.Security.Cryptography.Encoding.dll.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets\Plugins\Nethereum\System.Security.Cryptography.Primitives.dll
-    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Assets\Plugins\Nethereum\System.Security.Cryptography.Primitives.dll
-    projectPath: Assets\Plugins\Nethereum\System.Security.Cryptography.Primitives.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets\Plugins\Nethereum\System.Security.Cryptography.Primitives.dll.meta
-    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Assets\Plugins\Nethereum\System.Security.Cryptography.Primitives.dll.meta
-    projectPath: Assets\Plugins\Nethereum\System.Security.Cryptography.Primitives.dll.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets\Plugins\Nethereum\System.Security.Cryptography.X509Certificates.dll
-    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Assets\Plugins\Nethereum\System.Security.Cryptography.X509Certificates.dll
-    projectPath: Assets\Plugins\Nethereum\System.Security.Cryptography.X509Certificates.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets\Plugins\Nethereum\System.Security.Cryptography.X509Certificates.dll.meta
-    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Assets\Plugins\Nethereum\System.Security.Cryptography.X509Certificates.dll.meta
-    projectPath: Assets\Plugins\Nethereum\System.Security.Cryptography.X509Certificates.dll.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets\Prefabs\Collectable.prefab
-    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Assets\Prefabs\Collectable.prefab
-    projectPath: Assets\Prefabs\Collectable.prefab
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets\Prefabs\Collectable.prefab.meta
-    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Assets\Prefabs\Collectable.prefab.meta
-    projectPath: Assets\Prefabs\Collectable.prefab.meta
-    originalPath: 
-    status: 1
-    staged: 0
   - path: Assets\Scenes\Test Scene.unity
     fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Assets\Scenes\Test
       Scene.unity
@@ -443,27 +41,27 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: Assets\Scripts\Collectible.cs
-    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Assets\Scripts\Collectible.cs
-    projectPath: Assets\Scripts\Collectible.cs
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets\Scripts\Collectible.cs.meta
-    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Assets\Scripts\Collectible.cs.meta
-    projectPath: Assets\Scripts\Collectible.cs.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets\Scripts\CollectiblesCollision.cs
-    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Assets\Scripts\CollectiblesCollision.cs
-    projectPath: Assets\Scripts\CollectiblesCollision.cs
-    originalPath: 
-    status: 3
-    staged: 0
   - path: Assets\Scripts\Enemy.cs
     fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Assets\Scripts\Enemy.cs
     projectPath: Assets\Scripts\Enemy.cs
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets\Scripts\Gun.cs
+    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Assets\Scripts\Gun.cs
+    projectPath: Assets\Scripts\Gun.cs
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets\Scripts\Player.cs
+    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Assets\Scripts\Player.cs
+    projectPath: Assets\Scripts\Player.cs
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets\Scripts\Spawner.cs
+    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Assets\Scripts\Spawner.cs
+    projectPath: Assets\Scripts\Spawner.cs
     originalPath: 
     status: 3
     staged: 0
@@ -491,23 +89,11 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: Library\APIUpdater\project-dependencies.graph
-    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Library\APIUpdater\project-dependencies.graph
-    projectPath: Library\APIUpdater\project-dependencies.graph
-    originalPath: 
-    status: 3
-    staged: 0
   - path: Library\assetDatabase3
     fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Library\assetDatabase3
     projectPath: Library\assetDatabase3
     originalPath: 
     status: 3
-    staged: 0
-  - path: Library\CurrentLayout.dwlt
-    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Library\CurrentLayout.dwlt
-    projectPath: Library\CurrentLayout.dwlt
-    originalPath: 
-    status: 1
     staged: 0
   - path: Library\EditorInstance.json
     fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Library\EditorInstance.json
@@ -515,9 +101,9 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: Library\expandedItems
-    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Library\expandedItems
-    projectPath: Library\expandedItems
+  - path: Library\gfu\cache\branches.yaml
+    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Library\gfu\cache\branches.yaml
+    projectPath: Library\gfu\cache\branches.yaml
     originalPath: 
     status: 3
     staged: 0
@@ -527,11 +113,17 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
+  - path: Library\gfu\cache\gitlog.yaml
+    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Library\gfu\cache\gitlog.yaml
+    projectPath: Library\gfu\cache\gitlog.yaml
+    originalPath: 
+    status: 3
+    staged: 0
   - path: Library\gfu\cache\gitstatusentries.yaml
     fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Library\gfu\cache\gitstatusentries.yaml
     projectPath: Library\gfu\cache\gitstatusentries.yaml
     originalPath: 
-    status: 5
+    status: 3
     staged: 0
   - path: Library\gfu\cache\gittrackingstatus.yaml
     fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Library\gfu\cache\gittrackingstatus.yaml
@@ -551,89 +143,11 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: Library\metadata\00\00000000000000003000000000000000
-    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Library\metadata\00\00000000000000003000000000000000
-    projectPath: Library\metadata\00\00000000000000003000000000000000
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\00\001dcf5340fad3349a1c3fce87cecf96
-    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Library\metadata\00\001dcf5340fad3349a1c3fce87cecf96
-    projectPath: Library\metadata\00\001dcf5340fad3349a1c3fce87cecf96
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library\metadata\00\001dcf5340fad3349a1c3fce87cecf96.info
-    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Library\metadata\00\001dcf5340fad3349a1c3fce87cecf96.info
-    projectPath: Library\metadata\00\001dcf5340fad3349a1c3fce87cecf96.info
-    originalPath: 
-    status: 1
-    staged: 0
   - path: Library\metadata\04\04952c00e640ce34daea62ad666c325d
     fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Library\metadata\04\04952c00e640ce34daea62ad666c325d
     projectPath: Library\metadata\04\04952c00e640ce34daea62ad666c325d
     originalPath: 
     status: 3
-    staged: 0
-  - path: Library\metadata\08\08dcd3a962605714583cac174d5a5e34
-    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Library\metadata\08\08dcd3a962605714583cac174d5a5e34
-    projectPath: Library\metadata\08\08dcd3a962605714583cac174d5a5e34
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library\metadata\08\08dcd3a962605714583cac174d5a5e34.info
-    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Library\metadata\08\08dcd3a962605714583cac174d5a5e34.info
-    projectPath: Library\metadata\08\08dcd3a962605714583cac174d5a5e34.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library\metadata\0d\0dca8e085e4fc154bbf0083426aacdfe
-    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Library\metadata\0d\0dca8e085e4fc154bbf0083426aacdfe
-    projectPath: Library\metadata\0d\0dca8e085e4fc154bbf0083426aacdfe
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library\metadata\0d\0dca8e085e4fc154bbf0083426aacdfe.info
-    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Library\metadata\0d\0dca8e085e4fc154bbf0083426aacdfe.info
-    projectPath: Library\metadata\0d\0dca8e085e4fc154bbf0083426aacdfe.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library\metadata\1b\1b45a6b7696b6794eb31d6c630f218a1
-    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Library\metadata\1b\1b45a6b7696b6794eb31d6c630f218a1
-    projectPath: Library\metadata\1b\1b45a6b7696b6794eb31d6c630f218a1
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\1b\1be08b52788a4b548bb5d62caf6c4992
-    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Library\metadata\1b\1be08b52788a4b548bb5d62caf6c4992
-    projectPath: Library\metadata\1b\1be08b52788a4b548bb5d62caf6c4992
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library\metadata\1b\1be08b52788a4b548bb5d62caf6c4992.info
-    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Library\metadata\1b\1be08b52788a4b548bb5d62caf6c4992.info
-    projectPath: Library\metadata\1b\1be08b52788a4b548bb5d62caf6c4992.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library\metadata\1c\1c7457bfa6ee6bc438a549976d7bed90
-    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Library\metadata\1c\1c7457bfa6ee6bc438a549976d7bed90
-    projectPath: Library\metadata\1c\1c7457bfa6ee6bc438a549976d7bed90
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\22\22a70fef939c8c841881163de09e3279
-    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Library\metadata\22\22a70fef939c8c841881163de09e3279
-    projectPath: Library\metadata\22\22a70fef939c8c841881163de09e3279
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library\metadata\22\22a70fef939c8c841881163de09e3279.info
-    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Library\metadata\22\22a70fef939c8c841881163de09e3279.info
-    projectPath: Library\metadata\22\22a70fef939c8c841881163de09e3279.info
-    originalPath: 
-    status: 1
     staged: 0
   - path: Library\metadata\23\2358589fac431e048acac55f5e710968
     fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Library\metadata\23\2358589fac431e048acac55f5e710968
@@ -641,77 +155,17 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: Library\metadata\2b\2bdbe4f1261c67f4c9ee1106de89f47a
-    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Library\metadata\2b\2bdbe4f1261c67f4c9ee1106de89f47a
-    projectPath: Library\metadata\2b\2bdbe4f1261c67f4c9ee1106de89f47a
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library\metadata\2b\2bdbe4f1261c67f4c9ee1106de89f47a.info
-    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Library\metadata\2b\2bdbe4f1261c67f4c9ee1106de89f47a.info
-    projectPath: Library\metadata\2b\2bdbe4f1261c67f4c9ee1106de89f47a.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library\metadata\31\31ae22d50aa0f674593a300b8adc5ab0
-    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Library\metadata\31\31ae22d50aa0f674593a300b8adc5ab0
-    projectPath: Library\metadata\31\31ae22d50aa0f674593a300b8adc5ab0
+  - path: Library\metadata\5d\5d0cd99dda746cd4b857f2df1031679e
+    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Library\metadata\5d\5d0cd99dda746cd4b857f2df1031679e
+    projectPath: Library\metadata\5d\5d0cd99dda746cd4b857f2df1031679e
     originalPath: 
     status: 3
     staged: 0
-  - path: Library\metadata\34\3492ce7b583201c4db673a20d4b1a9ed
-    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Library\metadata\34\3492ce7b583201c4db673a20d4b1a9ed
-    projectPath: Library\metadata\34\3492ce7b583201c4db673a20d4b1a9ed
+  - path: Library\metadata\5d\5d0cd99dda746cd4b857f2df1031679e.info
+    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Library\metadata\5d\5d0cd99dda746cd4b857f2df1031679e.info
+    projectPath: Library\metadata\5d\5d0cd99dda746cd4b857f2df1031679e.info
     originalPath: 
     status: 3
-    staged: 0
-  - path: Library\metadata\55\558bed249eac8b9458aecce408f80d69
-    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Library\metadata\55\558bed249eac8b9458aecce408f80d69
-    projectPath: Library\metadata\55\558bed249eac8b9458aecce408f80d69
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library\metadata\55\558bed249eac8b9458aecce408f80d69.info
-    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Library\metadata\55\558bed249eac8b9458aecce408f80d69.info
-    projectPath: Library\metadata\55\558bed249eac8b9458aecce408f80d69.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library\metadata\5a\5a8fc1cacf838fb42baac9a3d52609d1
-    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Library\metadata\5a\5a8fc1cacf838fb42baac9a3d52609d1
-    projectPath: Library\metadata\5a\5a8fc1cacf838fb42baac9a3d52609d1
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library\metadata\5a\5a8fc1cacf838fb42baac9a3d52609d1.info
-    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Library\metadata\5a\5a8fc1cacf838fb42baac9a3d52609d1.info
-    projectPath: Library\metadata\5a\5a8fc1cacf838fb42baac9a3d52609d1.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library\metadata\5c\5c12e809549c91c49a7d28f6efc6d80c
-    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Library\metadata\5c\5c12e809549c91c49a7d28f6efc6d80c
-    projectPath: Library\metadata\5c\5c12e809549c91c49a7d28f6efc6d80c
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library\metadata\5c\5c12e809549c91c49a7d28f6efc6d80c.info
-    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Library\metadata\5c\5c12e809549c91c49a7d28f6efc6d80c.info
-    projectPath: Library\metadata\5c\5c12e809549c91c49a7d28f6efc6d80c.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library\metadata\5c\5c3747527432ba2498bca07f0677eec7
-    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Library\metadata\5c\5c3747527432ba2498bca07f0677eec7
-    projectPath: Library\metadata\5c\5c3747527432ba2498bca07f0677eec7
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\5c\5c3747527432ba2498bca07f0677eec7.info
-    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Library\metadata\5c\5c3747527432ba2498bca07f0677eec7.info
-    projectPath: Library\metadata\5c\5c3747527432ba2498bca07f0677eec7.info
-    originalPath: 
-    status: 5
     staged: 0
   - path: Library\metadata\5d\5d47e26bd80271d42a7d1b79119ba41c
     fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Library\metadata\5d\5d47e26bd80271d42a7d1b79119ba41c
@@ -719,161 +173,17 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: Library\metadata\63\634512fbcffb67049bb8d1367d267db0
-    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Library\metadata\63\634512fbcffb67049bb8d1367d267db0
-    projectPath: Library\metadata\63\634512fbcffb67049bb8d1367d267db0
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library\metadata\63\634512fbcffb67049bb8d1367d267db0.info
-    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Library\metadata\63\634512fbcffb67049bb8d1367d267db0.info
-    projectPath: Library\metadata\63\634512fbcffb67049bb8d1367d267db0.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library\metadata\77\77564a25308d6364e808b8d7fc597bd4
-    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Library\metadata\77\77564a25308d6364e808b8d7fc597bd4
-    projectPath: Library\metadata\77\77564a25308d6364e808b8d7fc597bd4
+  - path: Library\metadata\69\696ca8f93dfdfb44dbbe2f639c392ea5
+    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Library\metadata\69\696ca8f93dfdfb44dbbe2f639c392ea5
+    projectPath: Library\metadata\69\696ca8f93dfdfb44dbbe2f639c392ea5
     originalPath: 
     status: 3
     staged: 0
-  - path: Library\metadata\77\778984213b22025478766536a846570c
-    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Library\metadata\77\778984213b22025478766536a846570c
-    projectPath: Library\metadata\77\778984213b22025478766536a846570c
+  - path: Library\metadata\8d\8d7c1630b515f304eb5a7b722e87f2c4
+    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Library\metadata\8d\8d7c1630b515f304eb5a7b722e87f2c4
+    projectPath: Library\metadata\8d\8d7c1630b515f304eb5a7b722e87f2c4
     originalPath: 
     status: 3
-    staged: 0
-  - path: Library\metadata\7c\7c99d8795eb0138449472de4dc11c781
-    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Library\metadata\7c\7c99d8795eb0138449472de4dc11c781
-    projectPath: Library\metadata\7c\7c99d8795eb0138449472de4dc11c781
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library\metadata\7c\7c99d8795eb0138449472de4dc11c781.info
-    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Library\metadata\7c\7c99d8795eb0138449472de4dc11c781.info
-    projectPath: Library\metadata\7c\7c99d8795eb0138449472de4dc11c781.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library\metadata\82\82eef48a38db3af4489d232fef3f49bc
-    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Library\metadata\82\82eef48a38db3af4489d232fef3f49bc
-    projectPath: Library\metadata\82\82eef48a38db3af4489d232fef3f49bc
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\83\83d91eddfa8c85444af130828128ba47
-    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Library\metadata\83\83d91eddfa8c85444af130828128ba47
-    projectPath: Library\metadata\83\83d91eddfa8c85444af130828128ba47
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library\metadata\83\83d91eddfa8c85444af130828128ba47.info
-    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Library\metadata\83\83d91eddfa8c85444af130828128ba47.info
-    projectPath: Library\metadata\83\83d91eddfa8c85444af130828128ba47.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library\metadata\85\85cc30affabf5754ebd84fb7e9afa437
-    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Library\metadata\85\85cc30affabf5754ebd84fb7e9afa437
-    projectPath: Library\metadata\85\85cc30affabf5754ebd84fb7e9afa437
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\86\8690b7327b6bde347b96b64aaaacb617
-    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Library\metadata\86\8690b7327b6bde347b96b64aaaacb617
-    projectPath: Library\metadata\86\8690b7327b6bde347b96b64aaaacb617
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library\metadata\86\8690b7327b6bde347b96b64aaaacb617.info
-    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Library\metadata\86\8690b7327b6bde347b96b64aaaacb617.info
-    projectPath: Library\metadata\86\8690b7327b6bde347b96b64aaaacb617.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library\metadata\86\86baeb5112fcd2146bb63f5f6d3228e4
-    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Library\metadata\86\86baeb5112fcd2146bb63f5f6d3228e4
-    projectPath: Library\metadata\86\86baeb5112fcd2146bb63f5f6d3228e4
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library\metadata\86\86baeb5112fcd2146bb63f5f6d3228e4.info
-    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Library\metadata\86\86baeb5112fcd2146bb63f5f6d3228e4.info
-    projectPath: Library\metadata\86\86baeb5112fcd2146bb63f5f6d3228e4.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library\metadata\8f\8fbd0ce8608046e4681947eb59154e77
-    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Library\metadata\8f\8fbd0ce8608046e4681947eb59154e77
-    projectPath: Library\metadata\8f\8fbd0ce8608046e4681947eb59154e77
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library\metadata\8f\8fbd0ce8608046e4681947eb59154e77.info
-    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Library\metadata\8f\8fbd0ce8608046e4681947eb59154e77.info
-    projectPath: Library\metadata\8f\8fbd0ce8608046e4681947eb59154e77.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library\metadata\97\9762d38c93f05b549b5f12267afefbcc
-    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Library\metadata\97\9762d38c93f05b549b5f12267afefbcc
-    projectPath: Library\metadata\97\9762d38c93f05b549b5f12267afefbcc
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library\metadata\97\9762d38c93f05b549b5f12267afefbcc.info
-    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Library\metadata\97\9762d38c93f05b549b5f12267afefbcc.info
-    projectPath: Library\metadata\97\9762d38c93f05b549b5f12267afefbcc.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library\metadata\af\afae4dea7f7601b4a9fdbd886615aa2d
-    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Library\metadata\af\afae4dea7f7601b4a9fdbd886615aa2d
-    projectPath: Library\metadata\af\afae4dea7f7601b4a9fdbd886615aa2d
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library\metadata\af\afae4dea7f7601b4a9fdbd886615aa2d.info
-    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Library\metadata\af\afae4dea7f7601b4a9fdbd886615aa2d.info
-    projectPath: Library\metadata\af\afae4dea7f7601b4a9fdbd886615aa2d.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library\metadata\b9\b96623d9e37522543bdea5cfb3c33f07
-    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Library\metadata\b9\b96623d9e37522543bdea5cfb3c33f07
-    projectPath: Library\metadata\b9\b96623d9e37522543bdea5cfb3c33f07
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library\metadata\b9\b96623d9e37522543bdea5cfb3c33f07.info
-    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Library\metadata\b9\b96623d9e37522543bdea5cfb3c33f07.info
-    projectPath: Library\metadata\b9\b96623d9e37522543bdea5cfb3c33f07.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library\metadata\c1\c1d3b4997476c5949bbb5b02ec1a1efa
-    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Library\metadata\c1\c1d3b4997476c5949bbb5b02ec1a1efa
-    projectPath: Library\metadata\c1\c1d3b4997476c5949bbb5b02ec1a1efa
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library\metadata\c1\c1d3b4997476c5949bbb5b02ec1a1efa.info
-    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Library\metadata\c1\c1d3b4997476c5949bbb5b02ec1a1efa.info
-    projectPath: Library\metadata\c1\c1d3b4997476c5949bbb5b02ec1a1efa.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library\metadata\c7\c78c5fed63bcd1d41bffc02719beba97
-    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Library\metadata\c7\c78c5fed63bcd1d41bffc02719beba97
-    projectPath: Library\metadata\c7\c78c5fed63bcd1d41bffc02719beba97
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library\metadata\c7\c78c5fed63bcd1d41bffc02719beba97.info
-    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Library\metadata\c7\c78c5fed63bcd1d41bffc02719beba97.info
-    projectPath: Library\metadata\c7\c78c5fed63bcd1d41bffc02719beba97.info
-    originalPath: 
-    status: 1
     staged: 0
   - path: Library\metadata\cc\cc1c10acbe04f3949af7a86180bf8f2e
     fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Library\metadata\cc\cc1c10acbe04f3949af7a86180bf8f2e
@@ -881,27 +191,9 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: Library\metadata\cd\cd3006f37ae1d2c4995ebf56f2b52fba
-    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Library\metadata\cd\cd3006f37ae1d2c4995ebf56f2b52fba
-    projectPath: Library\metadata\cd\cd3006f37ae1d2c4995ebf56f2b52fba
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\cd\cd3006f37ae1d2c4995ebf56f2b52fba.info
-    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Library\metadata\cd\cd3006f37ae1d2c4995ebf56f2b52fba.info
-    projectPath: Library\metadata\cd\cd3006f37ae1d2c4995ebf56f2b52fba.info
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\d9\d93149b8ad5c29d4a92911b0f2a1e0e4
-    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Library\metadata\d9\d93149b8ad5c29d4a92911b0f2a1e0e4
-    projectPath: Library\metadata\d9\d93149b8ad5c29d4a92911b0f2a1e0e4
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\d9\d9ddfba652473674da26bf2d3407184c
-    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Library\metadata\d9\d9ddfba652473674da26bf2d3407184c
-    projectPath: Library\metadata\d9\d9ddfba652473674da26bf2d3407184c
+  - path: Library\metadata\d1\d1710d6094ecbd24e9bb14e40783e15b
+    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Library\metadata\d1\d1710d6094ecbd24e9bb14e40783e15b
+    projectPath: Library\metadata\d1\d1710d6094ecbd24e9bb14e40783e15b
     originalPath: 
     status: 3
     staged: 0
@@ -910,60 +202,6 @@ MonoBehaviour:
     projectPath: Library\metadata\dd\dd36a13d469d4fa448beebe0b2b04c7b
     originalPath: 
     status: 3
-    staged: 0
-  - path: Library\metadata\dd\dd4213a7eaade8348a26ca45098eb402
-    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Library\metadata\dd\dd4213a7eaade8348a26ca45098eb402
-    projectPath: Library\metadata\dd\dd4213a7eaade8348a26ca45098eb402
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library\metadata\dd\dd4213a7eaade8348a26ca45098eb402.info
-    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Library\metadata\dd\dd4213a7eaade8348a26ca45098eb402.info
-    projectPath: Library\metadata\dd\dd4213a7eaade8348a26ca45098eb402.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library\metadata\e4\e478c4446afa6b84aba57fac670769ed
-    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Library\metadata\e4\e478c4446afa6b84aba57fac670769ed
-    projectPath: Library\metadata\e4\e478c4446afa6b84aba57fac670769ed
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\f3\f330ed03466d8fe49aa8e6935aa6c0c5
-    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Library\metadata\f3\f330ed03466d8fe49aa8e6935aa6c0c5
-    projectPath: Library\metadata\f3\f330ed03466d8fe49aa8e6935aa6c0c5
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library\metadata\f3\f330ed03466d8fe49aa8e6935aa6c0c5.info
-    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Library\metadata\f3\f330ed03466d8fe49aa8e6935aa6c0c5.info
-    projectPath: Library\metadata\f3\f330ed03466d8fe49aa8e6935aa6c0c5.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library\metadata\f7\f753ee0095c574b42acbf49b906bb276
-    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Library\metadata\f7\f753ee0095c574b42acbf49b906bb276
-    projectPath: Library\metadata\f7\f753ee0095c574b42acbf49b906bb276
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library\metadata\f7\f753ee0095c574b42acbf49b906bb276.info
-    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Library\metadata\f7\f753ee0095c574b42acbf49b906bb276.info
-    projectPath: Library\metadata\f7\f753ee0095c574b42acbf49b906bb276.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library\metadata\fe\fed57e7c9f2c7e840b574a9c8704b265
-    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Library\metadata\fe\fed57e7c9f2c7e840b574a9c8704b265
-    projectPath: Library\metadata\fe\fed57e7c9f2c7e840b574a9c8704b265
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library\metadata\fe\fed57e7c9f2c7e840b574a9c8704b265.info
-    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Library\metadata\fe\fed57e7c9f2c7e840b574a9c8704b265.info
-    projectPath: Library\metadata\fe\fed57e7c9f2c7e840b574a9c8704b265.info
-    originalPath: 
-    status: 1
     staged: 0
   - path: Library\ScriptAssemblies\Assembly-CSharp.dll
     fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Library\ScriptAssemblies\Assembly-CSharp.dll
@@ -1073,23 +311,125 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: Library\shadercompiler-UnityShaderCompiler.exe0.log
-    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Library\shadercompiler-UnityShaderCompiler.exe0.log
-    projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
+  - path: Library\ShaderCache\0\03e07613a512099de57da74f7b6548ea.bin
+    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Library\ShaderCache\0\03e07613a512099de57da74f7b6548ea.bin
+    projectPath: Library\ShaderCache\0\03e07613a512099de57da74f7b6548ea.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\ShaderCache\1\16f13ed47852ee0ada24cd6de09d6171.bin
+    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Library\ShaderCache\1\16f13ed47852ee0ada24cd6de09d6171.bin
+    projectPath: Library\ShaderCache\1\16f13ed47852ee0ada24cd6de09d6171.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\ShaderCache\1\1990b25f230a4be8a1348d19e0e7d83a.bin
+    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Library\ShaderCache\1\1990b25f230a4be8a1348d19e0e7d83a.bin
+    projectPath: Library\ShaderCache\1\1990b25f230a4be8a1348d19e0e7d83a.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\ShaderCache\2\20f2005a6f7e0e2edbdadf60b33ba794.bin
+    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Library\ShaderCache\2\20f2005a6f7e0e2edbdadf60b33ba794.bin
+    projectPath: Library\ShaderCache\2\20f2005a6f7e0e2edbdadf60b33ba794.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\ShaderCache\2\231eec6182a04979b6549befc498af8d.bin
+    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Library\ShaderCache\2\231eec6182a04979b6549befc498af8d.bin
+    projectPath: Library\ShaderCache\2\231eec6182a04979b6549befc498af8d.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\ShaderCache\2\23c2a6b87b67a4d0a173f9b96a4c7eed.bin
+    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Library\ShaderCache\2\23c2a6b87b67a4d0a173f9b96a4c7eed.bin
+    projectPath: Library\ShaderCache\2\23c2a6b87b67a4d0a173f9b96a4c7eed.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\ShaderCache\2\283daa1903732eb680e33a1260c42df2.bin
+    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Library\ShaderCache\2\283daa1903732eb680e33a1260c42df2.bin
+    projectPath: Library\ShaderCache\2\283daa1903732eb680e33a1260c42df2.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\ShaderCache\6\60ba973dd374b0974b930a73f7fd2792.bin
+    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Library\ShaderCache\6\60ba973dd374b0974b930a73f7fd2792.bin
+    projectPath: Library\ShaderCache\6\60ba973dd374b0974b930a73f7fd2792.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\ShaderCache\7\775edc9379410b48789f9715f553366f.bin
+    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Library\ShaderCache\7\775edc9379410b48789f9715f553366f.bin
+    projectPath: Library\ShaderCache\7\775edc9379410b48789f9715f553366f.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\ShaderCache\8\86ea4f50e460b97be0c7e3684bbbf321.bin
+    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Library\ShaderCache\8\86ea4f50e460b97be0c7e3684bbbf321.bin
+    projectPath: Library\ShaderCache\8\86ea4f50e460b97be0c7e3684bbbf321.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\ShaderCache\8\8e503aee461e11afe2b91c7fa2b86cdd.bin
+    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Library\ShaderCache\8\8e503aee461e11afe2b91c7fa2b86cdd.bin
+    projectPath: Library\ShaderCache\8\8e503aee461e11afe2b91c7fa2b86cdd.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\ShaderCache\b\b7e83b4b5c77afb79788f05e850b2d31.bin
+    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Library\ShaderCache\b\b7e83b4b5c77afb79788f05e850b2d31.bin
+    projectPath: Library\ShaderCache\b\b7e83b4b5c77afb79788f05e850b2d31.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\ShaderCache\b\be2a7be028be3d1c8caf388f88681761.bin
+    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Library\ShaderCache\b\be2a7be028be3d1c8caf388f88681761.bin
+    projectPath: Library\ShaderCache\b\be2a7be028be3d1c8caf388f88681761.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\ShaderCache\e\e582037aa2593fddbd8c87674399a0d4.bin
+    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Library\ShaderCache\e\e582037aa2593fddbd8c87674399a0d4.bin
+    projectPath: Library\ShaderCache\e\e582037aa2593fddbd8c87674399a0d4.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\ShaderCache\EditorEncounteredVariants
+    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Library\ShaderCache\EditorEncounteredVariants
+    projectPath: Library\ShaderCache\EditorEncounteredVariants
     originalPath: 
     status: 3
     staged: 0
-  - path: Library\StateCache\Hierarchy\e4b57d-8d75bebcd63312b449.json
-    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Library\StateCache\Hierarchy\e4b57d-8d75bebcd63312b449.json
-    projectPath: Library\StateCache\Hierarchy\e4b57d-8d75bebcd63312b449.json
+  - path: Library\shadercompiler-UnityShaderCompiler.exe1.log
+    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Library\shadercompiler-UnityShaderCompiler.exe1.log
+    projectPath: Library\shadercompiler-UnityShaderCompiler.exe1.log
     originalPath: 
-    status: 1
+    status: 3
     staged: 0
-  - path: Library\StateCache\Hierarchy\e4b57d-f330ed03466d8fe49a.json
-    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Library\StateCache\Hierarchy\e4b57d-f330ed03466d8fe49a.json
-    projectPath: Library\StateCache\Hierarchy\e4b57d-f330ed03466d8fe49a.json
+  - path: Library\shadercompiler-UnityShaderCompiler.exe2.log
+    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Library\shadercompiler-UnityShaderCompiler.exe2.log
+    projectPath: Library\shadercompiler-UnityShaderCompiler.exe2.log
     originalPath: 
-    status: 1
+    status: 3
+    staged: 0
+  - path: Library\shadercompiler-UnityShaderCompiler.exe3.log
+    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Library\shadercompiler-UnityShaderCompiler.exe3.log
+    projectPath: Library\shadercompiler-UnityShaderCompiler.exe3.log
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\shadercompiler-UnityShaderCompiler.exe4.log
+    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Library\shadercompiler-UnityShaderCompiler.exe4.log
+    projectPath: Library\shadercompiler-UnityShaderCompiler.exe4.log
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\shadercompiler-UnityShaderCompiler.exe5.log
+    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Library\shadercompiler-UnityShaderCompiler.exe5.log
+    projectPath: Library\shadercompiler-UnityShaderCompiler.exe5.log
+    originalPath: 
+    status: 3
     staged: 0
   - path: Library\StateCache\Hierarchy\e4b57d-mainStage.json
     fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Library\StateCache\Hierarchy\e4b57d-mainStage.json
@@ -1097,33 +437,9 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: Library\StateCache\SceneView\d85b0a-8d75bebcd63312b449.json
-    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Library\StateCache\SceneView\d85b0a-8d75bebcd63312b449.json
-    projectPath: Library\StateCache\SceneView\d85b0a-8d75bebcd63312b449.json
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library\StateCache\SceneView\d85b0a-f330ed03466d8fe49a.json
-    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Library\StateCache\SceneView\d85b0a-f330ed03466d8fe49a.json
-    projectPath: Library\StateCache\SceneView\d85b0a-f330ed03466d8fe49a.json
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: obj\Debug\Assembly-CSharp.csproj.CopyComplete
-    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\obj\Debug\Assembly-CSharp.csproj.CopyComplete
-    projectPath: obj\Debug\Assembly-CSharp.csproj.CopyComplete
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
-    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
-    projectPath: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: obj\Debug\Assembly-CSharp.csproj.FileListAbsolute.txt
-    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\obj\Debug\Assembly-CSharp.csproj.FileListAbsolute.txt
-    projectPath: obj\Debug\Assembly-CSharp.csproj.FileListAbsolute.txt
+  - path: Library\StateCache\SceneView\d85b0a-mainStage.json
+    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Library\StateCache\SceneView\d85b0a-mainStage.json
+    projectPath: Library\StateCache\SceneView\d85b0a-mainStage.json
     originalPath: 
     status: 3
     staged: 0
@@ -1137,43 +453,19 @@ MonoBehaviour:
     fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\obj\Debug\Assembly-CSharp.dll
     projectPath: obj\Debug\Assembly-CSharp.dll
     originalPath: 
-    status: 1
+    status: 3
     staged: 0
   - path: obj\Debug\Assembly-CSharp.pdb
     fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\obj\Debug\Assembly-CSharp.pdb
     projectPath: obj\Debug\Assembly-CSharp.pdb
     originalPath: 
-    status: 1
-    staged: 0
-  - path: obj\Debug\Assembly-CSharp-Editor.csproj.CoreCompileInputs.cache
-    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\obj\Debug\Assembly-CSharp-Editor.csproj.CoreCompileInputs.cache
-    projectPath: obj\Debug\Assembly-CSharp-Editor.csproj.CoreCompileInputs.cache
-    originalPath: 
     status: 3
     staged: 0
-  - path: obj\Debug\Assembly-CSharp-Editor.csprojAssemblyReference.cache
-    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\obj\Debug\Assembly-CSharp-Editor.csprojAssemblyReference.cache
-    projectPath: obj\Debug\Assembly-CSharp-Editor.csprojAssemblyReference.cache
+  - path: obj\Debug\build.force
+    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\obj\Debug\build.force
+    projectPath: obj\Debug\build.force
     originalPath: 
-    status: 3
-    staged: 0
-  - path: obj\Debug\Assembly-CSharp-Editor-firstpass.csproj.CoreCompileInputs.cache
-    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\obj\Debug\Assembly-CSharp-Editor-firstpass.csproj.CoreCompileInputs.cache
-    projectPath: obj\Debug\Assembly-CSharp-Editor-firstpass.csproj.CoreCompileInputs.cache
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
-    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
-    projectPath: obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
-    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
-    projectPath: obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
-    originalPath: 
-    status: 3
+    status: 5
     staged: 0
   - path: ProjectSettings\TagManager.asset
     fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\ProjectSettings\TagManager.asset

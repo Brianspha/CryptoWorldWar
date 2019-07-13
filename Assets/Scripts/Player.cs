@@ -31,17 +31,31 @@ namespace Assets.Scripts
         Vector3 originalPos;
         public float slamDistance = 5;
         public Text collected;
-
+        public string Address;
+        CollectableManager Manager;
+        public List<int> CollectiblesCollected;
+        public GameObject rocket;
+        bool transfered;
         private void Start()
         {
+            CollectiblesCollected = new List<int>();
             originalPos = transform.position;
             shaker = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<CameraShaker>();
             defaultRot = transform.rotation;
             rb = GetComponent<Rigidbody>();
+            Manager = GameObject.FindGameObjectWithTag("GameManager").GetComponent<CollectableManager>();
+            StartCoroutine(Manager.RegisterPlayer(Address));
         }
         private void Update()
         {
             faceMouse();
+            if (Manager.deadSoFar == Manager.maxEnemy && !transfered)
+            {
+                for (int i = 0; i < CollectiblesCollected.Count; i++) {
+                    StartCoroutine(Manager.TransferCollectible(i, Address));
+                }
+                transfered = true;
+            }
         }
         public void FixedUpdate()
         {
@@ -79,6 +93,12 @@ namespace Assets.Scripts
             {
                 playerGun.Shoot();
                 transform.position = new Vector3(transform.position.x, minY, transform.position.z);
+            }
+            if(Input.GetMouseButtonDown(1) && grounded)
+            {
+                playerGun.shootRocket();
+                transform.position = new Vector3(transform.position.x, minY, transform.position.z);
+
             }
             if (!grounded && Input.GetKeyDown(KeyCode.Mouse2))
             {

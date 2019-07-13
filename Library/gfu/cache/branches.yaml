@@ -13,17 +13,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2019-04-03T06:30:18.397+02:00
-  initializedAtString: 2019-04-02T16:32:01.938+02:00
+  lastUpdatedAtString: 2019-07-13T19:15:17.364+02:00
+  initializedAtString: 2019-07-13T19:15:17.213+02:00
   localBranches:
   - name: master
     tracking: origin/master
   remoteBranches:
+  - name: origin/HEAD
+    tracking: '[None]'
   - name: origin/master
     tracking: '[None]'
   remotes:
   - name: origin
-    url: https://github.com/Brianspha/CryptoWars.git
+    url: https://github.com/Brianspha/CryptoWorldWar.git
     login: 
     user: 
     host: 
@@ -36,24 +38,30 @@ MonoBehaviour:
     - name: master
       remote:
         name: origin
-        url: https://github.com/Brianspha/CryptoWars.git
+        url: https://github.com/Brianspha/CryptoWorldWar.git
       trackingBranch: master
   remoteConfigBranches:
     keys:
     - origin
     subKeys:
     - Values:
+      - HEAD
       - master
     subKeyValues:
     - Values:
+      - name: HEAD
+        remote:
+          name: origin
+          url: https://github.com/Brianspha/CryptoWorldWar.git
+        trackingBranch: 
       - name: master
         remote:
           name: origin
-          url: https://github.com/Brianspha/CryptoWars.git
+          url: https://github.com/Brianspha/CryptoWorldWar.git
         trackingBranch: 
   configRemotes:
     keys:
     - origin
     values:
     - name: origin
-      url: https://github.com/Brianspha/CryptoWars.git
+      url: https://github.com/Brianspha/CryptoWorldWar.git

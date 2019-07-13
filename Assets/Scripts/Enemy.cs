@@ -41,14 +41,13 @@ public class Enemy : MonoBehaviour
     public Gun gun;
     public float maxShootTime = 1.5f;
     public float currentShootTime;
-    Text Kills;
+    Text Kills,Name,Description;
+    Player playerScript;
     public int Killed;
     CameraShaker main;
     GameManager manager;
     public float magn = 1000, rough = 500, fadeIn = 1f, fadeOut = 2f;
-    public GameObject attachedCollectable;
     public CollectableManager nftManager;
-    bool hasCollectable;
     GameObject collectableNFT;
     // Start is called before the first frame update
     void Start()
@@ -58,12 +57,14 @@ public class Enemy : MonoBehaviour
         main =Camera.main.GetComponent<CameraShaker>();
         ripple = Camera.main.GetComponent<RipplePostProcessor>();
         Kills = GameObject.FindGameObjectWithTag("Score").GetComponent<Text>();
+        Description = GameObject.FindGameObjectWithTag("Description").GetComponent<Text>();
+        Name= GameObject.FindGameObjectWithTag("Name").GetComponent<Text>();
         player = GameObject.FindGameObjectWithTag("Player");
+        playerScript = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
         rb = GetComponent<Rigidbody>(); currentShootTime = maxShootTime;
         defaultRot = transform.rotation;
         originalPos = transform.position;
         health = Random.Range(5, 15);
-        hasCollectable = false;
     }
 
     public void setCollectible(GameObject collectible)
@@ -74,7 +75,7 @@ public class Enemy : MonoBehaviour
     void Update()
     {
         checkDeslam();
-        //ResetPosition();
+        ResetPosition();
         move();
         facePlayer();
         shoot();
@@ -185,6 +186,12 @@ public class Enemy : MonoBehaviour
 
     private void SpawnCollectable()
     {
-        Instantiate(attachedCollectable, transform.position, Quaternion.identity);
+        var tempSpawnColletible = nftManager.Collectables[Random.Range(0, nftManager.Collectables.Count - 1)];
+        if (!playerScript.CollectiblesCollected.Contains(Convert.ToInt32(tempSpawnColletible.ID))){
+            playerScript.CollectiblesCollected.Add(Convert.ToInt32(tempSpawnColletible.ID));
+        }
+        Name.text = tempSpawnColletible.Name;
+        Description.text = tempSpawnColletible.Description;
+        Instantiate(tempSpawnColletible.CollectableObject, transform.position, Quaternion.identity);
     }
 }

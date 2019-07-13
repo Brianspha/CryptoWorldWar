@@ -57,10 +57,7 @@ public class CryptoWorldWarService
 
     public CallInput GetAddTokenFunctionInput(int value, string description)
     {
-        return CryptoWorldWarContract.GetFunction("mintNewCollectible").CreateCallInput(new object[] {
-   value,
-   description
-  });
+        return CryptoWorldWarContract.GetFunction("mintNewCollectible").CreateCallInput(new object[] {value,description});
     }
     public CallInput GetAddTokenFunctionInput()
     {

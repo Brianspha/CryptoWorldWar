@@ -4,17 +4,18 @@ using UnityEngine;
 using Nethereum.JsonRpc.UnityClient;
 using Nethereum.Contracts;
 using Nethereum.ABI.FunctionEncoding.Attributes;
-using NBitcoin.BouncyCastle.Math;
 using Assets.Tokenisation.Helpers;
 using System.Collections;
 using Nethereum.RPC.Eth.DTOs;
 using System;
 using Random = UnityEngine.Random;
+using System.Numerics;
+using Vector3 = UnityEngine.Vector3;
+using Quaternion = UnityEngine.Quaternion;
 
 public class CollectableManager : MonoBehaviour
 {
     public GameObject CollectableTemplate;
-    List<Collectable> collectables;
     public List<int> Keys;
     // Start is called before the first frame update
     public GameObject enemy;
@@ -30,23 +31,16 @@ public class CollectableManager : MonoBehaviour
     public Exception Exception;
     public TransactionReceiptPollingRequest TransactionReceiptPollingRequest;
     private bool spawned=false;
+    public int deadSoFar = 0;
 
     public List<Collectable> Collectables { get; private set; }
-
-    public CallInput GetRegisterUserFunctionInput()
-    {
-        return CryptoWorldWarContract.GetFunction("registerPlayer").CreateCallInput();
-    }
-    public Function GetRegisterUserFunction()
-    {
-        return CryptoWorldWarContract.GetFunction("registerPlayer");
-    }
 
     void Start()
     {
         Keys = new List<int>();
         CryptoWorldWarService = new CryptoWorldWarService();
         //StartCoroutine(CryptoWorldWarService.RegisterPlayer());
+        Collectables = new List<Collectable>();
         StartCoroutine(GetCollectibles());
         Collectables = new List<Collectable>();
         TransactionSignedUnityRequest = new TransactionSignedUnityRequest(Variables.NodeAddress, Variables.PrivateKey);
@@ -54,7 +48,6 @@ public class CollectableManager : MonoBehaviour
         TransactionReceiptPollingRequest = new TransactionReceiptPollingRequest(Variables.NodeAddress);
         CryptoWorldWarContract = new Contract(null, Variables.ABI, Variables.ContractAddress);
     }
-
     private void Update()
     {
         if (Keys.Count>0 &&!spawned)
@@ -66,13 +59,18 @@ public class CollectableManager : MonoBehaviour
     private void spawn()
     {
         var spawned = new List<Vector3>();
+        Debug.Log("Key.Count: " + Keys.Count);
+        for (int i=0; i < Keys.Count; i++)
+        {
+            StartCoroutine(getCollectibleDetails(Keys[i]));
+            Debug.Log("Key: "+ Keys[i]);
+        }
         for(int i=0; i < maxEnemy; )
         {
             var pos = new Vector3(Random.Range(-right.position.x, right.position.x), minY, Random.Range(-Top.position.z, Top.position.z));
             if (checkMinDistanceApart(pos,spawned))
             {
-                CollectableTemplate.GetComponent<Collectible>().details = new Collectable { Name="test",ID=Keys[0] };
-                enemy.GetComponent<Enemy>().setCollectible(CollectableTemplate);
+                //collectables.Add(new Collectable { Name="test",ID=Keys[0],CollectableObject=CollectableTemplate });
                 Instantiate(enemy,pos, Quaternion.identity);
                 spawned.Add(pos);
                 i++;
@@ -80,7 +78,7 @@ public class CollectableManager : MonoBehaviour
         }
     }
 
-
+ 
     private bool checkMinDistanceApart(Vector3 pos, List<Vector3> spawned)
     {
         if (spawned.Count == 0)
@@ -113,10 +111,7 @@ public class CollectableManager : MonoBehaviour
 
     public CallInput GetAddTokenFunctionInput(int value, string description)
     {
-        return CryptoWorldWarContract.GetFunction("mintNewCollectible").CreateCallInput(new object[] {
-   value,
-   description
-  });
+        return CryptoWorldWarContract.GetFunction("mintNewCollectible").CreateCallInput(new object[] {value, description});
     }
     public CallInput GetAddTokenFunctionInput()
     {
@@ -136,20 +131,37 @@ public class CollectableManager : MonoBehaviour
     }
     public CallInput GetGetCollectibleFunctionInput(int id)
     {
-        return CryptoWorldWarContract.GetFunction("getAllCollectibleKeys").CreateCallInput(new object[] {
-   id
-  });
+        return CryptoWorldWarContract.GetFunction("getAllCollectibleKeys").CreateCallInput(new object[] {id});
     }
-    public Function GetGetCollectibleFunction()
+    public Function GetGetCollectibleDetailsFunction()
     {
         return CryptoWorldWarContract.GetFunction("getCollectibelDetails");
     }
-
+    public CallInput GetGetCollectibleDetailsFunctionInput(int id)
+    {
+        return CryptoWorldWarContract.GetFunction("getCollectibelDetails").CreateCallInput(new object[] { id });
+    }
+    public Function TranferCollectible()
+    {
+        return CryptoWorldWarContract.GetFunction("transferCollectible");
+    }
+    public CallInput GetTranferCollectibleFunctionInput(int id,string owner)
+    {
+        return CryptoWorldWarContract.GetFunction("transferCollectible").CreateCallInput(new object[] { id,owner });
+    }
+    public GetCollectibelDetailsOutputDTO DecodeCollectibleDetailsOutput(string results)
+    {
+        var function = GetGetCollectibleDetailsFunction();
+        var output =function.DecodeDTOTypeOutput<GetCollectibelDetailsOutputDTO>(results);
+        Debug.Log("Collectible Owner: " + output.Tokenowner);
+        Debug.Log("Collectible Details: " + output.Description);
+        Collectables.Add(new Collectable { Name = output.Name.ToString(), Description = output.Description.ToString(), CollectableObject = CollectableTemplate, Value = output.Value.ToString(), Level = output.Level.ToString() });
+        return output;
+        
+    }
     public bool DecodeRegistrationOutput(string result)
     {
-        var
-
-        function = GetRegisterUserFunction();
+        var function = GetRegisterUserFunction();
         return function.DecodeSimpleTypeOutput<bool>(result);
     }
     public List<int> DecodeCollectableKeysOutput(string result)
@@ -157,9 +169,39 @@ public class CollectableManager : MonoBehaviour
         var function = GetAllCollectiblesCountFunction();
         return function.DecodeSimpleTypeOutput<List<int>>(result);
     }
-    //Check if the user top score has changed on the contract chain every 2 seconds
-    public IEnumerator RegisterPlayer()
+
+    public IEnumerator TransferCollectible(int id, string owner)
     {
+        var transferCollectibleInput = GetTranferCollectibleFunctionInput(id, owner);
+        yield return EthCallUnityRequest.SendRequest(transferCollectibleInput, BlockParameter.CreateLatest());
+        if(EthCallUnityRequest.Exception == null)
+        {
+            DecodeCollectableKeysOutput(EthCallUnityRequest.Result);
+        }
+        else
+        {
+            Debug.Log(EthCallUnityRequest.Exception.ToString());
+        }
+    }
+    public IEnumerator getCollectibleDetails(int id)
+    {
+        Debug.Log("Log: " + id);
+        var getCollectibleDetailsInput = GetGetCollectibleDetailsFunctionInput(id);
+        yield return EthCallUnityRequest.SendRequest(getCollectibleDetailsInput, BlockParameter.CreateLatest());
+        if(EthCallUnityRequest.Exception == null)
+        {
+            DecodeCollectibleDetailsOutput(EthCallUnityRequest.Result);
+        }
+        else
+        {
+            Debug.Log(EthCallUnityRequest.Exception.ToString());
+        }
+    }
+
+    //Check if the user top score has changed on the contract chain every 2 seconds
+    public IEnumerator RegisterPlayer(string address)
+    {
+        TransactionSignedUnityRequest = new TransactionSignedUnityRequest(Variables.NodeAddress, Variables.PrivateKey);
         Debug.Log("Got here");
         var regFunc = new RegisterPlayerFunction();
         regFunc.FromAddress = Variables.FromAddress;
@@ -191,11 +233,7 @@ public class CollectableManager : MonoBehaviour
         if(collectibleQuery.Exception == null)
         {
             var keys = collectibleQuery.Result.Keys;
-            foreach (var key in keys)
-            {
-                keys.Add(key);
-                Debug.Log("Key: " + key);
-            }
+            Keys = keys;
         }
         else
         {
@@ -263,6 +301,14 @@ public class CollectableManager : MonoBehaviour
     {
 
     }
+    public CallInput GetRegisterUserFunctionInput()
+    {
+        return CryptoWorldWarContract.GetFunction("registerPlayer").CreateCallInput();
+    }
+    public Function GetRegisterUserFunction()
+    {
+        return CryptoWorldWarContract.GetFunction("registerPlayer");
+    }
     public partial class GetCollectibelDetailsOutputDTO : GetCollectibelDetailsOutputDTOBase { }
 
     [FunctionOutput]
@@ -270,22 +316,21 @@ public class CollectableManager : MonoBehaviour
     {
         [Parameter("uint256", "value", 1)]
         public virtual BigInteger Value { get; set; }
-        [Parameter("bytes32", "description", 2)]
-        public virtual byte[] Description { get; set; }
-        [Parameter("bytes32", "name", 3)]
-        public virtual byte[] Name { get; set; }
+        [Parameter("string", "description", 2)]
+        public virtual string Description { get; set; }
+        [Parameter("string", "name", 3)]
+        public virtual string Name { get; set; }
         [Parameter("address", "tokenowner", 4)]
         public virtual string Tokenowner { get; set; }
         [Parameter("uint256", "level", 5)]
         public virtual BigInteger Level { get; set; }
-        [Parameter("bytes32", "date", 6)]
-        public virtual byte[] Date { get; set; }
-        [Parameter("bytes32", "thash", 7)]
-        public virtual byte[] Thash { get; set; }
+        [Parameter("string", "date", 6)]
+        public virtual string Date { get; set; }
+        [Parameter("string", "thash", 7)]
+        public virtual string Thash { get; set; }
         [Parameter("uint256", "indexMain", 8)]
         public virtual BigInteger IndexMain { get; set; }
     }
-
     public partial class GetAllCollectibleKeysOutputDTO : GetAllCollectibleKeysOutputDTOBase { }
 
     [FunctionOutput]

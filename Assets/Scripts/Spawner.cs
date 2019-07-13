@@ -32,8 +32,7 @@ public class Spawner : MonoBehaviour
             var pos = new Vector3(Random.Range(-right.position.x, right.position.x), minY, Random.Range(-Top.position.z, Top.position.z));
             if (checkMinDistanceApart(pos,spawned))
             {
-                enemy.GetComponent<Enemy>().attachedCollectable=
-                Instantiate(enemy,pos, Quaternion.identity);
+                enemy.GetComponent<Enemy>().setCollectible(Instantiate(enemy,pos, Quaternion.identity));
                 spawned.Add(pos);
                 i++;
             }
