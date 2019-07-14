@@ -32,7 +32,7 @@ public class CollectiblesCollision : MonoBehaviour
                 Destroy(collision.gameObject);
                 break;
             case "CollectibeTemplate":
-                collected.text = collision.gameObject.GetComponent<Collectible>().details.Name;
+               // collected.text = collision.gameObject.GetComponent<Collectible>().details.Name;
                 Destroy(collision.gameObject);
                 break;
             default:

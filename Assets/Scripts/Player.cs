@@ -32,6 +32,7 @@ namespace Assets.Scripts
         public float slamDistance = 5;
         public Text collected;
         public string Address;
+        public string privateKey;
         CollectableManager Manager;
         public List<int> CollectiblesCollected;
         public GameObject rocket;
@@ -44,18 +45,12 @@ namespace Assets.Scripts
             defaultRot = transform.rotation;
             rb = GetComponent<Rigidbody>();
             Manager = GameObject.FindGameObjectWithTag("GameManager").GetComponent<CollectableManager>();
-            StartCoroutine(Manager.RegisterPlayer(Address));
+            StartCoroutine(Manager.RegisterPlayer(Address, privateKey));
         }
         private void Update()
         {
             faceMouse();
-            if (Manager.deadSoFar == Manager.maxEnemy && !transfered)
-            {
-                for (int i = 0; i < CollectiblesCollected.Count; i++) {
-                    StartCoroutine(Manager.TransferCollectible(i, Address));
-                }
-                transfered = true;
-            }
+    
         }
         public void FixedUpdate()
         {
@@ -140,47 +135,7 @@ namespace Assets.Scripts
                 grounded = false;
             }
         }
-        private void OnCollisionEnter(Collision collision)
-        {
-            ////Debug.Log("Called");
-            if (collision.gameObject.CompareTag("Floor"))
-            {
-                grounded = true;
-              //  //Debug.Log("Im touching the ground");
-                if (jumped)
-                {
-                    Instantiate(dashEffect, transform.position, Quaternion.identity);
-                    jumped = false;
-                }
-                transform.rotation = defaultRot;
-            }
-            switch (collision.gameObject.tag)
-            {
-                case "PowerUpGun":
-                    //Debug.Log("CollectedGun");
-                    collected.text = "Gun";
-                    Destroy(collision.gameObject);
-                    break;
-                case "BulletPowerUp":
-                    //Debug.Log("Collected new Bullet");
-                    collected.text = "Bullet";
-                    Destroy(collision.gameObject);
-                    break;
-                case "PowerUpArmor":
-                    //Debug.Log("Collected new Armor");
-                    collected.text = "Armor";
-                    Destroy(collision.gameObject);
-                    break;
-                case "PowerUpStamina":
-                    //Debug.Log("Collected new Stamina");
-                    collected.text = "Stamina";
-                    Destroy(collision.gameObject);
-                    break;
-                default:
-                    //Debug.Log("Found: " + collision.gameObject.tag);
-                    break;
-            }
-        }
+     
         public void ResetPlayer()
         {
             transform.position = originalPos;

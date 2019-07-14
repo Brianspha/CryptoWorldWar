@@ -192,6 +192,7 @@ public class Enemy : MonoBehaviour
         }
         Name.text = tempSpawnColletible.Name;
         Description.text = tempSpawnColletible.Description;
+        nftManager.deadSoFar++;
         Instantiate(tempSpawnColletible.CollectableObject, transform.position, Quaternion.identity);
     }
 }

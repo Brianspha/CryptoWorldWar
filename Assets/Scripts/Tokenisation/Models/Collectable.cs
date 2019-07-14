@@ -17,6 +17,7 @@ namespace Assets.SmartContracts.Models
         public string Description { get; set; }
         public string Value { get; set; }
         public string Tag { get; set; }
+        public string owner { get; set; }
         public GameObject CollectableObject { get; set; }
     }
 }

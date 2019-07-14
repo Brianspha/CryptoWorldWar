@@ -32,7 +32,7 @@ public class CollectableManager : MonoBehaviour
     public TransactionReceiptPollingRequest TransactionReceiptPollingRequest;
     private bool spawned=false;
     public int deadSoFar = 0;
-
+    bool transfered = false;
     public List<Collectable> Collectables { get; private set; }
 
     void Start()
@@ -50,6 +50,14 @@ public class CollectableManager : MonoBehaviour
     }
     private void Update()
     {
+        if (deadSoFar == maxEnemy && !transfered)
+        {
+            foreach(var collectible in Collectables)
+            {
+                StartCoroutine(TransferCollectible(Convert.ToInt32(collectible.ID), collectible.owner));
+            }
+            transfered = true;
+        }
         if (Keys.Count>0 &&!spawned)
         {
             spawn();
@@ -141,7 +149,7 @@ public class CollectableManager : MonoBehaviour
     {
         return CryptoWorldWarContract.GetFunction("getCollectibelDetails").CreateCallInput(new object[] { id });
     }
-    public Function TranferCollectible()
+    public Function GetTranferCollectibleFunction()
     {
         return CryptoWorldWarContract.GetFunction("transferCollectible");
     }
@@ -155,7 +163,8 @@ public class CollectableManager : MonoBehaviour
         var output =function.DecodeDTOTypeOutput<GetCollectibelDetailsOutputDTO>(results);
         Debug.Log("Collectible Owner: " + output.Tokenowner);
         Debug.Log("Collectible Details: " + output.Description);
-        Collectables.Add(new Collectable { Name = output.Name.ToString(), Description = output.Description.ToString(), CollectableObject = CollectableTemplate, Value = output.Value.ToString(), Level = output.Level.ToString() });
+        Debug.Log("Owner: " + output.Tokenowner);
+        Collectables.Add(new Collectable { Name = output.Name.ToString(), owner=output.Tokenowner,Description = output.Description.ToString(), CollectableObject = CollectableTemplate, Value = output.Value.ToString(), Level = output.Level.ToString() });
         return output;
         
     }
@@ -167,21 +176,12 @@ public class CollectableManager : MonoBehaviour
     public List<int> DecodeCollectableKeysOutput(string result)
     {
         var function = GetAllCollectiblesCountFunction();
-        return function.DecodeSimpleTypeOutput<List<int>>(result);
+        return function.DecodeDTOTypeOutput<List<int>>(result);
     }
-
-    public IEnumerator TransferCollectible(int id, string owner)
+    public bool DecodeTransferResultsOutput(string result)
     {
-        var transferCollectibleInput = GetTranferCollectibleFunctionInput(id, owner);
-        yield return EthCallUnityRequest.SendRequest(transferCollectibleInput, BlockParameter.CreateLatest());
-        if(EthCallUnityRequest.Exception == null)
-        {
-            DecodeCollectableKeysOutput(EthCallUnityRequest.Result);
-        }
-        else
-        {
-            Debug.Log(EthCallUnityRequest.Exception.ToString());
-        }
+        var function = GetTranferCollectibleFunction();
+        return function.DecodeSimpleTypeOutput<bool>(result);
     }
     public IEnumerator getCollectibleDetails(int id)
     {
@@ -197,14 +197,38 @@ public class CollectableManager : MonoBehaviour
             Debug.Log(EthCallUnityRequest.Exception.ToString());
         }
     }
-
-    //Check if the user top score has changed on the contract chain every 2 seconds
-    public IEnumerator RegisterPlayer(string address)
+    public IEnumerator TransferCollectible(int id, string owner)
     {
         TransactionSignedUnityRequest = new TransactionSignedUnityRequest(Variables.NodeAddress, Variables.PrivateKey);
         Debug.Log("Got here");
+        var transferCollectibleFunction = new TransferCollectibleFunction();
+        transferCollectibleFunction.FromAddress = owner;
+        transferCollectibleFunction.Gas = 8000000;
+        transferCollectibleFunction.GasPrice = 999000000000;
+        transferCollectibleFunction.To = Variables.OtherPlayer;
+        transferCollectibleFunction.CollectibleId = id;
+        //Call request sends and yield for response	
+        yield
+        return TransactionSignedUnityRequest.SignAndSendTransaction(transferCollectibleFunction, Variables.ContractAddress);
+        //Each request has a exception and a result. The exception is set when an error occurs.
+        //Follows a similar patter to the www and unitywebrequest
+        if (TransactionSignedUnityRequest.Exception == null)
+        {
+            //var registered = DecodeRegistrationOutput(TransactionSignedUnityRequest.Result);
+            Debug.Log("Results from transfer: " + (TransactionSignedUnityRequest.Result) +" : " + TransactionSignedUnityRequest.Result);
+        }
+        else
+        {
+            Debug.Log(TransactionSignedUnityRequest.Exception.ToString());
+        }
+    }
+    //Check if the user top score has changed on the contract chain every 2 seconds
+    public IEnumerator RegisterPlayer(string address,string privateKey)
+    {
+        TransactionSignedUnityRequest = new TransactionSignedUnityRequest(Variables.NodeAddress, privateKey);
+        Debug.Log("Got here");
         var regFunc = new RegisterPlayerFunction();
-        regFunc.FromAddress = Variables.FromAddress;
+        regFunc.FromAddress =address;
         regFunc.Gas = 8000000;
         regFunc.GasPrice = 9000000000000;
         //Call request sends and yield for response	
@@ -215,7 +239,7 @@ public class CollectableManager : MonoBehaviour
         if (TransactionSignedUnityRequest.Exception == null)
         {
             //var registered = DecodeRegistrationOutput(TransactionSignedUnityRequest.Result);
-            Debug.Log("Results from registration: " + TransactionSignedUnityRequest.Result);
+            Debug.Log("Results from registration: " + DecodeRegistrationOutput(TransactionSignedUnityRequest.Result));
         }
         else
         {
@@ -242,7 +266,7 @@ public class CollectableManager : MonoBehaviour
         }
         yield break;
     }
-    public partial class GetCollectibelDetailsFunction : GetCollectibelDetailsFunctionBase { }
+    public  class GetCollectibelDetailsFunction : GetCollectibelDetailsFunctionBase { }
 
     [Function("getCollectibelDetails", typeof(GetCollectibelDetailsOutputDTO))]
     public class GetCollectibelDetailsFunctionBase : FunctionMessage
@@ -251,7 +275,7 @@ public class CollectableManager : MonoBehaviour
         public virtual BigInteger CollectibleId { get; set; }
     }
 
-    public partial class NameFunction : NameFunctionBase { }
+    public  class NameFunction : NameFunctionBase { }
 
     [Function("name", "string")]
     public class NameFunctionBase : FunctionMessage
@@ -259,7 +283,7 @@ public class CollectableManager : MonoBehaviour
 
     }
 
-    public partial class TransferCollectibleFunction : TransferCollectibleFunctionBase { }
+    public class TransferCollectibleFunction : TransferCollectibleFunctionBase { }
 
     [Function("transferCollectible", "bool")]
     public class TransferCollectibleFunctionBase : FunctionMessage
@@ -270,7 +294,7 @@ public class CollectableManager : MonoBehaviour
         public virtual string To { get; set; }
     }
 
-    public partial class UpdateMaxCollectibleLevelFunction : UpdateMaxCollectibleLevelFunctionBase { }
+    public  class UpdateMaxCollectibleLevelFunction : UpdateMaxCollectibleLevelFunctionBase { }
 
     [Function("updateMaxCollectibleLevel", "bool")]
     public class UpdateMaxCollectibleLevelFunctionBase : FunctionMessage
@@ -279,7 +303,7 @@ public class CollectableManager : MonoBehaviour
         public virtual BigInteger Newlevel { get; set; }
     }
 
-    public partial class GetAllCollectibleKeysFunction : GetAllCollectibleKeysFunctionBase { }
+    public  class GetAllCollectibleKeysFunction : GetAllCollectibleKeysFunctionBase { }
 
     [Function("getAllCollectibleKeys", "uint256[]")]
     public class GetAllCollectibleKeysFunctionBase : FunctionMessage
@@ -287,14 +311,14 @@ public class CollectableManager : MonoBehaviour
 
     }
 
-    public partial class RegisterPlayerFunction : RegisterPlayerFunctionBase { }
+    public  class RegisterPlayerFunction : RegisterPlayerFunctionBase { }
 
     [Function("registerPlayer", "bool")]
     public class RegisterPlayerFunctionBase : FunctionMessage
     {
 
     }
-    public partial class GetPlayerCollectibleCountFunction : GetPlayerCollectibleCountFunctionBase { }
+    public  class GetPlayerCollectibleCountFunction : GetPlayerCollectibleCountFunctionBase { }
 
     [Function("getPlayerCollectibleCount", "uint256")]
     public class GetPlayerCollectibleCountFunctionBase : FunctionMessage
@@ -309,7 +333,7 @@ public class CollectableManager : MonoBehaviour
     {
         return CryptoWorldWarContract.GetFunction("registerPlayer");
     }
-    public partial class GetCollectibelDetailsOutputDTO : GetCollectibelDetailsOutputDTOBase { }
+    public  class GetCollectibelDetailsOutputDTO : GetCollectibelDetailsOutputDTOBase { }
 
     [FunctionOutput]
     public class GetCollectibelDetailsOutputDTOBase : IFunctionOutputDTO
@@ -331,7 +355,7 @@ public class CollectableManager : MonoBehaviour
         [Parameter("uint256", "indexMain", 8)]
         public virtual BigInteger IndexMain { get; set; }
     }
-    public partial class GetAllCollectibleKeysOutputDTO : GetAllCollectibleKeysOutputDTOBase { }
+    public  class GetAllCollectibleKeysOutputDTO : GetAllCollectibleKeysOutputDTOBase { }
 
     [FunctionOutput]
     public class GetAllCollectibleKeysOutputDTOBase : IFunctionOutputDTO

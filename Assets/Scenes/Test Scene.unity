@@ -1292,6 +1292,7 @@ MonoBehaviour:
   slamDistance: 8
   collected: {fileID: 0}
   Address: 0xb8C8316D7a3B401a835461C0AaF926C0caF5eF89
+  privateKey: 07ce0e4dc1e67cbb6aa94904a9b614e194bf70c25d58717b53c7671337bc5497
   CollectiblesCollected: 
   rocket: {fileID: 0}
 --- !u!114 &646318234
@@ -1800,7 +1801,7 @@ MonoBehaviour:
     type: 3}
   Keys: 
   enemy: {fileID: 6069494528442899945, guid: f62e77f0e67bf1440b13186dce94313a, type: 3}
-  maxEnemy: 5
+  maxEnemy: 1
   maxCollectible: 4
   minY: 0.55
   minYCollectibles: 0.987
