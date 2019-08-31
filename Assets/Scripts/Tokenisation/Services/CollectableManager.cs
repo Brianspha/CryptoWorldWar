@@ -70,13 +70,13 @@ public class CollectableManager : MonoBehaviour
         Debug.Log("Key.Count: " + Keys.Count);
         for (int i=0; i < Keys.Count; i++)
         {
-            StartCoroutine(getCollectibleDetails(Keys[i]));
+            StartCoroutine(GetCollectibleDetails(Keys[i]));
             Debug.Log("Key: "+ Keys[i]);
         }
         for(int i=0; i < maxEnemy; )
         {
             var pos = new Vector3(Random.Range(-right.position.x, right.position.x), minY, Random.Range(-Top.position.z, Top.position.z));
-            if (checkMinDistanceApart(pos,spawned))
+            if (CheckMinDistanceApart(pos,spawned))
             {
                 //collectables.Add(new Collectable { Name="test",ID=Keys[0],CollectableObject=CollectableTemplate });
                 Instantiate(enemy,pos, Quaternion.identity);
@@ -87,7 +87,7 @@ public class CollectableManager : MonoBehaviour
     }
 
  
-    private bool checkMinDistanceApart(Vector3 pos, List<Vector3> spawned)
+    private bool CheckMinDistanceApart(Vector3 pos, List<Vector3> spawned)
     {
         if (spawned.Count == 0)
         {
@@ -183,7 +183,7 @@ public class CollectableManager : MonoBehaviour
         var function = GetTranferCollectibleFunction();
         return function.DecodeSimpleTypeOutput<bool>(result);
     }
-    public IEnumerator getCollectibleDetails(int id)
+    public IEnumerator GetCollectibleDetails(int id)
     {
         Debug.Log("Log: " + id);
         var getCollectibleDetailsInput = GetGetCollectibleDetailsFunctionInput(id);
@@ -215,7 +215,7 @@ public class CollectableManager : MonoBehaviour
         if (TransactionSignedUnityRequest.Exception == null)
         {
             //var registered = DecodeRegistrationOutput(TransactionSignedUnityRequest.Result);
-            Debug.Log("Results from transfer: " + (TransactionSignedUnityRequest.Result) +" : " + TransactionSignedUnityRequest.Result);
+            Debug.Log("Results from transfer: " + TransactionSignedUnityRequest.Result);
         }
         else
         {
@@ -248,10 +248,6 @@ public class CollectableManager : MonoBehaviour
     }
     public IEnumerator GetCollectibles()
     {
-        var collectiblesFunction = new GetAllCollectibleKeysFunction();
-        collectiblesFunction.Gas = 8000000;
-        collectiblesFunction.FromAddress = Variables.FromAddress;
-        collectiblesFunction.GasPrice = 9000000000;
         var collectibleQuery = new QueryUnityRequest<GetAllCollectibleKeysFunction, GetAllCollectibleKeysOutputDTO>(Variables.NodeAddress, Variables.FromAddress);
         yield return collectibleQuery.Query(Variables.ContractAddress);
         if(collectibleQuery.Exception == null)

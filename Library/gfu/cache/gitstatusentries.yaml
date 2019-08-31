@@ -13,20 +13,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2019-07-14T03:03:02.803+02:00
-  initializedAtString: 2019-07-14T01:32:58.201+02:00
+  lastUpdatedAtString: 2019-08-23T00:52:19.976+02:00
+  initializedAtString: 2019-08-23T00:52:19.194+02:00
   entries:
-  - path: Library\gfu\cache\branches.yaml
-    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Library\gfu\cache\branches.yaml
-    projectPath: Library\gfu\cache\branches.yaml
+  - path: Library\assetDatabase3
+    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Library\assetDatabase3
+    projectPath: Library\assetDatabase3
     originalPath: 
     status: 3
     staged: 0
-  - path: Library\gfu\cache\gitlog.yaml
-    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Library\gfu\cache\gitlog.yaml
-    projectPath: Library\gfu\cache\gitlog.yaml
+  - path: Library\EditorInstance.json
+    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Library\EditorInstance.json
+    projectPath: Library\EditorInstance.json
     originalPath: 
-    status: 3
+    status: 1
     staged: 0
   - path: Library\gfu\cache\gitstatusentries.yaml
     fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Library\gfu\cache\gitstatusentries.yaml
@@ -37,6 +37,18 @@ MonoBehaviour:
   - path: Library\gfu\cache\gittrackingstatus.yaml
     fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Library\gfu\cache\gittrackingstatus.yaml
     projectPath: Library\gfu\cache\gittrackingstatus.yaml
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\gfu\cache\repoinfo.yaml
+    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Library\gfu\cache\repoinfo.yaml
+    projectPath: Library\gfu\cache\repoinfo.yaml
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\shadercompiler-UnityShaderCompiler.exe0.log
+    fullPath: C:\Users\g14m1190\Documents\GitHub\CryptoWorldWar\Library\shadercompiler-UnityShaderCompiler.exe0.log
+    projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
     originalPath: 
     status: 3
     staged: 0
